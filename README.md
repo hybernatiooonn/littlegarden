@@ -4,8 +4,6 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-### [...]
-
 [...]
 
 ### 3 sept - [Workshop]
@@ -14,5 +12,5 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ### 31 aug - Kickoff
 
-Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
-d
+Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde domein aangemaakt genaamd "hibanova.
+nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst.
