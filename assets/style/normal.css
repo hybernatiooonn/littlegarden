@@ -7,25 +7,22 @@
 }
 
 body {
-  font-family: "Comic Relief", system-ui;
-  background-color: rgb(255, 244, 238);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
   color: CanvasText;
   color-scheme: light dark;
+
+background-color:rgb(177, 153, 113) ! important;
+
 }
+
 
 
 .remark-slide-content img {
-  width: 80px;
-  height: auto;
+  width: 110px;
   object-fit: cover;
   border-radius: 4px;
-  margin: 4px;
-}
-
-/* Ensure remark slides use the system sans-serif font (restore original presentation font) */
-.remark-slide-content,
-.remark-slide-content * {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  margin: 2px;
 }
 
 
