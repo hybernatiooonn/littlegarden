@@ -4,11 +4,13 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+##
+
+check out met hiba-
+
 [...]
 
-### 3 sept - [Workshop]
-
-[...]
+### 2 sept - [Workshop/deepdive]
 
 ### 31 aug - Kickoff
 
