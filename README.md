@@ -4,6 +4,10 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+## 8 september -
+
+Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangepast in de index htm nadat ik een onderwerp heb gekozen. Ik heb gekozen voor Muziek als onderwerp en heb in mijn notities uitgeschreven wat ik in elke slide zou willen hebben. Het lukte met de tekst allemaal wel prima alleen de fotos kreeg ik er niet in na meerdere malen proberen en klasgenoten te hebben gevraagd dus heb ik de github AI gevraagd om mij te helpen. Nadat Ai twee fotos voor mij heeft gedaan heb ik de andere fotos er zelf ik geplaatst.
+
 ##
 
 check out met hiba-
