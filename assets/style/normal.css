@@ -8,18 +8,17 @@
 
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(237, 188, 125, 0.593);
   color: CanvasText;
   color-scheme: light dark;
-
-background-color:rgb(177, 153, 113) ! important;
+  background-color:rgba(237, 188, 125, 0.593) !important;
+ 
 
 }
 
 
-
 .remark-slide-content img {
-  width: 110px;
+  width: 80px;
   object-fit: cover;
   border-radius: 4px;
   margin: 2px;
