@@ -10,7 +10,7 @@
 header {
     display: block;
     unicode-bidi: isolate;
-    color: rgb(255, 255, 255);
+    color: rgb(120, 55, 33);
     position: fixed;
     left: 55em;
     top: 10em;
@@ -31,13 +31,17 @@ nav ul {
 
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background-color: rgba(0, 0, 0, 0.593);
-  color: rgb(255, 255, 255);
-  color-scheme: light dark;
-  background-color:rgba(237, 188, 125, 0.593) !important;
- 
 
+  background-image: url("../paperimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(120, 55, 33);
+  color-scheme: light dark;
+  opacity: 80%;
+
+  
 }
 
 
