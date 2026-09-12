@@ -30,8 +30,7 @@ h1 {
   font-family: "Betty Noir", "Comic Relief", serif;
   position: relative;
   top: -6.5em;
-  left: 5em;
-
+  align-self: flex-start;
 
 }
 
