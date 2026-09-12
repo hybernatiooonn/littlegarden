@@ -4,6 +4,16 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+## 12 september -
+
+## 11 september -
+
+Ik heb voor een van mijn schetsen gekozen nadat ik feedback heb gekregen van de docent. Zo ben ik verder gegaan met prototypen. Ik heb hulp gekregen van een leerling die frontend doet
+
+## 10 september -
+
+Vandaag heb ik de 5 schetsen gemaakt in ene mobile layout hoe ik mijn site zou hebben gewild. Daarnaast heb ik oefening 1 gedaan van de deepdive gradient en color.
+
 ## 9 september -
 
 Vandaag heb ik visual research opgedaan. Ik heb aan de hand van mijn powerpoint een sfeerwoord gekozen die gepast was voor mijn onderwerp en zo ben ik een collage gaan maken met de fotos die ik al in de powerpoint had staan. Daarna ben ik steeds abstractere content gaan zoeken met behulp van posters of de site "https://www.typographicposters.com/" daaruit heb ik er 4 gekozen en wat vragen erover bantwoord.
