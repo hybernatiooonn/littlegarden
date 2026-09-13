@@ -6,6 +6,8 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## 12 september -
 
+Vandaag ben ik de layout meer gaan uitbereiden zoals ik het in mijn schets had gewild. Ik heb de tekst aangepast zodat het meer de vintage vibe matcht als hoe ik het wou hebben en heb de achtergrond veranderd met gradient aan de hand van een opdracht die we in de deepdive eerder moesten maken en dat was soepel verlopen.
+
 ## 11 september -
 
 Ik heb voor een van mijn schetsen gekozen nadat ik feedback heb gekregen van de docent. Zo ben ik verder gegaan met prototypen. Ik heb hulp gekregen van een leerling die frontend doet
