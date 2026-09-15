@@ -26,25 +26,26 @@ header {
 
 
 h1 {
-  color: rgb(72, 52, 36);
+  color: rgb(90, 62, 46);
   font-family: "Betty Noir", "Comic Relief", serif;
   position: relative;
-  top: -5.5em;
+  font-size: 1.5em;
+  top: -7.5em;
   margin: 0;
-  align-self: flex-start;
+  align-self: flex-end;
   line-height: 1;
 }
 
 
 main{
-  border: 2px solid ;
+  border: 2px solid rgb(245, 231, 209);
   position: relative;
   margin-left:2.5em; /*toch margin gebruikt omdat ik hem op een hele specifieke plek wil hebben en dat lukte. niet met de andere opties*/
   margin-top: -5em;
-  width: 15em;
+  width: 14em;
   height: 26em;
   background-color: rgb(245, 231, 209);
-  opacity: 80%;
+  opacity: 90%;
   z-index: 1;
 
   h1, h2 {
@@ -59,23 +60,40 @@ main{
   }
 }
 
-#lantern {
-  position: absolute;
-  right: 7em;
-  top: 12em;
-  width: 130px;
-  height: auto;
-  z-index: 2;
-}
-
 #musicpaper {
   position: absolute;
-  left: 7em;
-  top: 13em;
-  width: 150px;
-  height: auto;
-  z-index: 2;
+  left: 6em;
+  top: 25.8em;
+  width: 16em;
+  z-index: -1;
 }
+
+#kussen {
+  position: absolute;
+  left: 4em;
+  top: 31em;
+  width: 20em;
+  z-index: -1;
+} 
+
+#piano {
+  position: absolute;
+  left: 4em;
+  top: 31em;
+  width: 20em;
+  z-index: -1;
+}
+
+
+#curtain {
+  position: absolute;
+  right: 7em;
+  left: -2em;
+  top: -2em;
+  width: 14em ;
+  z-index: 1;
+}
+
 
 nav ul {
   list-style-type: none;
@@ -84,7 +102,9 @@ nav ul {
 }
 
 
-body {  position: relative;  display: flex;
+body { 
+  position: relative; 
+   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -97,10 +117,9 @@ body {  position: relative;  display: flex;
 
   hr {
     width: 100%;
-    border: 1px solid rgb(72, 52, 36);
-    margin: 0 0 1em 0;
+    border: 1px solid rgb(85, 67, 52);
     position: relative;
-    top: -10.2em;
+    top: -11em;
 
   }
 
@@ -120,4 +139,12 @@ body {  position: relative;  display: flex;
   color: rgb(0, 0, 0); 
 }
 
+/*MEDIAQUERIES*/
 
+
+/*
+@media () {
+
+
+}
+/*

@@ -4,7 +4,24 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+## 14 september -
+
+(school opdracht)
+Opdracht 16:
+
+- Scherm ietsjes kleiner maken,
+- Ergens de bronvermeldingen erbij zetten
+- Ervoor zorgen dat de fotos mee bewegen als het scherm groter wordt.
+
+Opdracht 17: met Dewi
+
+- Als je hem te klein zet dan zijn sommige afbeeldingen door de helft geknipt
+- De header gaat goed mee als het scherm kleiner word word die header ook klein en nog steeds gebruikelijk
+- Als je hem kleiner zet gaan de login/en sign up option weg en word het een icoontje waar je op kan klikken.
+
 ## 12 september -
+
+Images erin gezet
 
 Vandaag ben ik de layout meer gaan uitbereiden zoals ik het in mijn schets had gewild. Ik heb de tekst aangepast zodat het meer de vintage vibe matcht als hoe ik het wou hebben en heb de achtergrond veranderd met gradient aan de hand van een opdracht die we in de deepdive eerder moesten maken en dat was soepel verlopen.
 
