@@ -15,93 +15,6 @@
 }
 
 
-header {
-    display: block;
-    unicode-bidi: isolate;
-    color: rgb(120, 55, 33);
-    left: 38em;
-    top: 5em;
-    padding: 1em;
-}
-
-
-h1 {
-  color: rgb(90, 62, 46);
-  font-family: "Betty Noir", "Comic Relief", serif;
-  position: relative;
-  font-size: 1.5em;
-  top: -7.5em;
-  margin: 0;
-  align-self: flex-end;
-  line-height: 1;
-}
-
-
-main{
-  border: 2px solid rgb(245, 231, 209);
-  position: relative;
-  margin-left:2.5em; /*toch margin gebruikt omdat ik hem op een hele specifieke plek wil hebben en dat lukte. niet met de andere opties*/
-  margin-top: -5em;
-  width: 14em;
-  height: 26em;
-  background-color: rgb(245, 231, 209);
-  opacity: 90%;
-  z-index: 1;
-
-  h1, h2 {
-    font-family: "Comic Relief";
-
-  }
-  
-
-  article, footer {
-    padding: 1em;
-   
-  }
-}
-
-#musicpaper {
-  position: absolute;
-  left: 6em;
-  top: 25.8em;
-  width: 16em;
-  z-index: -1;
-}
-
-#kussen {
-  position: absolute;
-  left: 4em;
-  top: 31em;
-  width: 20em;
-  z-index: -1;
-} 
-
-#piano {
-  position: absolute;
-  left: 4em;
-  top: 31em;
-  width: 20em;
-  z-index: -1;
-}
-
-
-#curtain {
-  position: absolute;
-  right: 7em;
-  left: -2em;
-  top: -2em;
-  width: 14em ;
-  z-index: 1;
-}
-
-
-nav ul {
-  list-style-type: none;
-  background-color: rgb(245, 231, 209);
-  
-}
-
-
 body { 
   position: relative; 
    display: flex;
@@ -126,6 +39,109 @@ body {
 }
 
 
+h1 {
+  color: rgb(83, 52, 35);
+  font-family: "Betty Noir", "Comic Relief", serif;
+  position: relative;
+  font-size: 1.5em;
+  top: -7.5em;
+  margin: 0;
+  align-self: flex-end;
+  line-height: 1;
+}
+
+
+
+main{
+  border: 2px solid rgb(245, 231, 209);
+  position: relative;
+  margin-left:2.5em; /*toch margin gebruikt omdat ik hem op een hele specifieke plek wil hebben en dat lukte. niet met de andere opties*/
+  margin-top: -5em;
+  width: 14em;
+  height: 26em;
+  background-color: rgb(245, 231, 209);
+  opacity: 90%;
+  z-index: 1;
+
+  h1, h2 {
+    font-family: "Comic Relief";
+
+  }
+
+
+
+header {
+    display: block;
+    align-items: flex-end;
+    unicode-bidi: isolate;
+    color: rgb(82, 34, 18);
+    left: 38em;
+    top: 5em;
+    padding: 1em;
+}
+
+
+
+  nav ul {
+  list-style-type: none;
+  background-color: rgb(245, 231, 209);
+  
+}
+  
+
+
+  article, footer {
+    padding: 1em;
+   
+  }
+}
+
+#musicpaper {
+  position: absolute;
+  left: 6em;
+  top: 25.8em;
+  width: 16em;
+  z-index: -1;
+}
+
+#kussen {
+  position: absolute;
+  left: 4em;
+  top: 31em;
+  width: 20em;
+  z-index: -1;
+} 
+
+#strikje {
+  position: absolute;
+  left: 6em;
+  top: 25.8em;
+  width: 16em;
+  z-index: 1;
+}
+
+#curtain {
+  position: absolute;
+  right: 7em;
+  left: -2em;
+  top: -2em;
+  width: 14em ;
+  z-index: 1;
+}
+
+#musicflow {
+  position: absolute;
+  left: 4.5em;
+  top: 28em;
+  width: 10em;
+  z-index: 2;
+  rotate: 350deg;
+}
+
+
+
+
+
 .remark-slide-content img {
   width: 80px;
   object-fit: cover;
@@ -138,6 +154,9 @@ body {
 .remark-slide-content {
   color: rgb(0, 0, 0); 
 }
+
+
+
 
 /*MEDIAQUERIES*/
 
