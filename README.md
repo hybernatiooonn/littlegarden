@@ -71,6 +71,9 @@ check out met hiba-
 
 ### 2 sept - [Workshop/deepdive]
 
+<img width="1022" height="250" alt="deep dive micro animation" src="https://github.com/user-attachments/assets/89cb4838-74e0-4cee-9e2b-5d569465181d" />
+
+
 ### 31 aug - Kickoff
 
 Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde domein aangemaakt genaamd "hibanova.
