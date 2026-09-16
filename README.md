@@ -1,4 +1,3 @@
-<img width="1045" height="574" alt="Screenshot 2026-09-09 at 21 26 06" src="https://github.com/user-attachments/assets/932f6b50-6f9a-40eb-acd6-6e5dc1fdaaee" />
 # Model
 
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
@@ -50,6 +49,8 @@ Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangep
 
 In de les hebben we een artiekel gelezen genaamd 'A brief history and ethos of the digital garden." Na het gelezen te hebben moesten we een samenvatting maken met daarnaast nog 2 vragen die je zou willen stellen aan de auteur.
 Mijn samenvatting + vragen:
+
+<img width="1045" height="574" alt="Screenshot 2026-09-09 at 21 26 06" src="https://github.com/user-attachments/assets/932f6b50-6f9a-40eb-acd6-6e5dc1fdaaee" />
 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
    -Een digital garden is een soort persoonlijke notebook met content die jij zelf wil publiceren. Het is niet als een blog maar kan wel met een blog worden verward omdat het een beetje erop lijkt. Het verschil is dat een digital garden op typografie focused en niet met tijdlijnen werkt op de manier zoals bloggen doen.
