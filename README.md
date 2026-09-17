@@ -119,6 +119,8 @@ Mijn garden gaat over muziek, het sfeerwoord die ik heb gekozen is nostalgisch. 
 -Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren/ verder zou willen onderzoeken:
 Ik zou hetliefts de middelste schets nemen in de crazy 8 omdat ik die het mooist gedesign vind als we kijken naar opbouw. Er staat heel centraal een vlak waar ik de content wil hebben en is niet saai omdat er om heen ook wat plaatjes bij staan die het vlak nog meer centreert dan dat het al is.
 
+# Deepdive: Mooie kleuren en gradients
+
 ## 8 september -
 
 Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangepast in de index htm nadat ik een onderwerp heb gekozen. Ik heb gekozen voor Muziek als onderwerp en heb in mijn notities uitgeschreven wat ik in elke slide zou willen hebben qua informatie. Het lukte met de tekst allemaal wel prima. Het enige lastige was de afbeeldingen er in zetten want ze waren eerst niet allemaal dezelfde size (nog steeds niet maar wel allemaal kleiner naast elkaar).
