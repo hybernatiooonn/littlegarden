@@ -1,169 +1,197 @@
-/* HIER KOMT JOUW CSS */
 @font-face {
-  font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Comic Relief";
+    src: url("../type/ComicRelief-Regular.woff2");
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Betty Noir";
-  src: url("../type/bettynoir.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Betty Noir";
+    src: url("../type/bettynoir.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
 }
 
+@font-face {
+    font-family: "Lemon Drop";
+    src: url("../type/Lemondrop.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
 
-body { 
-  position: relative; 
-   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(221, 196, 168);
-  background-image: linear-gradient(45deg, rgb(149, 108, 61), rgb(142, 117, 92));
-  color: rgb(120, 55, 33);
-  color-scheme: light dark;
-  opacity: 0.8;
-  height: 100vh;
+html {
+    color-scheme: light-dark;
+    --background: light-dark(rgb(142, 117, 92), rgb(75, 59, 43));
+}
 
-  hr {
-    width: 100%;
-    border: 1px solid rgb(85, 67, 52);
+body {
     position: relative;
-    top: -11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    background-image: var(--background);
+    color: rgb(120, 55, 33);
+    color-scheme: light dark;
+    opacity: 0.8;
+    height: 100vh;
 
-  }
-
+    hr {
+        width: 100%;
+        border: 1px solid rgb(85, 67, 52);
+        position: relative;
+        top: 20.5em;
+    }
 }
+
 
 
 h1 {
-  color: rgb(83, 52, 35);
-  font-family: "Betty Noir", "Comic Relief", serif;
-  position: relative;
-  font-size: 1.5em;
-  top: -7.5em;
-  margin: 0;
-  align-self: flex-end;
-  line-height: 1;
+    color: rgb(44, 28, 20);
+    font-family: "Betty Noir", "Comic Relief", serif;
+    position: relative;
+    font-size: 1.5em;
+    top: 14em;
+    align-self: flex-start;
+    line-height: 1;
 }
 
+main {
+    border: 2px solid rgba(146, 105, 70, 0.9);
+    position: relative;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    top: -34.5em;
+    width: 13em;
+    background-color: rgb(245, 231, 209);
+    opacity: 0.7;
+    z-index: 1;
 
+    h1, & h2 {
+        font-family: "Lemon Drop";
+        font-size: 1.2em;
+        position: relative;
+        top: -0.5em;
+    }
 
-main{
-  border: 2px solid rgb(245, 231, 209);
-  position: relative;
-  margin-left:2.5em; /*toch margin gebruikt omdat ik hem op een hele specifieke plek wil hebben en dat lukte. niet met de andere opties*/
-  margin-top: -5em;
-  width: 14em;
-  height: 26em;
-  background-color: rgb(245, 231, 209);
-  opacity: 90%;
-  z-index: 1;
+ p {
+        font-family: "Comic Relief";
+        font-size: 1em;
+        position: relative;
+        top: -1em;
+    }
 
-  h1, h2 {
-    font-family: "Comic Relief";
+ header {
+        display: block;
+        unicode-bidi: isolate;
+        color: rgb(82, 34, 18);
+        left: -1em;
+        top: 30em;
+        padding: 1em;
+    }
 
-  }
+ nav ul {
+        list-style-type: none;
+        background-color: rgb(245, 231, 209);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3.5em 1.8em;
+    }
 
+ nav ul li a {
+        text-decoration: none;
+        background-color: rgb(221, 196, 168);
+        border: 1px solid rgb(146, 105, 70);
+        border-radius: 2px;
+        padding: 0.5em 1em;
+        color: rgb(82, 34, 18);
+        position: relative;
+        left: -2.3em;
+        bottom: 2.5em;
+    }
 
+ nav ul li a:hover {
+        background-color: rgb(200, 170, 135);
+        transition: background-color 0.3s;
+    }
 
-header {
-    display: block;
-    align-items: flex-end;
-    unicode-bidi: isolate;
-    color: rgb(82, 34, 18);
-    left: 38em;
-    top: 5em;
-    padding: 1em;
+  article,  footer {
+        padding: 1.5em;
+    }
 }
 
-
-
-  nav ul {
-  list-style-type: none;
-  background-color: rgb(245, 231, 209);
-  
-}
-  
-
-
-  article, footer {
-    padding: 1em;
-   
-  }
+#musicnote {
+    position: relative;
+    left: 3.5em;
+    top: 49em;
+    width: 12em;
+    z-index: 0;
 }
 
-#musicpaper {
-  position: absolute;
-  left: 6em;
-  top: 25.8em;
-  width: 16em;
-  z-index: -1;
+#browntext {
+    position: relative;
+    left: -4em;
+    top: 40em;
+    width: 11em;
+    z-index: 0;
 }
 
-#kussen {
-  position: absolute;
-  left: 4em;
-  top: 31em;
-  width: 20em;
-  z-index: -1;
-} 
-
-#strikje {
-  position: absolute;
-  left: 6em;
-  top: 25.8em;
-  width: 16em;
-  z-index: 1;
+#beigeback {
+    position: relative;
+    left: -0.1em;
+    top: 15.5em;
+    width: 25em;
+    z-index: 0;
+    rotate: 90deg;
 }
 
-#curtain {
-  position: absolute;
-  right: 7em;
-  left: -2em;
-  top: -2em;
-  width: 14em ;
-  z-index: 1;
+#piano {
+    position: relative;
+    left: 0.1em;
+    top: 11em;
+    width: 8em;
+    z-index: 2;
+    rotate: 90deg;
+    opacity: 85%;
 }
 
-#musicflow {
-  position: absolute;
-  left: 4.5em;
-  top: 28em;
-  width: 10em;
-  z-index: 2;
-  rotate: 350deg;
+#lace {
+    position: relative;
+    left: -4em;
+    top: -25.9em;
+    width: 14em;
+    z-index: -1;
+    rotate: 90deg;
+    opacity: 85%;
 }
 
+#pin {
+    position: relative;
+    left: 4em;
+    top: -24.3em;
+    width: 7em;
+    z-index: 2;
+}
 
-
-
+#plaat {
+    position: relative;
+    left: 7em;
+    top: -12em;
+    width: 8em;
+    z-index: -1;
+}
 
 .remark-slide-content img {
-  width: 80px;
-  object-fit: cover;
-  border-radius: 4px;
-  margin: 2px;
-
- 
+    width: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 2px;
 }
 
 .remark-slide-content {
-  color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
 }
 
-
-
-
-/*MEDIAQUERIES*/
-
-
-/*
-@media () {
-
-
+@media (min-width: 360px) {
 }
-/*
