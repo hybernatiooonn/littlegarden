@@ -38,16 +38,19 @@ Vandaag ben ik de layout meer gaan uitbereiden zoals ik het in mijn schets had g
 
 Ik heb voor een van mijn schetsen gekozen nadat ik feedback heb gekregen van de docent. Zo ben ik verder gegaan met prototypen. Ik heb hulp gekregen van een leerling die frontend doet
 
-## 10 september -
+## 10 september  [Workshop/deepdive: Mooie kleuren en gradients] -
 
-Als vervolg van gister heb ik vandaag 5 nieuwe schetsen gemaakt aan de hand van mijn crazy 8. Deze schetsen zijn voor de interfaces voor mijn website in een *mobiele* layout. Daarnaast heb ik de deepdive 
+Als vervolg van gister heb ik vandaag 5 nieuwe schetsen gemaakt aan de hand van mijn crazy 8. Deze schetsen zijn voor de interfaces voor mijn website in een *mobiele* layout. 
+<img width="1605" height="569" alt="Screens 5 mobile sketches" src="https://github.com/user-attachments/assets/4f9d3eda-969e-4cfe-9dd9-9178d1636854" />
+Ik zou graag de 3e verder uit willen werken omdat de layout van de content en de buttons goed centraal te zien. De eerste en laatste vallen een beetje af omdat ik daar nog niet goed een specefiek beeld van heb.
 
-## 9 september [Workshop/deepdive: Mooie kleuren en gradients] -
+
+## 9 september -
 
 Vandaag heb ik visual research opgedaan. Ik heb aan de hand van mijn powerpoint een sfeerwoord gekozen die gepast was voor mijn onderwerp en zo ben ik een collage gaan maken met de fotos die ik al in de powerpoint had staan. Daarna ben ik steeds abstractere content gaan zoeken met behulp van posters of de site "https://www.typographicposters.com/" daaruit heb ik er 4 gekozen en wat vragen erover beantwoord. Ik heb later een crazy 8 gedaan met ideeen voor mijn website en die heb ik daarna later ook allemaal beoordeeld met het beordeelings formulier. De deep dive was mij vandaag niet gelukt dus daar ga ik morgen in mijn vrije tijd mee aan de slag.
 
 <img width="2169" height="569" alt="screensshots visual researh" src="https://github.com/user-attachments/assets/aea1d6f0-1087-40b7-b330-612035d5d0b9" />
-<img width="1605" height="569" alt="Screens 5 mobile sketches" src="https://github.com/user-attachments/assets/4f9d3eda-969e-4cfe-9dd9-9178d1636854" />
+
 
 
 # checkout:
@@ -72,7 +75,6 @@ Ik heb de deepdive light & dark theme geprobeerd te volgen op DLO maar het is ee
 In de les hebben we een artiekel gelezen genaamd 'A brief history and ethos of the digital garden." Na het gelezen te hebben moesten we een samenvatting maken met daarnaast nog 2 vragen die je zou willen stellen aan de auteur.
 Mijn samenvatting + vragen:
 
-<<<<<<< HEAD
 <img width="1045" height="574" alt="Screenshot 2026-09-09 at 21 26 06" src="https://github.com/user-attachments/assets/932f6b50-6f9a-40eb-acd6-6e5dc1fdaaee" />
 =======
 
