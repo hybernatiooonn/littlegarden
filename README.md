@@ -53,6 +53,17 @@ Ik heb de voorbereiding voor deze deepdive gedaan en dat me gelukt. Ik heb wat s
 <img width="3146" height="421" alt="vorbereiding grid" src="https://github.com/user-attachments/assets/44ca58c7-6588-4144-9282-272cacba8463" />
 <img width="3172" height="530" alt="grid oefening" src="https://github.com/user-attachments/assets/bada023e-b7e5-45ed-ad21-c7bc0781edd4" />
 
+## Checkout:
+-Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
+Vertel welke volgende stap je neemt om je website responsive te maken:
+Een website ziet er lelijk uit als het alleen maar bestaat uit html. Dus alleen tekst en eigenlijk geen stijl.
+
+-Vertel welke volgende stap je neemt om je website responsive te maken:
+Door media queries te gebruiken en grids.
+
+-Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?:
+Interactief en  volwassen. 
+
 
 
 # 10 september  [Workshop/deepdive: Mooie kleuren en gradients] -
@@ -67,7 +78,7 @@ Ik heb de deepdive mooie kleuren en gradients zelf thuis gedaan en het was me we
 
 
 
-## 9 september -
+# 9 september -
 
 Vandaag heb ik visual research opgedaan. Ik heb aan de hand van mijn powerpoint een sfeerwoord gekozen die gepast was voor mijn onderwerp en zo ben ik een collage gaan maken met de fotos die ik al in de powerpoint had staan. Daarna ben ik steeds abstractere content gaan zoeken met behulp van posters of de site "https://www.typographicposters.com/" daaruit heb ik er 4 gekozen en wat vragen erover beantwoord. Ik heb later een crazy 8 gedaan met ideeen voor mijn website en die heb ik daarna later ook allemaal beoordeeld met het beordeelings formulier. De deep dive was mij vandaag niet gelukt dus daar ga ik morgen in mijn vrije tijd mee aan de slag.
 
@@ -75,7 +86,7 @@ Vandaag heb ik visual research opgedaan. Ik heb aan de hand van mijn powerpoint 
 
 
 
-# checkout:
+## checkout:
 
 -Leg uit waar het Visual Research in 3 stappen naartoe werkt:
 Direct visueel beleid, vanuit het gekozensfeerwoord ga je naar opzoek wat als eerst bij je opkomt en daarmee benoem je kenmerken uit de beelden die je hebt gevonden, daarna heb je de -> Abstracte vertaling, hierbij kijk je naar vormen, kleur en typografie -> Formuleren van uitgangspunt om mee te gaan schetsen.
@@ -92,7 +103,7 @@ Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangep
 Ik heb de deepdive light & dark theme geprobeerd te volgen op DLO maar het is een beetje lastig nog. Ik zou het later nog een keer proberen.
 
 
-## 7 september -
+# 7 september -
 
 In de les hebben we een artiekel gelezen genaamd 'A brief history and ethos of the digital garden." Na het gelezen te hebben moesten we een samenvatting maken met daarnaast nog 2 vragen die je zou willen stellen aan de auteur.
 Mijn samenvatting + vragen:
@@ -100,7 +111,7 @@ Mijn samenvatting + vragen:
 <img width="1045" height="574" alt="Screenshot 2026-09-09 at 21 26 06" src="https://github.com/user-attachments/assets/932f6b50-6f9a-40eb-acd6-6e5dc1fdaaee" />
 =======
 
-# checkout
+## checkout
 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
    -Een digital garden is een soort persoonlijke notebook met content die jij zelf wil publiceren. Het is niet als een blog maar kan wel met een blog worden verward omdat het een beetje erop lijkt. Het verschil is dat een digital garden op typografie focused en niet met tijdlijnen werkt op de manier zoals bloggen doen.
