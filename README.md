@@ -44,14 +44,10 @@ Als vervolg van gister heb ik vandaag 5 nieuwe schetsen gemaakt aan de hand van 
 
 ## 9 september [Workshop/deepdive: Mooie kleuren en gradients] -
 
-Vandaag heb ik visual research opgedaan. Ik heb aan de hand van mijn powerpoint een sfeerwoord gekozen die gepast was voor mijn onderwerp en zo ben ik een collage gaan maken met de fotos die ik al in de powerpoint had staan. Daarna ben ik steeds abstractere content gaan zoeken met behulp van posters of de site "https://www.typographicposters.com/" daaruit heb ik er 4 gekozen en wat vragen erover beantwoord.
+Vandaag heb ik visual research opgedaan. Ik heb aan de hand van mijn powerpoint een sfeerwoord gekozen die gepast was voor mijn onderwerp en zo ben ik een collage gaan maken met de fotos die ik al in de powerpoint had staan. Daarna ben ik steeds abstractere content gaan zoeken met behulp van posters of de site "https://www.typographicposters.com/" daaruit heb ik er 4 gekozen en wat vragen erover beantwoord. Ik heb later een crazy 8 gedaan met ideeen voor mijn website en die heb ik daarna later ook allemaal beoordeeld met het beordeelings formulier. De deep dive was mij vandaag niet gelukt dus daar ga ik morgen in mijn vrije tijd mee aan de slag.
 
-<img width="1739" height="569" alt="screensshots visual researh" src="https://github.com/user-attachments/assets/c4ee8b25-152b-485d-9eef-d0d4e368e1e7" />
-
-
-Ik heb later een crazy 8 gedaan met ideeen voor mijn website en die heb ik daarna later ook allemaal beoordeeld met het beordeelings formulier. De deep dive was mij vandaag niet gelukt dus daar ga ik morgen in mijn vrije tijd mee aan de slag.
-
-<img width="654" height="475" alt="crazy8" src="https://github.com/user-attachments/assets/ecd9e4f8-9ce6-42a6-9e2d-a78666c6c8b9" />
+<img width="1605" height="569" alt="Screens 5 mobile sketches" src="https://github.com/user-attachments/assets/4f9d3eda-969e-4cfe-9dd9-9178d1636854" />
+<img width="2169" height="569" alt="screensshots visual researh" src="https://github.com/user-attachments/assets/aea1d6f0-1087-40b7-b330-612035d5d0b9" />
 
 # checkout:
 
