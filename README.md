@@ -4,29 +4,65 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-## 16 september -
+# 18 september -
 
+## [Deepdive light&Dark] + Feedback verwerken
+Later vandaag heb ik gezeten met de docent en student assistend voor feedback en die heb ik uiteindelijk gekregen.
+
+# Feedback:
+''Je hebt veel ideeën en bent ook een eind gekomen met jouw Digital Garden. Het is wel belangrijker dat je jouw Learning Log beter gaat bijhouden (en er ook afbeeldingen met beschrijvingen bij zet) en ook de Deep Dives gaat doen en gaat vastleggen. Een deel heb je al wel gedaan maar dat kan ik nu niet zien vanwege het merge conflict. Trek hiervoor maandag even een studentassistent aan diens jasje. Ga zo door!
+
+
+-Charley en Semih''
+
+Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback. Ik heb de issue met mijn website kunnen fixen en mijn oude coden terug kunnen zetten. het syncen is mij nog steeds niet gelukt maar daar ga ik maandag met een student assistent mee zitten. Ik heb als feedback dan eigenlijk alleen gekregen om de deepdive van light en dark toch te doen en die heb ik ook gedaan + alle kleuren in mijn design properties geven want dat had ik eerst alleen nog bij mijn light en dark modus en niet met alle kleuren in mijn css.
+
+# [Deepdive light&Dark]
+Ik heb vandaag nog opnieuw de deepdive light en dark gedaan. Ik ben goed door de powerpoint gegaan en het opnieuw rustig gaan lezen en ik had toen pas door dat ik het niet begreep puur omdat ik een beetje aan het stressen was over dat ik de deepdive had gemist en zo rommelig erdoor heen ging. Ik heb uiteindelijk de light en dark theme opdracht gedaan en ook toegevoegd in mijn website met properties.
+<img width="1837" height="477" alt="lightand dark" src="https://github.com/user-attachments/assets/bb4d2697-c912-4518-b01d-4e70e0dcf369" />
+
+
+# 16 september -
+Tijdens uitleg over de gestalt en de principes ben ik meer en meer gaan nadenken over mijn huidige design. Ik vond eigenlijk niet echt dat mijn interface zich erg aan de gestalt principes hield. De hierarchie was namelijk niet helemaal duidelijk en het was nogal druk.
+<img width="834" height="768" alt="LAyout 1 before" src="https://github.com/user-attachments/assets/c2d900cc-ca4b-4db2-8f70-6e3d06796773" />
+
+Dit is eigenlijk hoe ik het had gewilt maar het ziet er niet even gestructureerd uit. Dus ik dacht aan een oplossing. Er waren 2 mobiele schetsen die mij aanspraken. Een van de schetsen heb ik uiteindelijk gekozen maar er was er nog een die mij erg aansprak en mijn oplossing was eigenlijk om een nieuwe interface te maken die een beetje een mix zijn van beide zodat het er gestructureerder uit ziet maar nog wel wat elementen hebben van elkaar.
+<img width="834" height="768" alt="interface mix" src="https://github.com/user-attachments/assets/1bc2b1eb-f748-45f5-805a-c3ca4dbc6ca0" />
+
+Ik heb de rest van de dag gewerkt aan het maken van een nieuwe interface.
+<img width="1696" height="798" alt="nieuwe interface" src="https://github.com/user-attachments/assets/8dfc4339-efd7-4879-8b17-463114d53534" />
+Dit ziet er gestructureerder uit. Ik heb de overlappende fotos van de tweede schets terug gebracht in de interface en centraal gezet en wat elementen zoals de piano van de eerste schets ook betrokken in de interface. Ook heb ik een gradient op de achtergrond gezet zoals ik eerder vertelde dat ik had gewild.
+
+## checkout
 - Gestalt principes: (uitleggen)
-  -contrast,
-  -Balance,
-  -visuele hierarchie,
-
--contrast goed gebruiken. + wit ruimte in volgende paginas
+  -contrast: Dingen die verschillend zijn, vallen als eerst op. Bijvoorbeeld zwarte tekst op een witte achtergrond, of één grote rode knop tussen allemaal grijze knoppen.
+  Je oog wordt automatisch getrokken naar wat er anders uitziet als de rest
+  -Balance: Alles voelt verdeeld en in evenwicht in het ontwerp.
+  -visuele hierarchie: Wat je als eerste ziet, tweede, en derde ziet. Dingen die groot zijn, felle kleuren of dingen bovenaan trekken eerst de aandacht. Kleinere dingen met kleuren die sneller weg vallen zie je later.
 
 ## 14 september -
-
-(school opdracht)
-Opdracht 16:
-
+Op school heb ik mijn klasgenoot mijn interface laten zien en daarbij hebben wij een opdracht gemaakt. Ik kreeg feedback van mijn klagenoot.
+Opdracht 16: Feedback van Rianne
 - Scherm ietsjes kleiner maken,
 - Ergens de bronvermeldingen erbij zetten
 - Ervoor zorgen dat de fotos mee bewegen als het scherm groter wordt.
 
 Opdracht 17: met Dewi
-
 - Als je hem te klein zet dan zijn sommige afbeeldingen door de helft geknipt
 - De header gaat goed mee als het scherm kleiner word word die header ook klein en nog steeds gebruikelijk
 - Als je hem kleiner zet gaan de login/en sign up option weg en word het een icoontje waar je op kan klikken.
+
+## Checkout:
+-Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
+Vertel welke volgende stap je neemt om je website responsive te maken:
+Een website ziet er lelijk uit als het alleen maar bestaat uit html. Dus alleen tekst en eigenlijk geen stijl.
+
+-Vertel welke volgende stap je neemt om je website responsive te maken:
+Door media queries te gebruiken en grids.
+
+-Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?:
+Interactief en  volwassen. 
+
 
 
 # 11 september [Grid + media queries] -
@@ -52,17 +88,6 @@ Ik heb de voorbereiding voor deze deepdive gedaan en dat me gelukt. Ik heb wat s
 
 <img width="3146" height="421" alt="vorbereiding grid" src="https://github.com/user-attachments/assets/44ca58c7-6588-4144-9282-272cacba8463" />
 <img width="3172" height="530" alt="grid oefening" src="https://github.com/user-attachments/assets/bada023e-b7e5-45ed-ad21-c7bc0781edd4" />
-
-## Checkout:
--Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
-Vertel welke volgende stap je neemt om je website responsive te maken:
-Een website ziet er lelijk uit als het alleen maar bestaat uit html. Dus alleen tekst en eigenlijk geen stijl.
-
--Vertel welke volgende stap je neemt om je website responsive te maken:
-Door media queries te gebruiken en grids.
-
--Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?:
-Interactief en  volwassen. 
 
 
 
