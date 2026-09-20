@@ -4,6 +4,15 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
+## 16 september -
+
+- Gestalt principes: (uitleggen)
+  -contrast,
+  -Balance,
+  -visuele hierarchie,
+
+-contrast goed gebruiken. + wit ruimte in volgende paginas
+
 ## 14 september -
 
 (school opdracht)
@@ -31,18 +40,34 @@ Ik heb voor een van mijn schetsen gekozen nadat ik feedback heb gekregen van de 
 
 ## 10 september -
 
-Vandaag heb ik de 5 schetsen gemaakt in ene mobile layout hoe ik mijn site zou hebben gewild. Daarnaast heb ik oefening 1 gedaan van de deepdive gradient en color.
+Als vervolg van gister heb ik vandaag 5 nieuwe schetsen gemaakt aan de hand van mijn crazy 8. Deze schetsen zijn voor de interfaces voor mijn website in een *mobiele* layout. Daarnaast heb ik de deepdive 
 
-## 9 september -
+## 9 september [Workshop/deepdive: Mooie kleuren en gradients] -
 
-Vandaag heb ik visual research opgedaan. Ik heb aan de hand van mijn powerpoint een sfeerwoord gekozen die gepast was voor mijn onderwerp en zo ben ik een collage gaan maken met de fotos die ik al in de powerpoint had staan. Daarna ben ik steeds abstractere content gaan zoeken met behulp van posters of de site "https://www.typographicposters.com/" daaruit heb ik er 4 gekozen en wat vragen erover bantwoord.
+Vandaag heb ik visual research opgedaan. Ik heb aan de hand van mijn powerpoint een sfeerwoord gekozen die gepast was voor mijn onderwerp en zo ben ik een collage gaan maken met de fotos die ik al in de powerpoint had staan. Daarna ben ik steeds abstractere content gaan zoeken met behulp van posters of de site "https://www.typographicposters.com/" daaruit heb ik er 4 gekozen en wat vragen erover beantwoord.
 
-Ik heb later een crazy 8 gedaan met ideeen voor mijn website en die heb ik daarna later ook allemaal beoordeeld met het beordeelings formulier
+<img width="1739" height="569" alt="screensshots visual researh" src="https://github.com/user-attachments/assets/c4ee8b25-152b-485d-9eef-d0d4e368e1e7" />
+
+
+Ik heb later een crazy 8 gedaan met ideeen voor mijn website en die heb ik daarna later ook allemaal beoordeeld met het beordeelings formulier. De deep dive was mij vandaag niet gelukt dus daar ga ik morgen in mijn vrije tijd mee aan de slag.
+
+<img width="654" height="475" alt="crazy8" src="https://github.com/user-attachments/assets/ecd9e4f8-9ce6-42a6-9e2d-a78666c6c8b9" />
+
+# checkout:
+
+-Leg uit waar het Visual Research in 3 stappen naartoe werkt:
+Direct visueel beleid, vanuit het gekozensfeerwoord ga je naar opzoek wat als eerst bij je opkomt en daarmee benoem je kenmerken uit de beelden die je hebt gevonden, daarna heb je de -> Abstracte vertaling, hierbij kijk je naar vormen, kleur en typografie -> Formuleren van uitgangspunt om mee te gaan schetsen.
+
+-Vertel in 2 zinnen waar jouw Garden over gaat, en met welke content je dat gaat doen (beeld, tekst, sound, animatie enz):
+Mijn garden gaat over muziek, het sfeerwoord die ik heb gekozen is nostalgisch. Ik had eerst vintage als sfeerwoord maar aangezien mijn onderwerp muziek is en ik daar een presentatie over heb gehouden die niet alleen gaat over "vintage" muziek vond ik "nostalgisch" toch iets beter passen als sfeerwoord omdat het meer general is en daar kan ik veel me. Ik heb het alsnog een Vintagy/nostalgische vibe gegeven omdat ik erg fan ben van jazz. De typografie laat dat vooral zien zowel als de gekozen fotos die te maken hebben met muziek en ik heb de vintage vibe terug gebracht met bepaalde fotos van vintage voorwerpen. Het is een mooie mix van beide.
+
+-Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren/ verder zou willen onderzoeken:
+Ik zou hetliefts de middelste schets nemen in de crazy 8 omdat ik die het mooist gedesign vind als we kijken naar opbouw. Er staat heel centraal een vlak waar ik de content wil hebben en is niet saai omdat er om heen ook wat plaatjes bij staan die het vlak nog meer centreert dan dat het al is.
 
 ## 8 september -
 
-Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangepast in de index htm nadat ik een onderwerp heb gekozen. Ik heb gekozen voor Muziek als onderwerp en heb in mijn notities uitgeschreven wat ik in elke slide zou willen hebben. Het lukte met de tekst allemaal wel prima alleen de fotos kreeg ik er niet in na meerdere malen proberen en klasgenoten te hebben gevraagd dus heb ik de github AI gevraagd om mij te helpen. Nadat Ai twee fotos voor mij heeft gedaan heb ik de andere fotos er zelf ik geplaatst
-
+Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangepast in de index htm nadat ik een onderwerp heb gekozen. Ik heb gekozen voor Muziek als onderwerp en heb in mijn notities uitgeschreven wat ik in elke slide zou willen hebben qua informatie. Het lukte met de tekst allemaal wel prima. Het enige lastige was de afbeeldingen er in zetten want ze waren eerst niet allemaal dezelfde size (nog steeds niet maar wel allemaal kleiner naast elkaar).
+Ik heb de deepdive light & dark theme geprobeerd te volgen op DLO maar het is een beetje lastig nog. Ik zou het later nog een keer proberen.
 
 
 ## 7 september -
@@ -50,7 +75,11 @@ Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangep
 In de les hebben we een artiekel gelezen genaamd 'A brief history and ethos of the digital garden." Na het gelezen te hebben moesten we een samenvatting maken met daarnaast nog 2 vragen die je zou willen stellen aan de auteur.
 Mijn samenvatting + vragen:
 
+<<<<<<< HEAD
 <img width="1045" height="574" alt="Screenshot 2026-09-09 at 21 26 06" src="https://github.com/user-attachments/assets/932f6b50-6f9a-40eb-acd6-6e5dc1fdaaee" />
+=======
+
+# checkout
 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
    -Een digital garden is een soort persoonlijke notebook met content die jij zelf wil publiceren. Het is niet als een blog maar kan wel met een blog worden verward omdat het een beetje erop lijkt. Het verschil is dat een digital garden op typografie focused en niet met tijdlijnen werkt op de manier zoals bloggen doen.
@@ -65,16 +94,27 @@ Mijn samenvatting + vragen:
 
 ##
 
-check out met hiba-
-
 [...]
 
-### 2 sept - [Workshop/deepdive]
+### 2 sept - [Workshop/deepdive: Micro animations]
 
+Mee gedaan aan de deep dive van Nicky over Micro animaties en de daarbij gekregen opdracht gemaakt die we in figma moesten doen. Het was de bedoeling om een on overzichtelijke menu kaart beter te vormgeven en microanimaties toe te voegen.
 <img width="1022" height="250" alt="deep dive micro animation" src="https://github.com/user-attachments/assets/89cb4838-74e0-4cee-9e2b-5d569465181d" />
 
+<img width="1022" height="250" alt="deep dive micro animation" src="https://github.com/user-attachments/assets/89cb4838-74e0-4cee-9e2b-5d569465181d" />
 
 ### 31 aug - Kickoff
 
 Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde domein aangemaakt genaamd "hibanova.
 nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst.
+
+# Check out:
+
+- Leg uit wat een source hosting platform is en voor welke jij gekozen hebt:
+  Het is een online platform waar je de source code van projecten opslaat en deelt met andere. Ik heb zelf gekozen voor Github.
+
+- Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina:
+  Hibanova.nl en ik heb die gekoppeld door eerst een domijn aan te maken. Toen moest ik wat details invullen en heb ik geforked wat werd gedeeld op de dlo, toen heb ik de link in mijn github gezet.
+
+- Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden:
+  De aanpassingen moet je commiten in de changes en daarna vervolgens syncen zodat die ook op je web pagina gezien worden.
