@@ -50,9 +50,8 @@ Linkje's:
 -https://nl.pinterest.com/pin/1005850898053015438/
 -https://nl.pinterest.com/pin/1005850898052681885/
 
-![Uploading layuout 1 mobiel.png…]()
 <img width="742" height="537" alt="layout 1" src="https://github.com/user-attachments/assets/fa73918d-7998-425e-9116-da6977f445e4" />
-
+<img width="307" height="668" alt="layuout 1 mobiel" src="https://github.com/user-attachments/assets/95b50dcf-a66b-4ac8-95d0-02ada0f8effd" />
 
 
 ## 10 september  [Workshop/deepdive: Mooie kleuren en gradients] -
