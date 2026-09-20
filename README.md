@@ -35,14 +35,36 @@ Images erin gezet
 Vandaag ben ik de layout meer gaan uitbereiden zoals ik het in mijn schets had gewild. Ik heb de tekst aangepast zodat het meer de vintage vibe matcht als hoe ik het wou hebben en heb de achtergrond veranderd met gradient aan de hand van een opdracht die we in de deepdive eerder moesten maken en dat was soepel verlopen.
 
 ## 11 september -
+# feedback -
+Feedback van Charly genoteerd in notes.
+-Wel naar de deepdives komen als ik moeite heb want die deepdives moeten in de website terug komen. 
+-Goed op weg en professioneel bezig geweest met visueel onderzoek.
+-Schetsen wel uploaden in mijn learning log.
+-Een van de schetsen uiteindelijk kiezen voor mijn volgende stap. 
+-Bezig gaan met html, dan stylen
 
-Ik heb voor een van mijn schetsen gekozen nadat ik feedback heb gekregen van de docent. Zo ben ik verder gegaan met prototypen. Ik heb hulp gekregen van een leerling die frontend doet
+Ik heb voor een van mijn schetsen gekozen nadat ik feedback heb gekregen van de docent. Ik ben gebleven bij de 3e optie voor mijn schets Zo ben ik verder gegaan met prototypen. Ik heb hulp gekregen van een student-assistent voor de layout en ben daarna zelf de content gaan verzamelen die ik erin zou willen hebben. Aangezien veel van de content die in de interface staan niet van mij zijn maar ik van bronnen heb gehaald als pinterest ben ik natuurlijk elke link van de gebruikte foto's gaan noteren omdat ik die in de site wil gaan vermelden.
+Linkje's:
+-https://nl.pinterest.com/pin/138063544816776251/
+-https://nl.pinterest.com/pin/1005850898052870054/
+-https://nl.pinterest.com/pin/1005850898053015438/
+-https://nl.pinterest.com/pin/1005850898052681885/
+
+![Uploading layuout 1 mobiel.png…]()
+<img width="742" height="537" alt="layout 1" src="https://github.com/user-attachments/assets/fa73918d-7998-425e-9116-da6977f445e4" />
+
+
 
 ## 10 september  [Workshop/deepdive: Mooie kleuren en gradients] -
 
 Als vervolg van gister heb ik vandaag 5 nieuwe schetsen gemaakt aan de hand van mijn crazy 8. Deze schetsen zijn voor de interfaces voor mijn website in een *mobiele* layout. 
 <img width="1605" height="569" alt="Screens 5 mobile sketches" src="https://github.com/user-attachments/assets/4f9d3eda-969e-4cfe-9dd9-9178d1636854" />
 Ik zou graag de 3e verder uit willen werken omdat de layout van de content en de buttons goed centraal te zien. De eerste en laatste vallen een beetje af omdat ik daar nog niet goed een specefiek beeld van heb.
+
+# deepdive: Mooie kleuren en gradient -
+Ik heb de deepdive mooie kleuren en gradients zelf thuis gedaan en het was me wel degelijk gelukt met de opdrachten, Ik heb zelf ook wat andere kleuren gebruikt die er niet bij stonden zoals bijvoorbeeld zwart. Dit was best wel leuk en zou ik ook wel willen gebruiken in mijn website.
+<img width="2177" height="535" alt="screens gradient opdracht" src="https://github.com/user-attachments/assets/6d1ca156-3446-4bc2-95d1-961e236d025e" />
+
 
 
 ## 9 september -
