@@ -30,7 +30,7 @@ Opdracht 17: met Dewi
 
 ## 12 september -
 
-Images erin gezet
+Images erin gezet<img width="1017" height="536" alt="screen layout 1" src="https://github.com/user-attachments/assets/ab0473c4-57e6-4efd-9113-27e59965bc4e" />
 
 Vandaag ben ik de layout meer gaan uitbereiden zoals ik het in mijn schets had gewild. Ik heb de tekst aangepast zodat het meer de vintage vibe matcht als hoe ik het wou hebben en heb de achtergrond veranderd met gradient aan de hand van een opdracht die we in de deepdive eerder moesten maken en dat was soepel verlopen.
 
@@ -50,8 +50,8 @@ Linkje's:
 -https://nl.pinterest.com/pin/1005850898053015438/
 -https://nl.pinterest.com/pin/1005850898052681885/
 
-<img width="742" height="537" alt="layout 1" src="https://github.com/user-attachments/assets/fa73918d-7998-425e-9116-da6977f445e4" />
-<img width="307" height="668" alt="layuout 1 mobiel" src="https://github.com/user-attachments/assets/95b50dcf-a66b-4ac8-95d0-02ada0f8effd" />
+<img width="1017" height="536" alt="screen layout 1" src="https://github.com/user-attachments/assets/a7893d1c-4217-43cc-86c2-2b2533f528f9" />
+
 
 
 ## 10 september  [Workshop/deepdive: Mooie kleuren en gradients] -
