@@ -29,8 +29,8 @@ Opdracht 17: met Dewi
 - Als je hem kleiner zet gaan de login/en sign up option weg en word het een icoontje waar je op kan klikken.
 
 
-## 11 september [Grid + media queries] -
-# feedback -
+# 11 september [Grid + media queries] -
+## feedback -
 Feedback van Charly genoteerd in notes.
 -Wel naar de deepdives komen als ik moeite heb want die deepdives moeten in de website terug komen. 
 -Goed op weg en professioneel bezig geweest met visueel onderzoek.
@@ -47,7 +47,7 @@ Linkje's:
 
 <img width="1017" height="536" alt="screen layout 1" src="https://github.com/user-attachments/assets/a7893d1c-4217-43cc-86c2-2b2533f528f9" />
 
-# Deepdive [Grid+media queries]
+## Deepdive [Grid+media queries]
 Ik heb de voorbereiding voor deze deepdive gedaan en dat me gelukt. Ik heb wat screenshots maar niet alle want het waren meer dan 25+ slides dus dat is een beetje veel om vast te leggen. De vorbereiding was ook best leuk en makkelijk te begrijpen op de manier hoe ze het hebben vormgegeven als een soort game. Na de voorbereiding ben ik bezig geweest met de grid oefening zelf.
 
 <img width="3146" height="421" alt="vorbereiding grid" src="https://github.com/user-attachments/assets/44ca58c7-6588-4144-9282-272cacba8463" />
@@ -55,13 +55,13 @@ Ik heb de voorbereiding voor deze deepdive gedaan en dat me gelukt. Ik heb wat s
 
 
 
-## 10 september  [Workshop/deepdive: Mooie kleuren en gradients] -
+# 10 september  [Workshop/deepdive: Mooie kleuren en gradients] -
 
 Als vervolg van gister heb ik vandaag 5 nieuwe schetsen gemaakt aan de hand van mijn crazy 8. Deze schetsen zijn voor de interfaces voor mijn website in een *mobiele* layout. 
 <img width="1605" height="569" alt="Screens 5 mobile sketches" src="https://github.com/user-attachments/assets/4f9d3eda-969e-4cfe-9dd9-9178d1636854" />
 Ik zou graag de 3e verder uit willen werken omdat de layout van de content en de buttons goed centraal te zien. De eerste en laatste vallen een beetje af omdat ik daar nog niet goed een specefiek beeld van heb.
 
-# deepdive: Mooie kleuren en gradient -
+## deepdive: Mooie kleuren en gradient -
 Ik heb de deepdive mooie kleuren en gradients zelf thuis gedaan en het was me wel degelijk gelukt met de opdrachten, Ik heb zelf ook wat andere kleuren gebruikt die er niet bij stonden zoals bijvoorbeeld zwart. Dit was best wel leuk en zou ik ook wel willen gebruiken in mijn website.
 <img width="2177" height="535" alt="screens gradient opdracht" src="https://github.com/user-attachments/assets/6d1ca156-3446-4bc2-95d1-961e236d025e" />
 
