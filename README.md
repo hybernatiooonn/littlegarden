@@ -28,13 +28,8 @@ Opdracht 17: met Dewi
 - De header gaat goed mee als het scherm kleiner word word die header ook klein en nog steeds gebruikelijk
 - Als je hem kleiner zet gaan de login/en sign up option weg en word het een icoontje waar je op kan klikken.
 
-## 12 september -
 
-Images erin gezet<img width="1017" height="536" alt="screen layout 1" src="https://github.com/user-attachments/assets/ab0473c4-57e6-4efd-9113-27e59965bc4e" />
-
-Vandaag ben ik de layout meer gaan uitbereiden zoals ik het in mijn schets had gewild. Ik heb de tekst aangepast zodat het meer de vintage vibe matcht als hoe ik het wou hebben en heb de achtergrond veranderd met gradient aan de hand van een opdracht die we in de deepdive eerder moesten maken en dat was soepel verlopen.
-
-## 11 september -
+## 11 september [Grid + media queries] -
 # feedback -
 Feedback van Charly genoteerd in notes.
 -Wel naar de deepdives komen als ik moeite heb want die deepdives moeten in de website terug komen. 
@@ -51,6 +46,12 @@ Linkje's:
 -https://nl.pinterest.com/pin/1005850898052681885/
 
 <img width="1017" height="536" alt="screen layout 1" src="https://github.com/user-attachments/assets/a7893d1c-4217-43cc-86c2-2b2533f528f9" />
+
+# Deepdive [Grid+media queries]
+Ik heb de voorbereiding voor deze deepdive gedaan en dat me gelukt. Ik heb wat screenshots maar niet alle want het waren meer dan 25+ slides dus dat is een beetje veel om vast te leggen. De vorbereiding was ook best leuk en makkelijk te begrijpen op de manier hoe ze het hebben vormgegeven als een soort game. Na de voorbereiding ben ik bezig geweest met de grid oefening zelf.
+
+<img width="3146" height="421" alt="vorbereiding grid" src="https://github.com/user-attachments/assets/44ca58c7-6588-4144-9282-272cacba8463" />
+<img width="3172" height="530" alt="grid oefening" src="https://github.com/user-attachments/assets/bada023e-b7e5-45ed-ad21-c7bc0781edd4" />
 
 
 
