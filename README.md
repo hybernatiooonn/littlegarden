@@ -4,14 +4,11 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-# 18 september -
-
-## [Deepdive light&Dark] + Feedback verwerken
+# 18 september [Deepdive light&Dark] + Feedback verwerken -
 Later vandaag heb ik gezeten met de docent en student assistend voor feedback en die heb ik uiteindelijk gekregen.
 
-# Feedback:
+## Feedback van Charley en Samih:
 ''Je hebt veel ideeën en bent ook een eind gekomen met jouw Digital Garden. Het is wel belangrijker dat je jouw Learning Log beter gaat bijhouden (en er ook afbeeldingen met beschrijvingen bij zet) en ook de Deep Dives gaat doen en gaat vastleggen. Een deel heb je al wel gedaan maar dat kan ik nu niet zien vanwege het merge conflict. Trek hiervoor maandag even een studentassistent aan diens jasje. Ga zo door!
-
 
 -Charley en Semih''
 
