@@ -55,7 +55,7 @@ body {
 
     hr {
         width: 100%;
-        border: var(--hrbordercolor);
+        border: 1px solid var(--h1color);
         position: relative;
         top: 20.5em;
     }
@@ -211,3 +211,4 @@ main {
 
 @media (min-width: 360px) {
 }
+
