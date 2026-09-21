@@ -128,9 +128,9 @@ main {
     }
 
  nav ul li a:hover {
-        background-color: var(--navulliabackgroundcolor);
-        transition: background-color 0.3s;
-    }
+      background-color: var(--navulliahoverbackgroundcolor);
+    transition: background-color 0.3s;
+ }
 
   article,  footer {
         padding: 1.5em;
