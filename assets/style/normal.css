@@ -1,216 +1,512 @@
 @font-face {
     font-family: "Comic Relief";
     src: url("../type/ComicRelief-Regular.woff2");
-    font-weight: 400;
-    font-style: normal;
 }
 
 @font-face {
     font-family: "Betty Noir";
-    src: url("../type/bettynoir.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
+    src: url("../type/bettynoir.ttf");
 }
 
 @font-face {
     font-family: "Lemon Drop";
-    src: url("../type/Lemondrop.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
+    src: url("../type/Lemondrop.ttf");
 }
+
 
 html {
     color-scheme: light-dark;
-    --background: light-dark(rgb(142, 117, 92), rgb(75, 59, 43));
 
     --bodycolor: rgb(120, 55, 33);
     --h1color: light-dark(rgb(44, 28, 20), rgb(230, 210, 180));
-    --bordercolor: rgba(146, 105, 70, 0.9);
+    --bordercolor: rgba(94, 66, 42, 0.9);
     --mainbackgroundcolor: rgb(245, 231, 209);
     --navulliabackgroundcolor: rgb(221, 196, 168);
     --navulliabordercolor: rgb(146, 105, 70);
     --navulliahoverbackgroundcolor: rgb(200, 170, 135);
-    --presentatietextcolor: rgb(0, 0, 0);
-    --hrbordercolor: rgb(85, 67, 52);
     --headercolor: rgb(82, 34, 18);
     --blacktext: rgb(0, 0, 0);
     --color-bg-light: rgb(142, 117, 92);
     --color-bg-dark: rgb(75, 59, 43);
-    --background: light-dark(var(--color-bg-light), var(--color-bg-dark));
+
+    --background: light-dark(
+        var(--color-bg-light),
+        var(--color-bg-dark)
+    );
 }
+
 
 body {
-    position: relative;
+    margin: 0;
+    height: 100vh;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+
     background-color: var(--background);
-    background-image: var(--background);
     color: var(--bodycolor);
-    color-scheme: light dark;
-    opacity: 0.8;
-    min-height: 100vh;
 
-}
-
-   hr {
-    width: 100%;
-    border: 1px solid var(--h1color);
-    position: relative;
-    top: -1.5em;
+    overflow: hidden;
 }
 
 
-hr:last-of-type {   /*Aan AI gevraagd hoe ik een tweede HR erin kon zetten en hem apart te kunnen stijlen want idk hoe dat meost*/
-    top: -53.5em;
-}
+body > h1 {
+    width: 95%;
 
-h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
     color: var(--h1color);
+
     font-family: "Betty Noir", "Comic Relief", serif;
-    position: relative;
     font-size: 2em;
-    top: -0.5em;
-    align-self: flex-start;
 }
 
 
-main {
-    border: 2px solid var(--bordercolor);
+hr {
+    width: 95%;
+
+    border: 1.5px solid var(--h1color);
+
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+
+#pagina {
+    width: 95%;
+
+    flex: 1;
+    min-height: 0;
+
+    display: flex;
+
+    gap: 1.5em;
+
+    margin-bottom: 1em;
+
+    box-sizing: border-box;
+}
+
+
+#links {
+    flex: 1;
+    min-height: 0;
+
+    border: 2.5px solid var(--h1color);
+
+    display: flex;
+
+    gap: 6em;
+
+    padding: 4em;
+
+    box-sizing: border-box;
+}
+
+
+#grotebox {
     position: relative;
-    padding-right: 0.5em;
-    padding-bottom: 1em;
-    top: -63.5em;
-    width: 13em;
-    background-color: var(--mainbackgroundcolor);
-    opacity: 0.7;
-    z-index: 1;
 
-    h1, & h2 {
-        font-family: "Lemon Drop";
-        font-size: 1.2em;
-        position: relative;
-        top: -0.5em;
-    }
+    width: 16em;
+    min-width: 16em;
 
- p {
-        font-family: "Comic Relief";
-        font-size: 1em;
-        position: relative;
-        top: -1em;
-    }
-
- header {
-        display: block;
-        unicode-bidi: isolate;
-        color: var(--headercolor);
-        left: -1em;
-        top: 30em;
-        padding: 1em;
-    }
-
- nav ul {
-        list-style-type: none;
-        background-color: var(--mainbackgroundcolor);
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 3.5em 1.8em;
-    }
-
- nav ul li a {
-        text-decoration: none;
-        background-color: var(--navulliabackgroundcolor);
-        border: 1px solid var(--navulliabordercolor);
-        border-radius: 2px;
-        padding: 0.5em 1em;
-        color: rgb(82, 34, 18);
-        position: relative;
-        left: -2.3em;
-        bottom: 2.5em;
-    }
-
- nav ul li a:hover {
-      background-color: var(--navulliahoverbackgroundcolor);
-    transition: background-color 0.3s;
- }
-
-  article,  footer {
-        padding: 1.5em;
-    }
+    height: 100%;
 }
+
+
+/* AFBEELDINGEN IN GROTEBOX */
 
 #musicnote {
-    position: relative;
-    left: 3.5em;
-    top: 27.5em;
+    position: absolute;
+
+    top: 24em;
+    left: 7em;
+
     width: 10em;
-    z-index: 0;
+
+    z-index: 1;
 }
+
 
 #browntext {
-    position: relative;
-    left: -4em;
-    top: 18em;
+    position: absolute;
+
+    top: 20em;
+    left: 0.9em;
+
     width: 11em;
-    z-index: 0;
+
+    z-index: 1;
 }
+
 
 #beigeback {
-    position: relative;
-    left: -0.1em;
-    top: -6em;
-    width: 25em;
-    z-index: 0;
+    position: absolute;
+
+    top: 8em;
+    left: -2.5em;
+
+    width: 23em;
+
     rotate: 90deg;
+
+    z-index: 1;
 }
+
 
 #piano {
-    position: relative;
-    left: 0.1em;
-    top: -12em;
-    width: 8em;
-    z-index: 2;
+    position: absolute;
+
+    top: 17.5em;
+    left: 5em;
+
+    width: 7.5em;
+
     rotate: 90deg;
-    opacity: 85%;
+
+    opacity: 80%;
+
+    z-index: 6;
 }
 
-#lace {
-    position: relative;
-    left: -4em;
-    top: -54.9em;
-    width: 14em;
-    z-index: -1;
-    rotate: 90deg;
-    opacity: 85%;
-}
 
 #pin {
-    position: relative;
-    left: 4em;
-    top: -45.3em;
+    position: absolute;
+
+    top: -1em;
+    left: 7em;
+
     width: 7em;
-    z-index: 2;
+
+    z-index: 4;
 }
+
 
 #plaat {
-    position: relative;
-    left: 6.7em;
-    top: -38em;
+    position: absolute;
+    top: 1em;
+    left: 11em;
     width: 8em;
     z-index: -1;
+    animation: spin 3s linear infinite; /*ik heb dit bij rianne gezien op haar website en vond het erg leuk dus ik heb het in mijn site ook overgenomen*/
 }
 
-.remark-slide-content img {
-    width: 80px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin: 2px;
+
+#lace {
+    position: absolute;
+
+    top: 5em;
+    left: -1.5em;
+
+    width: 14em;
+
+    rotate: 90deg;
+
+    opacity: 85%;
+
+    z-index: 0;
 }
 
-.remark-slide-content {
-    color: var(--blacktext);
+
+/* MAIN */
+
+main {
+    position: absolute;
+
+    top: 6em;
+    left: 2.5em;
+
+    width: 12em;
+
+    border: 2px solid var(--bordercolor);
+
+    background-color: var(--mainbackgroundcolor);
+
+    opacity: 75%;
+
+    padding: 0.5em;
+
+    z-index: 5;
+
+    box-sizing: border-box;
 }
 
-@media (min-width: 360px) {
+
+main article {
+    padding: 0.5em;
+}
+
+
+main h2 {
+    font-family: "Lemon Drop";
+    font-size: 1.2em;
+}
+
+
+main p {
+    font-family: "Comic Relief";
+    font-size: 1em;
+
+    text-align: center;
+
+    color: var(--h1color);
+}
+
+
+main header {
+    padding: 0.5em;
+}
+
+
+/* NAV */
+
+nav ul {
+    list-style-type: none;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 1em;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+
+    background-color: var(--navulliabackgroundcolor);
+
+    border: 1px solid var(--navulliabordercolor);
+
+    padding: 0.5em 1em;
+
+    color: rgb(82, 34, 18);
+}
+
+
+nav ul li a:hover {
+    background-color: var(--navulliahoverbackgroundcolor);
+
+    transition: background-color 0.3s;
+}
+
+
+/* MIDDEN */
+
+#midden {
+    flex: 1;
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 3em;
+
+    padding-top: 1em;
+}
+
+
+/* BOX 1 */
+
+#box1 {
+    width: 110%;
+
+    height: 17em;
+
+    background-color: var(--h1color);
+
+    padding: 1em;
+
+    box-sizing: border-box;
+}
+
+
+/* KLEINE BOXEN */
+
+#kleineboxen {
+    width: 100%;
+
+    display: flex;
+
+    gap: 1em;
+}
+
+
+/* BOX 2 */
+
+#box2 {
+    flex: 1;
+
+    height: 7em;
+
+    background-color: var(--h1color);
+
+    padding: 1em;
+
+    box-sizing: border-box;
+}
+
+
+/* BOX 3 */
+
+#box3 {
+    flex: 1;
+
+    height: 7em;
+
+    background-color: var(--h1color);
+
+    padding: 1em;
+
+    box-sizing: border-box;
+}
+
+
+/* BOX 4 */
+
+#box4 {
+    flex: 1;
+
+    height: 7em;
+
+    background-color: var(--h1color);
+
+    padding: 1em;
+
+    box-sizing: border-box;
+}
+
+
+/* ASIDE */
+
+aside {
+    width: 25%;
+    min-height: 0;
+
+    border: 2.5px solid var(--h1color);
+
+    padding: 1.3em;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 2em;
+
+    box-sizing: border-box;
+}
+
+
+/* SIDE BOX 1 */
+
+#sidebox1 {
+    height: 9em;
+    background-color: var(--h1color);
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+
+/* SIDE BOX 2 */
+
+#sidebox2 {
+    height: 7em;
+
+    background-color: var(--h1color);
+
+    padding: 1em;
+
+    box-sizing: border-box;
+}
+
+
+/* SIDE BOX 3 */
+
+#sidebox3 {
+    height: 3.5em;
+
+    background-color: var(--h1color);
+
+    padding: 1em;
+
+    box-sizing: border-box;
+}
+
+
+/* COPYRIGHT */
+
+aside > p {
+    margin-top: auto;
+    margin-bottom: 0;
+
+    text-align: center;
+
+    color: var(--h1color);
+
+    font-family: "Comic Relief";
+}
+
+
+/* ANIMATIE */
+
+@keyframes spin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    body {
+        height: auto;
+        min-height: 100vh;
+
+        overflow: auto;
+    }
+
+
+    #pagina {
+        flex-direction: column;
+    }
+
+
+    #links {
+        width: 100%;
+
+        flex-direction: column;
+
+        gap: 2em;
+    }
+
+
+    #grotebox {
+        height: 31em;
+    }
+
+
+    aside {
+        width: 100%;
+    }
+
+
+    #kleineboxen {
+        flex-direction: column;
+    }
+
 }
