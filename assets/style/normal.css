@@ -24,17 +24,16 @@ html {
     --background: light-dark(rgb(142, 117, 92), rgb(75, 59, 43));
 
     --bodycolor: rgb(120, 55, 33);
-    --h1color: rgb(44, 28, 20);
+    --h1color: light-dark(rgb(44, 28, 20), rgb(230, 210, 180));
     --bordercolor: rgba(146, 105, 70, 0.9);
     --mainbackgroundcolor: rgb(245, 231, 209);
-
     --navulliabackgroundcolor: rgb(221, 196, 168);
     --navulliabordercolor: rgb(146, 105, 70);
     --navulliahoverbackgroundcolor: rgb(200, 170, 135);
     --presentatietextcolor: rgb(0, 0, 0);
     --hrbordercolor: rgb(85, 67, 52);
     --headercolor: rgb(82, 34, 18);
-
+    --blacktext: rgb(0, 0, 0);
     --color-bg-light: rgb(142, 117, 92);
     --color-bg-dark: rgb(75, 59, 43);
     --background: light-dark(var(--color-bg-light), var(--color-bg-dark));
@@ -55,21 +54,24 @@ body {
 
 }
 
-    hr {
-        width: 100%;
-        border: 1px solid var(--h1color);
-        position: relative;
-        top: -1em;
-    }
+   hr {
+    width: 100%;
+    border: 1px solid var(--h1color);
+    position: relative;
+    top: -1.5em;
+}
 
 
-
+hr:last-of-type {   /*Aan AI gevraagd hoe ik een tweede HR erin kon zetten en hem apart te kunnen stijlen want idk hoe dat meost*/
+    top: -53.5em;
+}
 
 h1 {
     color: var(--h1color);
     font-family: "Betty Noir", "Comic Relief", serif;
     position: relative;
-    font-size: 1.5em;
+    font-size: 2em;
+    top: -0.5em;
     align-self: flex-start;
 }
 
@@ -207,7 +209,7 @@ main {
 }
 
 .remark-slide-content {
-    color: rgb(0, 0, 0);
+    color: var(--blacktext);
 }
 
 @media (min-width: 360px) {
