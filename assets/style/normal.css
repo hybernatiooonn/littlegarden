@@ -13,6 +13,12 @@
     src: url("../type/Lemondrop.ttf");
 }
 
+@font-face {
+    font-family: "Bravibe";
+    src: url("../type/BravibeRegular-OGW9o.otf");
+}
+
+
 
 html {
     color-scheme: light-dark;
@@ -122,7 +128,7 @@ hr {
     position: absolute;
 
     top: 24em;
-    left: 7em;
+    left: 8em;
 
     width: 10em;
 
@@ -134,7 +140,7 @@ hr {
     position: absolute;
 
     top: 20em;
-    left: 0.9em;
+    left: -1em;
 
     width: 11em;
 
@@ -174,8 +180,8 @@ hr {
 
 #pin {
     position: absolute;
-    top: -1em;
-    left: 7em;
+    top: -1.5em;
+    left: 9em;
     width: 7em;
     z-index: 4;
 }
@@ -183,19 +189,23 @@ hr {
 
 #plaat {
     position: absolute;
-    top: 1em;
-    left: 11em;
-    width: 8em;
-    z-index: -1;
-    animation: spin 3s linear infinite; /*ik heb dit bij rianne gezien op haar website en vond het erg leuk dus ik heb het in mijn site ook overgenomen*/
+
+    top: 50%;
+    left: 50%;
+
+    width: 6em;
+
+    z-index: 2;
+
+    animation: spin 3s linear infinite;
 }
 
 
 #lace {
     position: absolute;
 
-    top: 5em;
-    left: -1.5em;
+    top: 4em;
+    left: -2em;
 
     width: 14em;
 
@@ -211,7 +221,7 @@ hr {
 main {
     position: absolute;
     top: 6em;
-    left: 2.5em;
+    left: 3em;
     width: 12em;
     border: 2px solid var(--bordercolor);
     background-color: var(--mainbackgroundcolor);
@@ -307,22 +317,25 @@ nav ul li a:hover {
 /* BOX 1 */
 
 #box1 {
-    width: 110%;
-
+    font-family: Bravibe;
+    color: var(--mainbackgroundcolor);
+    width: 100%;
     height: 17em;
-
     background-color: var(--h1color);
-
     padding: 1em;
-
     box-sizing: border-box;
 }
 
+#box1 p {
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
 
 /* KLEINE BOXEN */
 
 #kleineboxen {
-    width: 110%;
+    width: 100%;
 
     display: flex;
 
@@ -333,17 +346,23 @@ nav ul li a:hover {
 /* BOX 2 */
 
 #box2 {
+    position: relative;
+
+    font-family: Bravibe;
     flex: 1;
     height: 8em;
+
     background-color: var(--h1color);
+
     padding: 2em;
+
     box-sizing: border-box;
 }
-
 
 /* BOX 3 */
 
 #box3 {
+    font-family: Bravibe;
     flex: 1;
 
     height: 8em;
@@ -359,6 +378,7 @@ nav ul li a:hover {
 /* BOX 4 */
 
 #box4 {
+    font-family: Bravibe;
     flex: 1;
 
     height: 8em;
@@ -380,6 +400,9 @@ aside {
     border: 2.5px solid var(--h1color);
 
     padding: 1.3em;
+    padding-top: 5em;
+    padding-right: 1.3em;
+    padding-left: 1.3em;
 
     display: flex;
     flex-direction: column;
@@ -440,18 +463,17 @@ aside > p {
 }
 
 
-/* ANIMATIE */
+/* ANIMATIONNNN */
+
 
 @keyframes spin {
-
     from {
-        transform: rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
     }
 
     to {
-        transform: rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
     }
-
 }
 
 
