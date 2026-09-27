@@ -22,7 +22,6 @@
 
 html {
     color-scheme: light-dark;
-
     --bodycolor: rgb(120, 55, 33);
     --h1color: light-dark(rgb(44, 28, 20), rgb(230, 210, 180));
     --bordercolor: rgba(94, 66, 42, 0.9);
@@ -32,7 +31,7 @@ html {
     --navulliahoverbackgroundcolor: rgb(200, 170, 135);
     --headercolor: rgb(82, 34, 18);
     --blacktext: rgb(0, 0, 0);
-    --color-bg-light: rgb(142, 117, 92);
+    --color-bg-light: rgb(181, 156, 131);
     --color-bg-dark: rgb(75, 59, 43);
 
     --background: light-dark(
@@ -45,26 +44,20 @@ html {
 body {
     margin: 0;
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     background-color: var(--background);
     color: var(--bodycolor);
-
     overflow: hidden;
 }
 
 
 body > h1 {
     width: 95%;
-
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-
     color: var(--h1color);
-
     font-family: "Betty Noir", "Comic Relief", serif;
     font-size: 2em;
 }
@@ -72,9 +65,7 @@ body > h1 {
 
 hr {
     width: 95%;
-
     border: 1.5px solid var(--h1color);
-
     margin-top: 0;
     margin-bottom: 1em;
 }
@@ -82,16 +73,11 @@ hr {
 
 #pagina {
     width: 95%;
-
     flex: 1;
     min-height: 0;
-
     display: flex;
-
     gap: 1.5em;
-
     margin-bottom: 1em;
-
     box-sizing: border-box;
 }
 
@@ -99,81 +85,58 @@ hr {
 #links {
     flex: 1;
     min-height: 0;
-
     border: 2.5px solid var(--h1color);
-
     display: flex;
-
     gap: 7em;
-
     padding: 4em;
-
     box-sizing: border-box;
 }
 
 
 #grotebox {
     position: relative;
-
     width: 16em;
     min-width: 16em;
-
     height: 100%;
 }
 
 
-/* AFBEELDINGEN IN GROTEBOX */
 
 #musicnote {
     position: absolute;
-
     top: 24em;
     left: 8em;
-
     width: 10em;
-
     z-index: 1;
 }
 
 
 #browntext {
     position: absolute;
-
     top: 20em;
     left: -1em;
-
     width: 11em;
-
     z-index: 1;
 }
 
 
 #beigeback {
     position: absolute;
-
     top: 8em;
     left: -2.5em;
-
     width: 23em;
-
     rotate: 90deg;
-
     z-index: 1;
 }
 
 
 #piano {
     position: absolute;
-
     top: 17.5em;
     left: 5em;
-
     width: 7.5em;
-
     rotate: 90deg;
-
     opacity: 80%;
-
     z-index: 6;
 }
 
@@ -189,35 +152,44 @@ hr {
 
 #plaat {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
-    width: 6em;
-
+    width: 8em;
     z-index: 2;
-
     animation: spin 3s linear infinite;
+    transition: scale 0.3s, filter 0.3s;
+}
+
+#camera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 11em;
+    transform: translate(-50%, -50%);
+    transition: scale 0.3s, filter 0.3s;
+}
+
+#plaat:hover,
+#camera:hover {
+    scale: 1.15;
+    filter:
+        drop-shadow(0 0 0.8em var(--mainbackgroundcolor))
+        drop-shadow(0 0 1.5em var(--mainbackgroundcolor));
 }
 
 
 #lace {
     position: absolute;
-
     top: 4em;
     left: -2em;
-
     width: 14em;
-
     rotate: 90deg;
-
     opacity: 85%;
-
     z-index: 0;
 }
 
 
-/* MAIN */
+
 main {
     position: absolute;
     top: 6em;
@@ -248,9 +220,7 @@ main h2 {
 main p {
     font-family: "Comic Relief";
     font-size: 1em;
-
     text-align: center;
-
     color: var(--h1color);
 }
 
@@ -260,17 +230,13 @@ main header {
 }
 
 
-/* NAV */
+
 
 nav ul {
     list-style-type: none;
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     gap: 1em;
-
     padding: 0;
     margin: 0;
 }
@@ -278,43 +244,32 @@ nav ul {
 
 nav ul li a {
     display: block;
-
     text-align: center;
     text-decoration: none;
-
     background-color: var(--navulliabackgroundcolor);
-
     border: 1px solid var(--navulliabordercolor);
-
     padding: 0.5em 1em;
-
     color: rgb(82, 34, 18);
 }
 
 
 nav ul li a:hover {
     background-color: var(--navulliahoverbackgroundcolor);
-
     transition: background-color 0.3s;
 }
 
 
-/* MIDDEN */
 
 #midden {
     flex: 1;
     min-width: 0;
-
     display: flex;
     flex-direction: column;
-
     gap: 3em;
-
     padding-top: 1em;
 }
 
 
-/* BOX 1 */
 
 #box1 {
     font-family: Bravibe;
@@ -332,88 +287,65 @@ nav ul li a:hover {
     left: 1em;
 }
 
-/* KLEINE BOXEN */
+
+/*klein boxjes een de zijkant*/
 
 #kleineboxen {
     width: 100%;
-
     display: flex;
-
     gap: 1em;
 }
 
 
-/* BOX 2 */
-
 #box2 {
     position: relative;
-
     font-family: Bravibe;
     flex: 1;
     height: 8em;
-
-    background-color: var(--h1color);
-
     padding: 2em;
-
     box-sizing: border-box;
 }
 
-/* BOX 3 */
+
 
 #box3 {
+    position: relative;
     font-family: Bravibe;
     flex: 1;
-
     height: 8em;
-
-    background-color: var(--h1color);
-
     padding: 2em;
-
     box-sizing: border-box;
 }
 
-
-/* BOX 4 */
 
 #box4 {
     font-family: Bravibe;
     flex: 1;
-
     height: 8em;
-
-    background-color: var(--h1color);
-
     padding: 2em;
-
+    border: 3px solid var(--h1color);
+    border-radius: 20px;
     box-sizing: border-box;
 }
 
 
-/* ASIDE */
+
 
 aside {
     width: 25%;
     min-height: 0;
-
     border: 2.5px solid var(--h1color);
-
     padding: 1.3em;
     padding-top: 5em;
     padding-right: 1.3em;
     padding-left: 1.3em;
-
     display: flex;
     flex-direction: column;
-
     gap: 2em;
-
     box-sizing: border-box;
 }
 
 
-/* SIDE BOX 1 */
 
 #sidebox1 {
     height: 9em;
@@ -423,42 +355,30 @@ aside {
 }
 
 
-/* SIDE BOX 2 */
 
 #sidebox2 {
     height: 7em;
-
     background-color: var(--h1color);
-
     padding: 1em;
-
     box-sizing: border-box;
 }
 
-
-/* SIDE BOX 3 */
 
 #sidebox3 {
     height: 3.5em;
-
     background-color: var(--h1color);
-
     padding: 1em;
-
     box-sizing: border-box;
 }
 
 
-/* COPYRIGHT */
+
 
 aside > p {
     margin-top: auto;
     margin-bottom: 0;
-
     text-align: center;
-
     color: var(--h1color);
-
     font-family: "Comic Relief";
 }
 
@@ -477,7 +397,7 @@ aside > p {
 }
 
 
-/* MOBILE */
+/* Voor mobiel */
 
 @media (max-width: 700px) {
 
@@ -488,11 +408,9 @@ aside > p {
         overflow: auto;
     }
 
-
     #pagina {
         flex-direction: column;
     }
-
 
     #links {
         width: 100%;
@@ -502,16 +420,13 @@ aside > p {
         gap: 2em;
     }
 
-
     #grotebox {
         height: 31em;
     }
 
-
     aside {
         width: 100%;
     }
-
 
     #kleineboxen {
         flex-direction: column;
