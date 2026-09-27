@@ -19,7 +19,6 @@
 }
 
 
-
 html {
     color-scheme: light-dark;
     --bodycolor: rgb(120, 55, 33);
@@ -33,7 +32,8 @@ html {
     --blacktext: rgb(0, 0, 0);
     --color-bg-light: rgb(181, 156, 131);
     --color-bg-dark: rgb(75, 59, 43);
-    --beigebordercolor: rgb(124, 90, 57);
+    --beigebordercolor: rgb(42, 24, 6);
+    --beigeborderlight: rgb(42, 24, 6);
     --beige2bordercolor: rgb(208, 180, 151);
     --background: light-dark(
         var(--color-bg-light),
@@ -49,32 +49,37 @@ body {
     flex-direction: column;
     align-items: center;
     background: radial-gradient(
-    circle,
-    var(--navulliabackgroundcolor) 0%,
-    var(--beige2bordercolor) 10%,
-    var(--beigebordercolor) 100%
-);
+        circle,
+        var(--navulliabackgroundcolor) 0%,
+        var(--beige2bordercolor) 10%,
+        var(--beigeborderlight) 100%
+    );
+
     color: var(--bodycolor);
     overflow: hidden;
 }
 
 
-body > h1 {
+body > header {
     width: 95%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    color: var(--h1color);
-    font-family: "Betty Noir", "Comic Relief", serif;
+    height: 5em;
+    background-color: var(--h1color);
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+
+body > header h1 {
+    margin: 0;
+    margin-left: 1em;
+    color: var(--mainbackgroundcolor);
+    font-family: "Bravibe", "Comic Relief", serif;
     font-size: 2em;
 }
 
-
-hr {
-    width: 95%;
-    border: 1.5px solid var(--h1color);
-    margin-top: 0;
-    margin-bottom: 1em;
-}
 
 
 #pagina {
@@ -88,13 +93,14 @@ hr {
 }
 
 
+
 #links {
     flex: 1;
     min-height: 0;
     border: 2.5px solid var(--h1color);
     border-radius: 10px;
     display: flex;
-    gap: 7em;
+    gap: 8em;
     padding: 4em;
     box-sizing: border-box;
 }
@@ -106,7 +112,6 @@ hr {
     min-width: 16em;
     height: 100%;
 }
-
 
 
 #musicnote {
@@ -157,34 +162,6 @@ hr {
 }
 
 
-#plaat {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 8em;
-    z-index: 2;
-    animation: spin 3s linear infinite;
-    transition: scale 0.3s, filter 0.3s;
-}
-
-#camera {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 11em;
-    transform: translate(-50%, -50%);
-    transition: scale 0.3s, filter 0.3s;
-}
-
-#plaat:hover,
-#camera:hover {
-    scale: 1.15;
-    filter:
-        drop-shadow(0 0 0.8em var(--mainbackgroundcolor))
-        drop-shadow(0 0 1.5em var(--mainbackgroundcolor));
-}
-
-
 #lace {
     position: absolute;
     top: 4em;
@@ -204,13 +181,11 @@ main {
     width: 12em;
     border: 2px solid var(--bordercolor);
     background-color: var(--mainbackgroundcolor);
-    Opacity: 75%;
+    opacity: 75%;
     padding: 0.5em;
     z-index: 5;
     box-sizing: border-box;
 }
-
-
 
 
 main article {
@@ -235,7 +210,6 @@ main p {
 main header {
     padding: 0.5em;
 }
-
 
 
 
@@ -272,34 +246,32 @@ nav ul li a:hover {
     min-width: 0;
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 5em;
     padding-top: 1em;
 }
-
 
 
 #box1 {
     font-family: Bravibe;
     color: var(--mainbackgroundcolor);
     width: 100%;
-    height: 17em;
-    background-color: var(--h1color);
-    border: 4px solid var(--beigebordercolor);
+    height: 15em;
+    background-color: var(--beige2bordercolor);
+    border-radius: 10px;
     padding: 1em;
     box-sizing: border-box;
 }
 
+
 #box1 p {
     position: relative;
-    font-size: 1.4em;
+    color: var(--h1color);
+    font-size: 1.3em;
     padding-right: 1em;
     top: 1em;
     left: 1em;
-
 }
 
-
-/*klein boxjes een de zijkant*/
 
 #kleineboxen {
     width: 100%;
@@ -319,6 +291,16 @@ nav ul li a:hover {
 
 
 
+#camera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 11em;
+    transform: translate(-50%, -50%);
+    transition: scale 0.3s, filter 0.3s;
+}
+
+
 #box3 {
     position: relative;
     font-family: Bravibe;
@@ -327,6 +309,30 @@ nav ul li a:hover {
     padding: 2em;
     box-sizing: border-box;
 }
+
+
+
+#plaat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8em;
+    z-index: 2;
+    animation: spin 3s linear infinite;
+    transition: scale 0.3s, filter 0.3s;
+}
+
+
+
+#plaat:hover,
+#camera:hover {
+    scale: 1.15;
+
+    filter:
+        drop-shadow(0 0 0.8em var(--mainbackgroundcolor))
+        drop-shadow(0 0 1.5em var(--mainbackgroundcolor));
+}
+
 
 
 #box4 {
@@ -341,10 +347,10 @@ nav ul li a:hover {
 
 
 
-
 aside {
     width: 25%;
-    min-height: 0;
+    min-hight: 0;
+
     border: 2.5px solid var(--h1color);
     border-radius: 10px;
     padding: 1.3em;
@@ -367,7 +373,6 @@ aside {
 }
 
 
-
 #sidebox2 {
     height: 7em;
     background-color: var(--h1color);
@@ -376,13 +381,13 @@ aside {
 }
 
 
+
 #sidebox3 {
     height: 3.5em;
     background-color: var(--h1color);
     padding: 1em;
     box-sizing: border-box;
 }
-
 
 
 
@@ -395,10 +400,10 @@ aside > p {
 }
 
 
-/* ANIMATIONNNN */
-
+/* ANIMATIONNNNN */
 
 @keyframes spin {
+
     from {
         transform: translate(-50%, -50%) rotate(0deg);
     }
@@ -406,10 +411,11 @@ aside > p {
     to {
         transform: translate(-50%, -50%) rotate(360deg);
     }
+
 }
 
 
-/* Voor mobiel */
+/* VOOR MOBIEL */
 
 @media (max-width: 700px) {
 
@@ -420,15 +426,23 @@ aside > p {
         overflow: auto;
     }
 
+    body > header {
+        width: 95%;
+
+        height: 4em;
+    }
+
+    body > header h1 {
+        font-size: 1.5em;
+    }
+
     #pagina {
         flex-direction: column;
     }
 
     #links {
         width: 100%;
-
         flex-direction: column;
-
         gap: 2em;
     }
 
@@ -446,15 +460,20 @@ aside > p {
 
 }
 
+
+/* PRESENTATIE */
+
 .remark-slide-content img {
     width: 80px;
     object-fit: cover;
     margin: 2px;
 }
 
+
 .remark-slide-content {
     color: var(--blacktext);
 }
+
 
 .remark-slide-content #links {
     border: none;
