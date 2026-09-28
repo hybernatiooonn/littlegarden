@@ -21,6 +21,7 @@
 
 html {
     color-scheme: light-dark;
+
     --bodycolor: rgb(120, 55, 33);
     --h1color: light-dark(rgb(44, 28, 20), rgb(230, 210, 180));
     --bordercolor: rgba(94, 66, 42, 0.9);
@@ -35,6 +36,7 @@ html {
     --beigebordercolor: rgb(42, 24, 6);
     --beigeborderlight: rgb(42, 24, 6);
     --beige2bordercolor: rgb(208, 180, 151);
+
     --background: light-dark(
         var(--color-bg-light),
         var(--color-bg-dark)
@@ -45,9 +47,11 @@ html {
 body {
     margin: 0;
     height: 100vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
     background: radial-gradient(
         circle,
         var(--navulliabackgroundcolor) 0%,
@@ -62,8 +66,9 @@ body {
 
 body > header {
     width: 95%;
-    height: 5em;
-    background-color: var(--h1color);
+    height: 4.5em;
+    border: 2.5px solid var(--h1color);
+    border-radius: 10px;
     display: flex;
     align-items: center;
     margin-top: 1em;
@@ -75,11 +80,11 @@ body > header {
 body > header h1 {
     margin: 0;
     margin-left: 1em;
-    color: var(--mainbackgroundcolor);
+    padding-top: 0.5em;
+    color: var(--beige2bordercolor);
     font-family: "Bravibe", "Comic Relief", serif;
-    font-size: 2em;
+    font-size: 1.6em;
 }
-
 
 
 #pagina {
@@ -91,7 +96,6 @@ body > header h1 {
     margin-bottom: 1em;
     box-sizing: border-box;
 }
-
 
 
 #links {
@@ -145,20 +149,28 @@ body > header h1 {
 #piano {
     position: absolute;
     top: 17.5em;
-    left: 5em;
+    left: 5.4em;
     width: 7.5em;
     rotate: 90deg;
-    opacity: 80%;
-    z-index: 6;
+    opacity: 90%;
+    z-index: 8;
 }
 
 
 #pin {
     position: absolute;
     top: -1.5em;
-    left: 9em;
+    left: 8em;
     width: 7em;
     z-index: 4;
+}
+
+#cutebow {
+    position: absolute;
+    top: 4em;
+    left: 12em;
+    width: 6em;
+    z-index: 7;
 }
 
 
@@ -174,43 +186,13 @@ body > header h1 {
 
 
 
-main {
+#me {
     position: absolute;
     top: 6em;
     left: 3em;
     width: 12em;
-    border: 2px solid var(--bordercolor);
-    background-color: var(--mainbackgroundcolor);
-    opacity: 75%;
-    padding: 0.5em;
-    z-index: 5;
-    box-sizing: border-box;
+    z-index: 7;
 }
-
-
-main article {
-    padding: 0.5em;
-}
-
-
-main h2 {
-    font-family: "Lemon Drop";
-    font-size: 1.2em;
-}
-
-
-main p {
-    font-family: "Comic Relief";
-    font-size: 1em;
-    text-align: center;
-    color: var(--h1color);
-}
-
-
-main header {
-    padding: 0.5em;
-}
-
 
 
 nav ul {
@@ -240,7 +222,6 @@ nav ul li a:hover {
 }
 
 
-
 #midden {
     flex: 1;
     min-width: 0;
@@ -253,13 +234,13 @@ nav ul li a:hover {
 
 #box1 {
     font-family: Bravibe;
-    color: var(--mainbackgroundcolor);
     width: 100%;
     height: 15em;
     background-color: var(--beige2bordercolor);
     border-radius: 10px;
     padding: 1em;
     box-sizing: border-box;
+    box-shadow: 0.4em 0.4em 0 var(--h1color);
 }
 
 
@@ -267,6 +248,7 @@ nav ul li a:hover {
     position: relative;
     color: var(--h1color);
     font-size: 1.3em;
+    line-height: 1.4;
     padding-right: 1em;
     top: 1em;
     left: 1em;
@@ -290,12 +272,11 @@ nav ul li a:hover {
 }
 
 
-
 #camera {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 11em;
+    width: 8em;
     transform: translate(-50%, -50%);
     transition: scale 0.3s, filter 0.3s;
 }
@@ -311,7 +292,6 @@ nav ul li a:hover {
 }
 
 
-
 #plaat {
     position: absolute;
     top: 50%;
@@ -323,34 +303,39 @@ nav ul li a:hover {
 }
 
 
+#box4 {
+    position: relative;
+    font-family: Bravibe;
+    flex: 1;
+    height: 8em;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+
+#Monkey {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8em;
+    transform: translate(-50%, -50%);
+    transition: scale 0.3s, filter 0.3s;
+}
+
 
 #plaat:hover,
+#Monkey:hover,
 #camera:hover {
     scale: 1.15;
-
     filter:
         drop-shadow(0 0 0.8em var(--mainbackgroundcolor))
         drop-shadow(0 0 1.5em var(--mainbackgroundcolor));
 }
 
 
-
-#box4 {
-    font-family: Bravibe;
-    flex: 1;
-    height: 8em;
-    padding: 2em;
-    border: 3px solid var(--h1color);
-    border-radius: 20px;
-    box-sizing: border-box;
-}
-
-
-
 aside {
     width: 25%;
-    min-hight: 0;
-
+    min-height: 0;
     border: 2.5px solid var(--h1color);
     border-radius: 10px;
     padding: 1.3em;
@@ -359,43 +344,78 @@ aside {
     padding-left: 1.3em;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 3em;
     box-sizing: border-box;
 }
 
 
-
 #sidebox1 {
     height: 9em;
-    background-color: var(--h1color);
+    background-color: var(--beige2bordercolor);
+    border-radius: 10px;
     padding: 1em;
     box-sizing: border-box;
+
+    box-shadow: 0.4em 0.4em 0 var(--h1color);
+
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 
 #sidebox2 {
     height: 7em;
-    background-color: var(--h1color);
+
+    background-color: var(--beige2bordercolor);
+
+    border-radius: 10px;
+
     padding: 1em;
+
     box-sizing: border-box;
 }
-
 
 
 #sidebox3 {
     height: 3.5em;
-    background-color: var(--h1color);
+
+    background-color: var(--beige2bordercolor);
+
+    border-radius: 10px;
+
     padding: 1em;
+
     box-sizing: border-box;
 }
 
+
+/* dit had ik bij samir gezien en vond ik heeelll cool */
+
+#sidebox1,
+#sidebox2,
+#sidebox3 {
+    box-shadow: 0.4em 0.4em 0 var(--h1color);
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+#sidebox1:hover,
+#sidebox2:hover,
+#sidebox3:hover {
+    transform: translateY(-0.4em) rotate(-1deg);
+
+    box-shadow: 0.5em 0.5em 0 var(--mainbackgroundcolor);
+}
 
 
 aside > p {
     margin-top: auto;
     margin-bottom: 0;
+
     text-align: center;
+
     color: var(--h1color);
+
     font-family: "Comic Relief";
 }
 
@@ -415,47 +435,115 @@ aside > p {
 }
 
 
-/* VOOR MOBIEL */
+/* VOOR HET MOBIELETJE */
 
-@media (max-width: 700px) {
+/* RESPONSIVE */
+
+@media (max-width: 1100px) {
 
     body {
         height: auto;
         min-height: 100vh;
-
         overflow: auto;
-    }
-
-    body > header {
-        width: 95%;
-
-        height: 4em;
-    }
-
-    body > header h1 {
-        font-size: 1.5em;
+        overflow-x: hidden;
     }
 
     #pagina {
+        width: 90%;
         flex-direction: column;
+        gap: 2em;
     }
 
     #links {
         width: 100%;
         flex-direction: column;
-        gap: 2em;
+        align-items: center;
+        gap: 3em;
+        padding: 2em;
     }
 
     #grotebox {
+        width: 16em;
+        min-width: 16em;
         height: 31em;
+    }
+
+    #midden {
+        width: 100%;
+        gap: 3em;
+        padding-top: 0;
+    }
+
+    #box1 {
+        width: 100%;
+        height: auto;
+        min-height: 15em;
+        padding: 2em;
+    }
+
+    #box1 p {
+        margin: 0;
+        padding: 0;
+        font-size: 1.1em;
+        line-height: 1.4;
+    }
+
+    #kleineboxen {
+        width: 100%;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    #box2,
+    #box3,
+    #box4 {
+        width: 100%;
+        height: 10em;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #camera,
+    #Monkey {
+        position: static;
+        width: 8em;
+        transform: none;
+    }
+
+    #plaat {
+        position: static;
+        width: 8em;
+        transform: none;
+        animation: spin-mobile 3s linear infinite;
     }
 
     aside {
         width: 100%;
+        min-height: auto;
+        padding: 1.5em;
+        gap: 2em;
     }
 
-    #kleineboxen {
-        flex-direction: column;
+    #sidebox1,
+    #sidebox2,
+    #sidebox3 {
+        width: 100%;
+        height: auto;
+        min-height: 7em;
+    }
+}
+
+
+@keyframes spin-mobile {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
     }
 
 }
@@ -465,7 +553,9 @@ aside > p {
 
 .remark-slide-content img {
     width: 80px;
+
     object-fit: cover;
+
     margin: 2px;
 }
 
@@ -477,7 +567,10 @@ aside > p {
 
 .remark-slide-content #links {
     border: none;
+
     display: block;
+
     padding: 0;
+
     width: auto;
 }
