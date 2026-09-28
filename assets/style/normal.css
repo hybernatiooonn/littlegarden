@@ -194,7 +194,7 @@ body > header h1 {
     z-index: 7;
 }
 
-
+/*word niet gebruikt atm
 nav ul {
     list-style-type: none;
     display: grid;
@@ -220,7 +220,7 @@ nav ul li a:hover {
     background-color: var(--navulliahoverbackgroundcolor);
     transition: background-color 0.3s;
 }
-
+*/
 
 #midden {
     flex: 1;
@@ -250,7 +250,7 @@ nav ul li a:hover {
     font-size: 1.3em;
     line-height: 1.4;
     padding-right: 1em;
-    top: 1em;
+    top: 0em;
     left: 1em;
 }
 
@@ -355,35 +355,33 @@ aside {
     border-radius: 10px;
     padding: 1em;
     box-sizing: border-box;
-
     box-shadow: 0.4em 0.4em 0 var(--h1color);
-
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 
 #sidebox2 {
     height: 7em;
-
     background-color: var(--beige2bordercolor);
-
     border-radius: 10px;
-
     padding: 1em;
-
     box-sizing: border-box;
 }
 
 
 #sidebox3 {
     height: 3.5em;
-
     background-color: var(--beige2bordercolor);
-
     border-radius: 10px;
-
     padding: 1em;
+    box-sizing: border-box;
+}
 
+#sidebox4 {
+    height: 3.5em;
+    background-color: var(--beige2bordercolor);
+    border-radius: 10px;
+    padding: 0em;
     box-sizing: border-box;
 }
 
@@ -392,16 +390,17 @@ aside {
 
 #sidebox1,
 #sidebox2,
-#sidebox3 {
+#sidebox3,
+#sidebox4 {
     box-shadow: 0.4em 0.4em 0 var(--h1color);
-
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 
 #sidebox1:hover,
 #sidebox2:hover,
-#sidebox3:hover {
+#sidebox3:hover,
+#sidebox4:hover {
     transform: translateY(-0.4em) rotate(-1deg);
 
     box-shadow: 0.5em 0.5em 0 var(--mainbackgroundcolor);
@@ -411,11 +410,8 @@ aside {
 aside > p {
     margin-top: auto;
     margin-bottom: 0;
-
     text-align: center;
-
     color: var(--h1color);
-
     font-family: "Comic Relief";
 }
 
@@ -436,8 +432,6 @@ aside > p {
 
 
 /* VOOR HET MOBIELETJE */
-
-/* RESPONSIVE */
 
 @media (max-width: 1100px) {
 
@@ -499,7 +493,6 @@ aside > p {
     #box4 {
         width: 100%;
         height: 10em;
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -553,9 +546,7 @@ aside > p {
 
 .remark-slide-content img {
     width: 80px;
-
     object-fit: cover;
-
     margin: 2px;
 }
 
@@ -565,12 +556,9 @@ aside > p {
 }
 
 
-.remark-slide-content #links {
+.remark-slide-content #links { /*moest aan ai vragen hoe ik de border weg haalde omdat vscode de links in mijn css van de website  verwarde met die van de presentatie*/
     border: none;
-
     display: block;
-
     padding: 0;
-
     width: auto;
 }
