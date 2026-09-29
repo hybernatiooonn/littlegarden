@@ -4,70 +4,48 @@
 }
 
 @font-face {
-    font-family: "Betty Noir";
-    src: url("../type/bettynoir.ttf");
-}
-
-@font-face {
-    font-family: "Lemon Drop";
-    src: url("../type/Lemondrop.ttf");
-}
-
-@font-face {
     font-family: "Bravibe";
     src: url("../type/BravibeRegular-OGW9o.otf");
 }
 
+/* COLORS */
 
 html {
     color-scheme: light-dark;
-
     --bodycolor: rgb(120, 55, 33);
     --h1color: light-dark(rgb(44, 28, 20), rgb(230, 210, 180));
-    --bordercolor: rgba(94, 66, 42, 0.9);
     --mainbackgroundcolor: rgb(245, 231, 209);
     --navulliabackgroundcolor: rgb(221, 196, 168);
-    --navulliabordercolor: rgb(146, 105, 70);
-    --navulliahoverbackgroundcolor: rgb(200, 170, 135);
-    --headercolor: rgb(82, 34, 18);
     --blacktext: rgb(0, 0, 0);
-    --color-bg-light: rgb(181, 156, 131);
-    --color-bg-dark: rgb(75, 59, 43);
-    --beigebordercolor: rgb(42, 24, 6);
     --beigeborderlight: rgb(42, 24, 6);
     --beige2bordercolor: rgb(208, 180, 151);
-
-    --background: light-dark(
-        var(--color-bg-light),
-        var(--color-bg-dark)
-    );
+    --fontcolor: rgb(255, 255, 255);
 }
 
+/* BODY */
 
 body {
     margin: 0;
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     background: radial-gradient(
         circle,
         var(--navulliabackgroundcolor) 0%,
         var(--beige2bordercolor) 10%,
         var(--beigeborderlight) 100%
     );
-
     color: var(--bodycolor);
     overflow: hidden;
 }
 
+/* HEADER */
 
-body > header {
+header {
     width: 95%;
     height: 4.5em;
-    border: 2.5px solid var(--h1color);
+    border: 2.8px solid var(--h1color);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -76,16 +54,48 @@ body > header {
     box-sizing: border-box;
 }
 
-
-body > header h1 {
-    margin: 0;
+header h1 {
     margin-left: 1em;
-    padding-top: 0.5em;
     color: var(--beige2bordercolor);
-    font-family: "Bravibe", "Comic Relief", serif;
+    font-family: "Bravibe";
     font-size: 1.6em;
+    white-space: nowrap;
 }
 
+/* NAVIGATION */
+
+nav {
+    flex: 1;
+    height: 100%;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 2em;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    color: var(--beige2bordercolor);
+    text-decoration: none;
+    font-family: "Bravibe";
+    font-size: 1.3em;
+    transition: color 0.2s, transform 0.2s;
+}
+
+nav a:hover {
+    color: var(--fontcolor);
+    transform: translateY(-0.15em);
+}
+
+/* PAGE */
 
 #pagina {
     width: 95%;
@@ -97,11 +107,13 @@ body > header h1 {
     box-sizing: border-box;
 }
 
+/* BIG LEFT BOX */
 
 #links {
     flex: 1;
+    min-width: 0;
     min-height: 0;
-    border: 2.5px solid var(--h1color);
+    border: 2.8px solid var(--h1color);
     border-radius: 10px;
     display: flex;
     gap: 8em;
@@ -109,6 +121,7 @@ body > header h1 {
     box-sizing: border-box;
 }
 
+/* COLLAGE */
 
 #grotebox {
     position: relative;
@@ -116,7 +129,6 @@ body > header h1 {
     min-width: 16em;
     height: 100%;
 }
-
 
 #musicnote {
     position: absolute;
@@ -126,7 +138,6 @@ body > header h1 {
     z-index: 1;
 }
 
-
 #browntext {
     position: absolute;
     top: 20em;
@@ -134,7 +145,6 @@ body > header h1 {
     width: 11em;
     z-index: 1;
 }
-
 
 #beigeback {
     position: absolute;
@@ -145,7 +155,6 @@ body > header h1 {
     z-index: 1;
 }
 
-
 #piano {
     position: absolute;
     top: 17.5em;
@@ -155,7 +164,6 @@ body > header h1 {
     opacity: 90%;
     z-index: 8;
 }
-
 
 #pin {
     position: absolute;
@@ -173,7 +181,6 @@ body > header h1 {
     z-index: 7;
 }
 
-
 #lace {
     position: absolute;
     top: 4em;
@@ -184,8 +191,6 @@ body > header h1 {
     z-index: 0;
 }
 
-
-
 #me {
     position: absolute;
     top: 6em;
@@ -194,33 +199,7 @@ body > header h1 {
     z-index: 7;
 }
 
-/*word niet gebruikt atm
-nav ul {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    padding: 0;
-    margin: 0;
-}
-
-
-nav ul li a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    background-color: var(--navulliabackgroundcolor);
-    border: 1px solid var(--navulliabordercolor);
-    padding: 0.5em 1em;
-    color: rgb(82, 34, 18);
-}
-
-
-nav ul li a:hover {
-    background-color: var(--navulliahoverbackgroundcolor);
-    transition: background-color 0.3s;
-}
-*/
+/* MIDDLE */
 
 #midden {
     flex: 1;
@@ -231,9 +210,10 @@ nav ul li a:hover {
     padding-top: 1em;
 }
 
+/* TEXT BOX */
 
 #box1 {
-    font-family: Bravibe;
+    font-family: "Bravibe";
     width: 100%;
     height: 15em;
     background-color: var(--beige2bordercolor);
@@ -243,17 +223,19 @@ nav ul li a:hover {
     box-shadow: 0.4em 0.4em 0 var(--h1color);
 }
 
-
 #box1 p {
     position: relative;
+    margin: 0;
     color: var(--h1color);
     font-size: 1.3em;
+    font-family: "Bravibe";
     line-height: 1.4;
     padding-right: 1em;
-    top: 0em;
+    top: 1em;
     left: 1em;
 }
 
+/* SMALL ICON BOXES */
 
 #kleineboxen {
     width: 100%;
@@ -261,16 +243,15 @@ nav ul li a:hover {
     gap: 1em;
 }
 
-
-#box2 {
+#box2,
+#box3,
+#box4 {
     position: relative;
-    font-family: Bravibe;
     flex: 1;
     height: 8em;
     padding: 2em;
     box-sizing: border-box;
 }
-
 
 #camera {
     position: absolute;
@@ -280,17 +261,6 @@ nav ul li a:hover {
     transform: translate(-50%, -50%);
     transition: scale 0.3s, filter 0.3s;
 }
-
-
-#box3 {
-    position: relative;
-    font-family: Bravibe;
-    flex: 1;
-    height: 8em;
-    padding: 2em;
-    box-sizing: border-box;
-}
-
 
 #plaat {
     position: absolute;
@@ -302,17 +272,6 @@ nav ul li a:hover {
     transition: scale 0.3s, filter 0.3s;
 }
 
-
-#box4 {
-    position: relative;
-    font-family: Bravibe;
-    flex: 1;
-    height: 8em;
-    padding: 2em;
-    box-sizing: border-box;
-}
-
-
 #Monkey {
     position: absolute;
     top: 50%;
@@ -321,7 +280,6 @@ nav ul li a:hover {
     transform: translate(-50%, -50%);
     transition: scale 0.3s, filter 0.3s;
 }
-
 
 #plaat:hover,
 #Monkey:hover,
@@ -332,94 +290,57 @@ nav ul li a:hover {
         drop-shadow(0 0 1.5em var(--mainbackgroundcolor));
 }
 
+/* ASIDE */
 
 aside {
     width: 25%;
+    min-width: 0;
     min-height: 0;
-    border: 2.5px solid var(--h1color);
+    border: 2.8px solid var(--h1color);
     border-radius: 10px;
-    padding: 1.3em;
-    padding-top: 5em;
-    padding-right: 1.3em;
-    padding-left: 1.3em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 0.6em;
     box-sizing: border-box;
 }
 
-
-#sidebox1 {
-    height: 9em;
-    background-color: var(--beige2bordercolor);
-    border-radius: 10px;
-    padding: 1em;
-    box-sizing: border-box;
-    box-shadow: 0.4em 0.4em 0 var(--h1color);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-
-#sidebox2 {
-    height: 7em;
-    background-color: var(--beige2bordercolor);
-    border-radius: 10px;
-    padding: 1em;
-    box-sizing: border-box;
-}
-
-
-#sidebox3 {
-    height: 3.5em;
-    background-color: var(--beige2bordercolor);
-    border-radius: 10px;
-    padding: 1em;
-    box-sizing: border-box;
-}
-
-#sidebox4 {
-    height: 3.5em;
-    background-color: var(--beige2bordercolor);
-    border-radius: 10px;
-    padding: 0em;
-    box-sizing: border-box;
-}
-
-
-/* dit had ik bij samir gezien en vond ik heeelll cool */
+/* SIDE PHOTO BOXES */
 
 #sidebox1,
 #sidebox2,
 #sidebox3,
 #sidebox4 {
-    box-shadow: 0.4em 0.4em 0 var(--h1color);
-    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    height: 8em;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 3px solid white;
+    background-color: var(--h1color);
 }
 
-
-#sidebox1:hover,
-#sidebox2:hover,
-#sidebox3:hover,
-#sidebox4:hover {
-    transform: translateY(-0.4em) rotate(-1deg);
-
-    box-shadow: 0.5em 0.5em 0 var(--mainbackgroundcolor);
+#sidebox1 img,
+#sidebox2 img,
+#sidebox3 img,
+#sidebox4 img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
+/* COPYRIGHT */
 
-aside > p {
+aside p {
     margin-top: auto;
-    margin-bottom: 0;
+    margin-bottom: 0.3em;
     text-align: center;
     color: var(--h1color);
     font-family: "Comic Relief";
 }
 
-
-/* ANIMATIONNNNN */
+/* VINYL ANIMATION */
 
 @keyframes spin {
-
     from {
         transform: translate(-50%, -50%) rotate(0deg);
     }
@@ -427,19 +348,43 @@ aside > p {
     to {
         transform: translate(-50%, -50%) rotate(360deg);
     }
-
 }
 
-
-/* VOOR HET MOBIELETJE */
+/* MOBILE */
 
 @media (max-width: 1100px) {
-
     body {
         height: auto;
         min-height: 100vh;
         overflow: auto;
         overflow-x: hidden;
+    }
+
+    header {
+        width: 90%;
+        height: auto;
+        padding: 1em;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    header h1 {
+        margin-left: 0;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        padding: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5em;
+    }
+
+    nav a {
+        font-size: 1.1em;
     }
 
     #pagina {
@@ -457,8 +402,6 @@ aside > p {
     }
 
     #grotebox {
-        width: 16em;
-        min-width: 16em;
         height: 31em;
     }
 
@@ -469,7 +412,6 @@ aside > p {
     }
 
     #box1 {
-        width: 100%;
         height: auto;
         min-height: 15em;
         padding: 2em;
@@ -478,12 +420,13 @@ aside > p {
     #box1 p {
         margin: 0;
         padding: 0;
+        top: 0;
+        left: 0;
         font-size: 1.1em;
         line-height: 1.4;
     }
 
     #kleineboxen {
-        width: 100%;
         flex-direction: column;
         gap: 2em;
     }
@@ -501,13 +444,11 @@ aside > p {
     #camera,
     #Monkey {
         position: static;
-        width: 8em;
         transform: none;
     }
 
     #plaat {
         position: static;
-        width: 8em;
         transform: none;
         animation: spin-mobile 3s linear infinite;
     }
@@ -515,22 +456,14 @@ aside > p {
     aside {
         width: 100%;
         min-height: auto;
-        padding: 1.5em;
-        gap: 2em;
-    }
-
-    #sidebox1,
-    #sidebox2,
-    #sidebox3 {
-        width: 100%;
-        height: auto;
-        min-height: 7em;
+        padding: 1em;
+        gap: 1em;
     }
 }
 
+/* MOBILE VINYL */
 
 @keyframes spin-mobile {
-
     from {
         transform: rotate(0deg);
     }
@@ -538,11 +471,9 @@ aside > p {
     to {
         transform: rotate(360deg);
     }
-
 }
 
-
-/* PRESENTATIE */
+/* PRESENTATION */
 
 .remark-slide-content img {
     width: 80px;
@@ -550,13 +481,11 @@ aside > p {
     margin: 2px;
 }
 
-
 .remark-slide-content {
     color: var(--blacktext);
 }
 
-
-.remark-slide-content #links { /*moest aan ai vragen hoe ik de border weg haalde omdat vscode de links in mijn css van de website  verwarde met die van de presentatie*/
+.remark-slide-content #links {
     border: none;
     display: block;
     padding: 0;
