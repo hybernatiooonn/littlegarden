@@ -206,7 +206,6 @@ nav a:hover {
 }
 
 
-
 #midden {
     flex: 1;
     min-width: 0;
@@ -215,7 +214,6 @@ nav a:hover {
     gap: 5em;
     padding-top: 1em;
 }
-
 
 
 #box1 {
@@ -238,7 +236,6 @@ nav a:hover {
     padding-right: 1em;
     left: 0.7em;
 }
-
 
 
 #kleineboxen {
@@ -288,7 +285,6 @@ nav a:hover {
 }
 
 
-
 #camera-link:hover #camera,
 #plaat-link:hover #plaat,
 #monkey-link:hover #Monkey {
@@ -297,9 +293,6 @@ nav a:hover {
         drop-shadow(0 0 0.8em var(--mainbackgroundcolor))
         drop-shadow(0 0 1.5em var(--mainbackgroundcolor));
 }
-
-
-
 
 
 #camera-link:focus-visible,
@@ -476,6 +469,8 @@ aside p {
         gap: 1em;
     }
 }
+
+
 
 
 @keyframes spin-mobile {
