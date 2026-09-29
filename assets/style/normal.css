@@ -18,6 +18,15 @@
     src: url("../type/Peachy\ Rebels.ttf");
 }
 
+@font-face {
+    font-family: "Stay";
+    src: url("../type/Stay\ With\ Me.otf");
+}
+
+@font-face {
+    font-family: "Bright";
+    src: url("../type/Bright\ Sunlist\ DEMO\ VERSION.ttf");
+}
 
 html {
     color-scheme: light-dark;
@@ -62,14 +71,6 @@ header {
     box-sizing: border-box;
 }
 
-header h1 {
-    margin-left: 1em;
-    color: var(--beige2bordercolor);
-    font-family: "Bravibe";
-    font-size: 1.6em;
-    white-space: nowrap;
-}
-
 
 
 nav {
@@ -81,19 +82,17 @@ nav ul {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0 2em;
-    box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 14em;
     list-style: none;
 }
-
 nav a {
     display: block;
     color: var(--beige2bordercolor);
     text-decoration: none;
-    font-family: "Bravibe";
+    font-family: "Bright";
     font-size: 1.7em;
     transition: color 0.2s, transform 0.2s;
 }
@@ -220,7 +219,6 @@ nav a:hover {
 
 
 #box1 {
-    font-family: "Bravibe";
     width: 100%;
     height: 15em;
     background-color: var(--beige2bordercolor);
@@ -235,11 +233,10 @@ nav a:hover {
     margin: 0;
     color: var(--h1color);
     font-size: 1.3em;
-    font-family: "Bravibe";
+    font-family: "Comic sans";
     line-height: 1.4;
     padding-right: 1em;
-    top: 1em;
-    left: 1em;
+    left: 0.7em;
 }
 
 
@@ -348,7 +345,7 @@ aside {
 }
 
 
-
+/* Ik had dit bij samir gezien en vond het wel leuk eruit zien dus ik heb het ook gedaan?? */
 aside p {
     margin-top: auto;
     margin-bottom: 0.3em;
