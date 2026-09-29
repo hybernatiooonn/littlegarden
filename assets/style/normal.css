@@ -15,29 +15,75 @@
 
 @font-face {
     font-family: "Peachy";
-    src: url("../type/Peachy\ Rebels.ttf");
+    src: url("../type/Peachy Rebels.ttf");
 }
 
 @font-face {
     font-family: "Stay";
-    src: url("../type/Stay\ With\ Me.otf");
+    src: url("../type/Stay With Me.otf");
 }
 
 @font-face {
     font-family: "Bright";
-    src: url("../type/Bright\ Sunlist\ DEMO\ VERSION.ttf");
+    src: url("../type/Bright Sunlist DEMO VERSION.ttf");
 }
 
+
 html {
-    color-scheme: light-dark;
+    color-scheme: light dark;
+
     --bodycolor: rgb(120, 55, 33);
-    --h1color: light-dark(rgb(44, 28, 20), rgb(230, 210, 180));
+
+    --h1color: light-dark(
+        rgb(44, 28, 20),
+        rgb(195, 174, 142)
+    );
+
     --mainbackgroundcolor: rgb(245, 231, 209);
+
     --navulliabackgroundcolor: rgb(221, 196, 168);
+
     --blacktext: rgb(0, 0, 0);
-    --beigeborderlight: rgb(42, 24, 6);
-    --beige2bordercolor: rgb(208, 180, 151);
+
+    --beigeborderlight: light-dark(
+        rgb(42, 24, 6),
+        rgb(198, 161, 125)
+    );
+
+    --headercolor: light-dark(
+        rgb(208, 180, 151),
+        rgb(198, 161, 125)
+    );
+
+    --navhovercolor: light-dark(
+        rgb(42, 24, 6),
+        rgb(245, 231, 209)
+    );
+
+    --beige2bordercolor: light-dark(
+        rgb(208, 180, 151),
+        rgb(49, 28, 5)
+    );
+
     --fontcolor: rgb(255, 255, 255);
+
+
+    /* LIGHT EN DARK MODE GRADIENT */
+
+    --gradient1: light-dark(
+        rgb(221, 196, 168),
+        rgb(85, 65, 50)
+    );
+
+    --gradient2: light-dark(
+        rgb(208, 180, 151),
+        rgb(65, 45, 34)
+    );
+
+    --gradient3: light-dark(
+        rgb(42, 24, 6),
+        rgb(35, 24, 10)
+    );
 }
 
 
@@ -47,16 +93,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     background: radial-gradient(
         circle,
-        var(--navulliabackgroundcolor) 0%,
-        var(--beige2bordercolor) 10%,
-        var(--beigeborderlight) 100%
+        var(--gradient1) 0%,
+        var(--gradient2) 10%,
+        var(--gradient3) 100%
     );
+
     color: var(--bodycolor);
     overflow: hidden;
 }
-
 
 
 header {
@@ -72,11 +119,11 @@ header {
 }
 
 
-
 nav {
     flex: 1;
     height: 100%;
 }
+
 
 nav ul {
     width: 100%;
@@ -88,17 +135,24 @@ nav ul {
     gap: 14em;
     list-style: none;
 }
+
+
 nav a {
     display: block;
-    color: var(--beige2bordercolor);
+    color: var(--headercolor);
     text-decoration: none;
     font-family: "Bright";
     font-size: 1.7em;
     transition: color 0.2s, transform 0.2s;
 }
 
+
 nav a:hover {
-    color: var(--beigeborderlight);
+    color: light-dark(
+        rgb(42, 24, 6),
+        rgb(245, 231, 209)
+    );
+
     transform: translateY(-0.15em);
 }
 
@@ -114,7 +168,6 @@ nav a:hover {
 }
 
 
-
 #links {
     flex: 1;
     min-width: 0;
@@ -128,13 +181,13 @@ nav a:hover {
 }
 
 
-
 #grotebox {
     position: relative;
     width: 16em;
     min-width: 16em;
     height: 100%;
 }
+
 
 #musicnote {
     position: absolute;
@@ -144,6 +197,7 @@ nav a:hover {
     z-index: 1;
 }
 
+
 #browntext {
     position: absolute;
     top: 20em;
@@ -151,6 +205,7 @@ nav a:hover {
     width: 11em;
     z-index: 1;
 }
+
 
 #beigeback {
     position: absolute;
@@ -160,6 +215,7 @@ nav a:hover {
     rotate: 90deg;
     z-index: 1;
 }
+
 
 #piano {
     position: absolute;
@@ -171,6 +227,7 @@ nav a:hover {
     z-index: 8;
 }
 
+
 #pin {
     position: absolute;
     top: -1.5em;
@@ -179,6 +236,7 @@ nav a:hover {
     z-index: 4;
 }
 
+
 #cutebow {
     position: absolute;
     top: 4em;
@@ -186,6 +244,7 @@ nav a:hover {
     width: 6em;
     z-index: 7;
 }
+
 
 #lace {
     position: absolute;
@@ -196,6 +255,7 @@ nav a:hover {
     opacity: 85%;
     z-index: 0;
 }
+
 
 #me {
     position: absolute;
@@ -226,6 +286,7 @@ nav a:hover {
     box-shadow: 0.4em 0.4em 0 var(--h1color);
 }
 
+
 #box1 p {
     position: relative;
     margin: 0;
@@ -244,6 +305,7 @@ nav a:hover {
     gap: 1em;
 }
 
+
 #camera-link,
 #plaat-link,
 #monkey-link {
@@ -256,6 +318,7 @@ nav a:hover {
     text-decoration: none;
 }
 
+
 #camera {
     position: absolute;
     top: 50%;
@@ -264,6 +327,7 @@ nav a:hover {
     transform: translate(-50%, -50%);
     transition: scale 0.3s, filter 0.3s;
 }
+
 
 #plaat {
     position: absolute;
@@ -274,6 +338,7 @@ nav a:hover {
     animation: spin 3s linear infinite;
     transition: scale 0.3s, filter 0.3s;
 }
+
 
 #Monkey {
     position: absolute;
@@ -289,6 +354,7 @@ nav a:hover {
 #plaat-link:hover #plaat,
 #monkey-link:hover #Monkey {
     scale: 1.15;
+
     filter:
         drop-shadow(0 0 0.8em var(--mainbackgroundcolor))
         drop-shadow(0 0 1.5em var(--mainbackgroundcolor));
@@ -328,6 +394,7 @@ aside {
     background-color: var(--h1color);
 }
 
+
 #sidebox1 img,
 #sidebox2 img,
 #sidebox3 img,
@@ -339,6 +406,7 @@ aside {
 
 
 /* Ik had dit bij samir gezien en vond het wel leuk eruit zien dus ik heb het ook gedaan?? */
+
 aside p {
     margin-top: auto;
     margin-bottom: 0.3em;
@@ -347,9 +415,11 @@ aside p {
     font-family: "Comic Relief";
 }
 
+
 /* ANIMATIONNNNNN */
 
 @keyframes spin {
+
     from {
         transform: translate(-50%, -50%) rotate(0deg);
     }
@@ -357,17 +427,21 @@ aside p {
     to {
         transform: translate(-50%, -50%) rotate(360deg);
     }
+
 }
+
 
 /* MOBILIELTJUHHH */
 
 @media (max-width: 1100px) {
+
     body {
         height: auto;
         min-height: 100vh;
         overflow: auto;
         overflow-x: hidden;
     }
+
 
     header {
         width: 90%;
@@ -377,30 +451,35 @@ aside p {
         gap: 1em;
     }
 
+
     header h1 {
         margin-left: 0;
     }
+
 
     nav {
         width: 100%;
     }
 
+
     nav ul {
-        padding: 0;
         justify-content: center;
         flex-wrap: wrap;
         gap: 1.5em;
     }
 
+
     nav a {
         font-size: 1.1em;
     }
+
 
     #pagina {
         width: 90%;
         flex-direction: column;
         gap: 2em;
     }
+
 
     #links {
         width: 100%;
@@ -410,15 +489,17 @@ aside p {
         padding: 2em;
     }
 
+
     #grotebox {
         height: 31em;
     }
 
+
     #midden {
         width: 100%;
         gap: 3em;
-        padding-top: 0;
     }
+
 
     #box1 {
         height: auto;
@@ -426,19 +507,18 @@ aside p {
         padding: 2em;
     }
 
-    #box1 p {
-        margin: 0;
-        padding: 0;
-        top: 0;
-        left: 0;
+
+    #box1 p {s
         font-size: 1.1em;
         line-height: 1.4;
     }
+
 
     #kleineboxen {
         flex-direction: column;
         gap: 2em;
     }
+
 
     #camera-link,
     #plaat-link,
@@ -450,17 +530,18 @@ aside p {
         align-items: center;
     }
 
+
     #camera,
     #Monkey {
         position: static;
-        transform: none;
     }
+
 
     #plaat {
         position: static;
-        transform: none;
         animation: spin-mobile 3s linear infinite;
     }
+
 
     aside {
         width: 100%;
@@ -468,12 +549,14 @@ aside p {
         padding: 1em;
         gap: 1em;
     }
+
 }
 
 
-
+/* MOBILE VINYL */
 
 @keyframes spin-mobile {
+
     from {
         transform: rotate(0deg);
     }
@@ -481,22 +564,32 @@ aside p {
     to {
         transform: rotate(360deg);
     }
+
 }
 
+
+/* PRESENTATION */
 
 .remark-slide-content img {
     width: 80px;
+
     object-fit: cover;
+
     margin: 2px;
 }
+
 
 .remark-slide-content {
     color: var(--blacktext);
 }
 
+
 .remark-slide-content #links {
     border: none;
+
     display: block;
+
     padding: 0;
+
     width: auto;
 }
