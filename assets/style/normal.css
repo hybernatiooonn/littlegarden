@@ -282,7 +282,7 @@ nav a:hover {
     height: 15em;
     background-color: var(--beige2bordercolor);
     border-radius: 10px;
-    padding: 1em;
+    padding: 2em;
     box-sizing: border-box;
     box-shadow: 0.4em 0.4em 0 var(--h1color);
 }
@@ -292,7 +292,7 @@ nav a:hover {
     position: relative;
     margin: 0;
     color: var(--h1color);
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: "Comic sans";
     line-height: 1.4;
     padding-right: 1em;
@@ -554,8 +554,6 @@ aside p {
 }
 
 
-/* MOBILE VINYL */
-
 @keyframes spin-mobile {
 
     from {
@@ -569,9 +567,7 @@ aside p {
 }
 
 
-
-
-#cookie-dialog {
+dialog {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -588,15 +584,13 @@ aside p {
     z-index: 1000;
 }
 
-
-#cookie-dialog h2 {
+dialog h2 {
     margin-top: 0;
     font-size: 3em;
     font-family: "Bravibe";
 }
 
-
-#cookie-dialog p {
+dialog p {
     font-size: 2em;
     line-height: 1.4;
     margin-top: 1.5em;
@@ -605,15 +599,13 @@ aside p {
     font-family: "Comic sans";
 }
 
-
-#cookie-dialog form {
+dialog form {
     display: flex;
     justify-content: center;
     gap: 5em;
 }
 
-
-#cookie-dialog button {
+dialog button {
     padding: 2em 3em;
     border: none;
     border-radius: 15px;
@@ -624,8 +616,7 @@ aside p {
     transition: transform 0.2s;
 }
 
-
-#cookie-dialog button:hover {
+dialog button:hover {
     transform: translateY(-0.5em);
 }
 
@@ -633,9 +624,7 @@ aside p {
 
 .remark-slide-content img {
     width: 80px;
-
     object-fit: cover;
-
     margin: 2px;
 }
 
@@ -647,10 +636,6 @@ aside p {
 
 .remark-slide-content #links {
     border: none;
-
     display: block;
-
-    padding: 0;
-
     width: auto;
 }
