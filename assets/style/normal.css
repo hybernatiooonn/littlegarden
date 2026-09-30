@@ -853,7 +853,6 @@ aside footer {
 
     #kleineboxen {
         flex-direction: column;
-
         gap: 2em;
     }
 
@@ -862,59 +861,45 @@ aside footer {
     #monkey-link {
         width: 100%;
         height: 10em;
-
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
 
-    /* CAMERA */
+
 
     #camera {
         position: static;
-
         width: 8em;
-
         transform: none;
     }
 
 
-    /* MONKEY */
 
     #Monkey {
         position: static;
-
         width: 8em;
-
         transform: none;
     }
 
 
-    /* PLAAT */
 
     #plaat {
         position: static;
-
         width: 8em;
-
-        animation:
-            spin-mobile 3s linear infinite;
+        animation: spin-mobile 3s linear infinite;
     }
 
 
-    /* ASIDE */
+    /* ASIDE BOXES */
 
     aside {
         flex: none;
-
         width: 100%;
-
         min-width: 0;
         min-height: auto;
-
         padding: 1em;
-
         gap: 1em;
     }
 
@@ -946,81 +931,51 @@ aside footer {
 
 dialog {
     position: fixed;
-
     top: 50%;
     left: 50%;
-
-    transform:
-        translate(-50%, -50%);
-
+    transform:  translate(-50%, -50%);
     width: 75%;
     height: 68%;
-
     padding: 3em;
-
     box-sizing: border-box;
-
-    background-color:
-        var(--beige2bordercolor);
-
-    color:
-        var(--h1color);
-
-    border:
-        0.7em solid var(--h1color);
-
+    background-color:  var(--beige2bordercolor);
+    color: var(--h1color);
+    border:  0.7em solid var(--h1color);
     border-radius: 30px;
-
     text-align: center;
-
     z-index: 1000;
 }
 
 dialog h2 {
     margin-top: 0;
-
     font-size: 3em;
-
     font-family: "Bravibe";
 }
 
 dialog p {
-    font-size: 2em;
-
+    font-size: 1.5em;
     line-height: 1.4;
-
     margin-top: 1.5em;
     margin-left: 3em;
     margin-right: 3em;
-
     font-family: "Comic sans";
 }
 
 dialog form {
     display: flex;
-
     justify-content: center;
-
     gap: 5em;
 }
 
 dialog button {
     padding: 2em 3em;
-
     border: none;
     border-radius: 15px;
-
-    background-color:
-        var(--h1color);
-
-    color:
-        var(--beige2bordercolor);
-
+    background-color: var(--h1color);
+    color: var(--beige2bordercolor);
     font-family: "Comic Relief";
     font-size: 1em;
-
-    transition:
-        transform 0.2s;
+    transition: transform 0.2s;
 }
 
 dialog button:hover {
@@ -1035,31 +990,22 @@ dialog button:hover {
 
     dialog {
         width: 90%;
-
         height: auto;
         max-height: 90vh;
-
         padding: 1.5em;
-
-        border:
-            0.4em solid var(--h1color);
-
+        border: 0.4em solid var(--h1color);
         border-radius: 25px;
-
         overflow-y: auto;
     }
 
     dialog h2 {
         margin-top: 0;
-
         font-size: 2em;
     }
 
     dialog p {
         font-size: 1.1em;
-
         line-height: 1.4;
-
         margin-top: 1em;
         margin-left: 0;
         margin-right: 0;
@@ -1071,7 +1017,6 @@ dialog button:hover {
 
     dialog button {
         padding: 1em 1.5em;
-
         font-size: 1em;
     }
 }
@@ -1081,9 +1026,7 @@ dialog button:hover {
 
 .remark-slide-content img {
     width: 80px;
-
     object-fit: cover;
-
     margin: 2px;
 }
 
@@ -1093,8 +1036,6 @@ dialog button:hover {
 
 .remark-slide-content #links {
     border: none;
-
     display: block;
-
     width: auto;
 }
