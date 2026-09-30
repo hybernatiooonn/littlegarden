@@ -35,7 +35,6 @@ html {
     color-scheme: light dark;
 
     --bodycolor: rgb(120, 55, 33);
-
     --h1color: light-dark(
         rgb(44, 28, 20),
         rgb(195, 174, 142)
@@ -92,11 +91,9 @@ html {
 body {
     margin: 0;
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     background: radial-gradient(
         circle,
         var(--gradient1) 0%,
@@ -114,16 +111,12 @@ body {
 header {
     width: 95%;
     height: 4.5em;
-
     border: 2.8px solid var(--h1color);
     border-radius: 10px;
-
     display: flex;
     align-items: center;
-
     margin-top: 1em;
     margin-bottom: 1em;
-
     box-sizing: border-box;
 }
 
@@ -138,18 +131,13 @@ nav {
 nav ul {
     width: 100%;
     height: 100%;
-
     margin: 0;
     padding: 0 2em;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 1em;
-
     list-style: none;
-
     box-sizing: border-box;
 }
 
@@ -159,14 +147,10 @@ nav li {
 
 nav a {
     display: block;
-
     color: var(--headercolor);
-
     text-decoration: none;
-
     font-family: "Bright";
     font-size: 1.7em;
-
     transition:
         color 0.2s,
         transform 0.2s;
@@ -186,16 +170,11 @@ nav a:hover {
 
 #pagina {
     width: 95%;
-
     flex: 1;
     min-height: 0;
-
     display: flex;
-
     gap: 1.5em;
-
     margin-bottom: 1em;
-
     box-sizing: border-box;
 }
 
@@ -204,19 +183,13 @@ nav a:hover {
 
 #links {
     flex: 1 1 auto;
-
     min-width: 0;
     min-height: 0;
-
     border: 2.8px solid var(--h1color);
     border-radius: 10px;
-
     display: flex;
-
     gap: 3em;
-
     padding: 3em;
-
     box-sizing: border-box;
 }
 
@@ -225,9 +198,7 @@ nav a:hover {
 
 #grotebox {
     position: relative;
-
     flex: 0 1 16em;
-
     width: 16em;
     min-width: 13em;
     height: 100%;
@@ -238,99 +209,70 @@ nav a:hover {
 
 #musicnote {
     position: absolute;
-
     top: 24em;
     left: 8em;
-
     width: 10em;
-
     z-index: 1;
 }
 
 #browntext {
     position: absolute;
-
     top: 20em;
     left: -1em;
-
     width: 11em;
-
     z-index: 1;
 }
 
 #beigeback {
     position: absolute;
-
     top: 8em;
     left: -2.5em;
-
     width: 23em;
-
     rotate: 90deg;
-
     z-index: 1;
 }
 
 #piano {
     position: absolute;
-
     top: 17.5em;
     left: 5.4em;
-
     width: 7.5em;
-
     rotate: 90deg;
-
     opacity: 90%;
-
     z-index: 8;
 }
 
 #pin {
     position: absolute;
-
     top: -1.5em;
     left: 8em;
-
     width: 7em;
-
     z-index: 4;
 }
 
 #cutebow {
     position: absolute;
-
     top: 4em;
     left: 12em;
-
     width: 6em;
-
     z-index: 7;
 }
 
 #lace {
     position: absolute;
-
     top: 4em;
     left: -2em;
-
     width: 14em;
-
     rotate: 90deg;
-
     opacity: 85%;
-
     z-index: 0;
 }
 
 #me {
     position: absolute;
-
     top: 6em;
     left: 3em;
-
     width: 12em;
-
     z-index: 7;
 }
 
@@ -339,14 +281,10 @@ nav a:hover {
 
 #midden {
     flex: 1 1 18em;
-
     min-width: 0;
-
     display: flex;
     flex-direction: column;
-
     gap: 5em;
-
     padding-top: 1em;
 }
 
@@ -355,29 +293,20 @@ nav a:hover {
 
 #box1 {
     width: 100%;
-
     height: auto;
     min-height: 15em;
-
     background-color: var(--beige2bordercolor);
-
     border-radius: 10px;
-
     padding: 2em;
-
     box-sizing: border-box;
-
     box-shadow:
         0.4em 0.4em 0 var(--h1color);
 }
 
 #box1 h1 {
     position: relative;
-
     top: -1em;
-
     color: var(--bodycolor);
-
     font-family: "Bravibe";
     font-size: 2.2em;
 }
@@ -385,12 +314,9 @@ nav a:hover {
 #box1 p {
     position: relative;
     bottom: 2em;
-
     color: var(--h1color);
-
     font-size: 1.1em;
     font-family: "Comic sans";
-
     line-height: 1.4;
 }
 
@@ -399,9 +325,7 @@ nav a:hover {
 
 #kleineboxen {
     width: 100%;
-
     display: flex;
-
     gap: 1em;
 }
 
@@ -409,19 +333,12 @@ nav a:hover {
 #plaat-link,
 #monkey-link {
     position: relative;
-
     flex: 1 1 0;
-
     min-width: 0;
-
     height: 8em;
-
     padding: 2em;
-
     box-sizing: border-box;
-
     display: block;
-
     text-decoration: none;
 }
 
@@ -430,12 +347,9 @@ nav a:hover {
 
 #camera {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
     width: 8em;
-
     transform:
         translate(-50%, -50%);
 
@@ -449,14 +363,10 @@ nav a:hover {
 
 #plaat {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
     width: 8em;
-
     z-index: 2;
-
     animation:
         spin 3s linear infinite;
 
@@ -470,12 +380,9 @@ nav a:hover {
 
 #Monkey {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
     width: 8em;
-
     transform:
         translate(-50%, -50%);
 
@@ -509,7 +416,6 @@ nav a:hover {
 #monkey-link:focus-visible {
     outline:
         3px solid var(--mainbackgroundcolor);
-
     border-radius: 10px;
 }
 
@@ -518,20 +424,14 @@ nav a:hover {
 
 aside {
     flex: 0 1 25%;
-
     min-width: 12em;
     min-height: 0;
-
     border: 2.8px solid var(--h1color);
     border-radius: 10px;
-
     padding: 1em;
-
     display: flex;
     flex-direction: column;
-
     gap: 0.6em;
-
     box-sizing: border-box;
 }
 
@@ -544,11 +444,8 @@ aside {
 #sidebox4 {
     width: 100%;
     height: 8em;
-
     overflow: hidden;
-
     box-sizing: border-box;
-
     background-color: var(--h1color);
 }
 
@@ -561,9 +458,7 @@ aside {
 #sidebox4 img {
     width: 100%;
     height: 100%;
-
     display: block;
-
     object-fit: cover;
 }
 
@@ -573,13 +468,9 @@ aside {
 aside footer {
     margin-top: auto;
     margin-bottom: 0.3em;
-
     font-size: 1.1em;
-
     text-align: center;
-
     color: var(--beige2bordercolor);
-
     font-family: "Bravibe";
 }
 
@@ -623,7 +514,7 @@ aside footer {
     }
 
     #box1 p {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     #camera,
@@ -646,7 +537,6 @@ aside footer {
     body {
         height: auto;
         min-height: 100vh;
-
         overflow: auto;
         overflow-x: hidden;
     }
@@ -669,9 +559,7 @@ aside footer {
 
     #pagina {
         width: 92%;
-
         flex-direction: column;
-
         gap: 1em;
     }
 
@@ -680,7 +568,6 @@ aside footer {
 
     #links {
         width: 100%;
-
         gap: 1em;
         padding: 1.5em;
     }
@@ -707,7 +594,7 @@ aside footer {
     }
 
     #box1 p {
-        font-size: 1.6em;
+        font-size: 1.5em;
         line-height: 1.4;
     }
 
@@ -741,7 +628,6 @@ aside footer {
     body {
         height: auto;
         min-height: 100vh;
-
         overflow: auto;
         overflow-x: hidden;
     }
@@ -751,13 +637,9 @@ aside footer {
 
     header {
         width: 90%;
-
         height: auto;
-
         padding: 1em;
-
         flex-direction: column;
-
         gap: 1em;
     }
 
@@ -770,11 +652,8 @@ aside footer {
 
     nav ul {
         justify-content: center;
-
         flex-wrap: wrap;
-
         gap: 1.5em;
-
         padding: 0;
     }
 
@@ -787,9 +666,7 @@ aside footer {
 
     #pagina {
         width: 90%;
-
         flex-direction: column;
-
         gap: 2em;
     }
 
@@ -798,12 +675,9 @@ aside footer {
 
     #links {
         width: 100%;
-
         flex-direction: column;
         align-items: center;
-
         gap: 3em;
-
         padding: 2em;
     }
 
@@ -812,10 +686,8 @@ aside footer {
 
     #grotebox {
         flex: none;
-
         width: 16em;
         min-width: 16em;
-
         height: 31em;
     }
 
@@ -824,9 +696,7 @@ aside footer {
 
     #midden {
         flex: none;
-
         width: 100%;
-
         gap: 3em;
     }
 
@@ -835,15 +705,12 @@ aside footer {
 
     #box1 {
         height: auto;
-
         min-height: 15em;
-
         padding: 2em;
     }
 
     #box1 p {
-        font-size: 1.8em;
-
+        font-size: 1.6em;
         line-height: 1.4;
     }
 
@@ -852,7 +719,6 @@ aside footer {
 
     #kleineboxen {
         flex-direction: column;
-
         gap: 2em;
     }
 
@@ -861,7 +727,6 @@ aside footer {
     #monkey-link {
         width: 100%;
         height: 10em;
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -872,9 +737,7 @@ aside footer {
 
     #camera {
         position: static;
-
         width: 8em;
-
         transform: none;
     }
 
@@ -883,9 +746,7 @@ aside footer {
 
     #Monkey {
         position: static;
-
         width: 8em;
-
         transform: none;
     }
 
@@ -894,9 +755,7 @@ aside footer {
 
     #plaat {
         position: static;
-
         width: 8em;
-
         animation:
             spin-mobile 3s linear infinite;
     }
@@ -906,14 +765,10 @@ aside footer {
 
     aside {
         flex: none;
-
         width: 100%;
-
         min-width: 0;
         min-height: auto;
-
         padding: 1em;
-
         gap: 1em;
     }
 
@@ -945,20 +800,15 @@ aside footer {
 
 dialog {
     position: fixed;
-
     top: 50%;
     left: 50%;
-
     transform:
         translate(-50%, -50%);
 
     width: 75%;
     height: 68%;
-
     padding: 3em;
-
     box-sizing: border-box;
-
     background-color:
         var(--beige2bordercolor);
 
@@ -967,48 +817,36 @@ dialog {
 
     border:
         0.7em solid var(--h1color);
-
     border-radius: 30px;
-
     text-align: center;
-
     z-index: 1000;
 }
 
 dialog h2 {
     margin-top: 0;
-
     font-size: 3em;
-
     font-family: "Bravibe";
 }
 
 dialog p {
     font-size: 2em;
-
     line-height: 1.4;
-
     margin-top: 1.5em;
     margin-left: 3em;
     margin-right: 3em;
-
     font-family: "Comic sans";
 }
 
 dialog form {
     display: flex;
-
     justify-content: center;
-
     gap: 5em;
 }
 
 dialog button {
     padding: 2em 3em;
-
     border: none;
     border-radius: 15px;
-
     background-color:
         var(--h1color);
 
@@ -1017,7 +855,6 @@ dialog button {
 
     font-family: "Comic Relief";
     font-size: 1em;
-
     transition:
         transform 0.2s;
 }
@@ -1032,9 +869,7 @@ dialog button:hover {
 
 .remark-slide-content img {
     width: 80px;
-
     object-fit: cover;
-
     margin: 2px;
 }
 
@@ -1044,8 +879,6 @@ dialog button:hover {
 
 .remark-slide-content #links {
     border: none;
-
     display: block;
-
     width: auto;
 }
