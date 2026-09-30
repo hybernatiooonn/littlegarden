@@ -4,7 +4,7 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-# 23 september -
+# 22 september -
 
 # 18 september [Deepdive light&Dark] + Feedback verwerken -
 
