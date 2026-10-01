@@ -12,17 +12,20 @@ Checkout:
 
 # 22 september -
 
-# 18 september [Deepdive light&Dark] + Feedback verwerken -
+## 18 september [Deepdive light & Dark] + Feedback verwerken -
 
-Later vandaag heb ik gezeten met de docent en student assistend voor feedback en die heb ik uiteindelijk gekregen.
-
-## Feedback van Charley en Samih:
-
+<details>
+<summary><strong>Feedback van Charley en Samih:</summary></strong>
+Vandaag heb ik gezeten met de docent en student assistend voor feedback en die heb ik uiteindelijk gekregen.
 ''Je hebt veel ideeën en bent ook een eind gekomen met jouw Digital Garden. Het is wel belangrijker dat je jouw Learning Log beter gaat bijhouden (en er ook afbeeldingen met beschrijvingen bij zet) en ook de Deep Dives gaat doen en gaat vastleggen. Een deel heb je al wel gedaan maar dat kan ik nu niet zien vanwege het merge conflict. Trek hiervoor maandag even een studentassistent aan diens jasje. Ga zo door!
 
--Charley en Semih''
+<strong> Feedback Charley en Semih</strong>
 
-Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback. Ik heb de issue met mijn website kunnen fixen en mijn oude coden terug kunnen zetten. het syncen is mij nog steeds niet gelukt maar daar ga ik maandag met een student assistent mee zitten. Ik heb als feedback dan eigenlijk alleen gekregen om de deepdive van light en dark toch te doen en die heb ik ook gedaan + alle kleuren in mijn design properties geven want dat had ik eerst alleen nog bij mijn light en dark modus en niet met alle kleuren in mijn css.
+Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback. Ik heb de issue met mijn website kunnen fixen en mijn oude coden terug kunnen zetten omdat ik vast zit met een merge conflict. het syncen is mij nog steeds niet gelukt maar daar ga ik maandag met een student assistent mee zitten. Ik heb als feedback dan eigenlijk alleen gekregen om de deepdive van light en dark toch te doen en die heb ik ook gedaan + alle kleuren in mijn design properties geven want dat had ik eerst alleen nog bij mijn light en dark modus en niet met alle kleuren in mijn css.
+
+</details>
+
+<summary><strong>Deepdive Light&Dark</summary></strong>
 
 ## 8 september -
 
@@ -32,6 +35,42 @@ Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangep
 Ik heb de deepdive light & dark theme geprobeerd te volgen op DLO maar het is een beetje lastig nog. Ik zou het later nog een keer proberen.
 
 <summary><strong>Notities inhoud powerpoint</summary></strong>
+<strong>Hoe muzieksmaak zonder grenzen mij inspireert:</strong>
+
+-Muziek inspireert me juist omdat het niet bij één gevoel hoort. De bas van Kana-boon geeft me energie, klassieke Japanse muziek brengt rust, oldschool rap en R&B voelen vertrouwd. Elk genre kwam op zijn eigen manier mijn leven binnen via anime, tv, YouTube of gewoon bekendheid en dat stukje ontdekking draagt het nog steeds met zich mee. Met piano en straks hopelijk bas wil ik niet alleen luisteren, maar er zelf onderdeel van zijn. Daarom kent mijn muzieksmaak geen grenzen
+
+<strong>Inhoud:</strong>
+-Vandaag vertel ik waarom muziek zo belangrijk voor me is en waarom ik ernaar luister, welke instrumenten ik speel en wil leren, naar welke genres ik luister, hoe ik op die genres ben gekomen, en wat afbeeldingen , links
+
+<strong>Waarom ik naar muziek luister:</strong>
+Muziek kalmeert me op een manier die weinig andere dingen doen. Ik luister door de dag heen altijd wel naar muziek, als ik aan het werk ben met school, als ik me klaar maak, als ik ergens onderweg naar ben, het maakt niet uit waar en wanneer ik zet onbewust vaak wel mijn muziek aan. Het breng emoties naar boven, soms rust en soms juist energie. Welk nummer ik opzet hangt vaak af van hoe ik me voel of wil voelen.
+
+<strong>Instrumenten:</strong>
+Ik speel zelf piano en wil graag meer instrumenten leren bespelen, bijvoorbeeld d de saxofoon en vooral bassgitaar. En vooraal de basgitaar omdat ik voor een groot deel door de bassist van Kanaboon geïnspireerd ben. Het is een band waar ik al jaren naar luister en de nummers van kana-boon hoor je de baslijn vaak goed op de achtergrond spelen, hun muziek is ook een van mijn favoriete genres.
+
+<strong>Genres:</strong>
+
+- J-rock : Kanaboon, The Oral Cigarettes, Sambomaster, Asian Kung-Fu Generation, Niko Touches the Walls, Ikimonogakari
+- Klassiek / Pianomuziek : Debussy, Dmitri Shostakovich (westerse klassieke muziek), Toshifumi Hinata, Hikaru Shirosu (Japans neoklassiek)
+- Amserikaanse hiphop/rap: Tupac, ASAP Rocky, Ice Cube, Kendrick Lamar, Drake, Childish Gambino, Rihanna, Beyonce
+- R&B/soul : Michael Jackson, Amerie, Aaliyah, Ashanti , Rihanna, Beyonce
+- Koreaanse pop/R&B: NCT, DEAN, Sulli, IU, EXO
+- House/dance : Modjo, Stardust
+- Jazz : Miles Davis, Bill Evans, John Coltrane, Nina Simone, Ella Fitzgerald
+
+<strong>Hoe ik een paar van deze genres heb ontdekt:</strong.>
+Er zijn een aantal genres die ik altijd al leuk heb gevonden zoals hiphop. Je hoorde het ook vrijwel bijna over omdat het een wereldwijde invloed heeft gehad maar Japanse muziek ben ik bijvoorbeeld pas gaan ontdekken nadat ik anime keek als kind, omdat er in de outros en intros vaak Japanse rock of pop muziek werd gespeeld. Jazz en klassieke muziek hoorde ik vaak op school tijdens de kunst vakken. Dus heel veel van deze genres ben ik op verschillende manieren tegengekomen.
+
+<strong>Fotos:</strong> Waarom kies je specifiek voor deze verzameling? Zijn er patronen te ontdekken? Heeft
+alles een specifieke kleurstelling? Herken je een actie, een gevoel, een materiaal of
+een standpunt? Wat is kenmerkend voor deze verzameling? Welke dingen komen steeds terug?
+
+Ik heb specifiek voor deze verzameling gekozen omdat het allemaal met met de onderwerp muziek te maken heeft. De meeste fotos zijn in het zwart wit, het lijkt een beetje alsof het dezelfde aesthetic heeft naast het feit dat het allemaal andere artiesten zijn van andere genres en de muziek instrumenten blender daarin.
+
+<strong>Links:</strong> -https://www.billboard.com/lists/best-rappers-all-time/16-scarface/ -https://en.wikipedia.org/wiki/French_house -https://mxstl.com/the-power-of-pop-culture-usas-global-influence.html -https://www.youtube.com/channel/UCstRDTx2piIrkCsPmRtmmqA -https://nl.pinterest.com/hikarushirosu/piano-videos-hikaru-shirosu/ -https://www.billboard.com/lists/k-pop-more-global-than-ever-2025-year-end-review/ -https://en.wikipedia.org/wiki/List_of_music_genres_and_styles -https://musicmap.info/ -https://en.wikipedia.org/wiki/King_of_Pop_(album)
+
+-https://jrocknews.com/2026/01/top-10-visual-kei-and-japanese-rock-artists-2025.html
+
 </details>
 
 ## 7 september -
@@ -51,7 +90,7 @@ In deze opdracht ben ik in een groepje wat websites gaan bekijken en hebben we i
 </details>
 
 <details>
-#### Opdracht 2 - eigen verkenning
+<summary><strong>Opdracht 2 - eigen verkenning</summary></strong>
 
 <strong>Onderwerp</strong>
 Ik heb als onderwerp muziek gekozen omdat dat iets in mijn dagelijks leven is wat een grote rol speelt. Ik luister altijd wel naar muziek en het is iets wat echt bij mij hoort als persoon. Ik hou voornamelijk erg van jazz muziek dus wil ik iets "jazzy" gerelateerd hebben in mijn design.
@@ -76,8 +115,6 @@ Ik wil graag mijn eigen maar ook content van andere hebben. Aangezien het mijn p
 -Ik wil graag aan de slag met het visuele dus hoe het eruit ziet al is het eigenlijk handiger om eerst content erin te zetten als tekst. ik weet gewoon nog niet zo goed waar ik met content mee moet beginnen en met het visuele gedeelte kan ik meestal wel ver denken.
 </details>
 
-##
-
 [...]
 
 ## 2 sept - [Workshop/deepdive: Micro animations]
@@ -94,7 +131,8 @@ Mee gedaan aan de deep dive van Nicky over Micro animaties en de daarbij gekrege
 
 ## 31 aug - Kickoff
 
-<details>
+<details> 
+<summary><strong>Vandaag</summary><strong>
 Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde domein aangemaakt genaamd "hibanova.
 nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst. Ik kwam er wel al snel achter dat ik een issue had met vscodium voor een of andere reden en ging daardoor gewoon verder op vs code.</details>
 
