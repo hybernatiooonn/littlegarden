@@ -29,14 +29,25 @@ Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback
 Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangepast in de index htm nadat ik een onderwerp heb gekozen. Ik heb gekozen voor Muziek als onderwerp en heb in mijn notities uitgeschreven wat ik in elke slide zou willen hebben qua informatie. Het lukte met de tekst allemaal wel prima. Het enige lastige was de afbeeldingen er in zetten want ze waren eerst niet allemaal dezelfde size (nog steeds niet maar wel allemaal kleiner naast elkaar).
 Ik heb de deepdive light & dark theme geprobeerd te volgen op DLO maar het is een beetje lastig nog. Ik zou het later nog een keer proberen.
 
-# 7 september -
+#### 7 september -
 
+<details>
+<summary><strong>Verkennen van mijn onderwerp</summary></strong>
 In de les hebben we een artiekel gelezen genaamd 'A brief history and ethos of the digital garden." Na het gelezen te hebben moesten we een samenvatting maken met daarnaast nog 2 vragen die je zou willen stellen aan de auteur.
-Mijn samenvatting + vragen:
 
-# <img width="1045" height="574" alt="Screenshot 2026-09-09 at 21 26 06" src="https://github.com/user-attachments/assets/932f6b50-6f9a-40eb-acd6-6e5dc1fdaaee" />
+#### Mijn samenvatting + vragen:
 
-## checkout
+ <img width="1045" height="574" alt="Screenshot 2026-09-09 at 21 26 06" src="https://github.com/user-attachments/assets/932f6b50-6f9a-40eb-acd6-6e5dc1fdaaee" />
+
+#### Opdracht 1 - Rangschikken
+
+<summary><strong>Opdracht 1</summary></strong>
+In deze opdracht ben ik in een groepje wat websites gaan bekijken en hebben we in een schema opgesteld welke site het meest en minst webby was.
+<img width="3706" height="2609" alt="webby opdracht " src="https://github.com/user-attachments/assets/a659cc5b-4684-48c9-af37-6cc24a6090eb" />
+
+#### Opdracht 2 - eigen verkenning
+
+#### checkout
 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
    -Een digital garden is een soort persoonlijke notebook met content die jij zelf wil publiceren. Het is niet als een blog maar kan wel met een blog worden verward omdat het een beetje erop lijkt. Het verschil is dat een digital garden op typografie focused en niet met tijdlijnen werkt op de manier zoals bloggen doen.
@@ -47,33 +58,40 @@ Mijn samenvatting + vragen:
    -cinni.net -https://olliveen.neocities.org/room -https://armaina.com/
 
 3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
-   -Ik wil graag aan de slag met het visuele dus hoe het eruit ziet al is het eigenlijk handiger om eerst content erin te zetten als tekst. ik weet gewoon nog niet zo goed waar ik met content mee moet beginnen en met het visuele gedeelte kan ik meestal wel ver denken.
+-Ik wil graag aan de slag met het visuele dus hoe het eruit ziet al is het eigenlijk handiger om eerst content erin te zetten als tekst. ik weet gewoon nog niet zo goed waar ik met content mee moet beginnen en met het visuele gedeelte kan ik meestal wel ver denken.
+</details>
 
 ##
 
 [...]
 
-### 2 sept - [Workshop/deepdive: Micro animations]
+#### 2 sept - [Workshop/deepdive: Micro animations]
 
-Mee gedaan aan de deep dive van Nicky over Micro animaties en de daarbij gekregen opdracht gemaakt die we in figma moesten doen. Het was de bedoeling om een on overzichtelijke menu kaart beter te vormgeven en microanimaties toe te voegen.
+<details>
+ 
+<summary><strong>[Workshop/deepdive: Micro animations]</strong></summary>
+Mee gedaan aan de deep dive van Nicky over Micro animaties en de daarbij gekregen opdracht gemaakt die we in figma moesten doen. Het was de bedoeling om een on overzichtelijke menu kaart beter te vormgeven en microanimaties toe te voegen. Dat is bij mij erg soepel gegaan. In de afbeeldingen staan mijn uiteindelijke resultaten.
+
 <img width="1022" height="250" alt="deep dive micro animation" src="https://github.com/user-attachments/assets/89cb4838-74e0-4cee-9e2b-5d569465181d" />
 
 <img width="1022" height="250" alt="deep dive micro animation" src="https://github.com/user-attachments/assets/89cb4838-74e0-4cee-9e2b-5d569465181d" />
+</details>
 
-### 31 aug - Kickoff
+#### 31 aug - Kickoff
 
 <details>
 Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde domein aangemaakt genaamd "hibanova.
-nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst.
+nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst. Ik kwam er wel al snel achter dat ik een issue had met vscodium voor een of andere reden en ging daardoor gewoon verder op vs code.
 
 <summary><strong>Check out:</strong><summary>
 
-- Leg uit wat een source hosting platform is en voor welke jij gekozen hebt:
-  Het is een online platform waar je de source code van projecten opslaat en deelt met andere. Ik heb zelf gekozen voor Github.
+Leg uit wat een source hosting platform is en voor welke jij gekozen hebt:
+Het is een online platform waar je de source code van projecten opslaat en deelt met andere. Ik heb zelf gekozen voor Github.
 
-- Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina:
-  Hibanova.nl en ik heb die gekoppeld door eerst een domijn aan te maken. Toen moest ik wat details invullen en heb ik geforked wat werd gedeeld op de dlo, toen heb ik de link in mijn github gezet.
+Vertel welke domeinnaam jij gekozen hebt en hoe je die hebt gekoppeld aan jouw pagina:
+Hibanova.nl en ik heb die gekoppeld door eerst een domijn aan te maken. Toen moest ik wat details invullen en heb ik geforked wat werd gedeeld op de dlo, toen heb ik de link in mijn github gezet.
 
-- Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden:
+Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden:
 De aanpassingen moet je commiten in de changes en daarna vervolgens syncen zodat die ook op je web pagina gezien worden.
+
 </details>
