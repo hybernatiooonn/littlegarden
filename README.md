@@ -41,13 +41,24 @@ In de les hebben we een artiekel gelezen genaamd 'A brief history and ethos of t
 
 #### Opdracht 1 - Rangschikken
 
-<summary><strong>Opdracht 1</summary></strong>
+<strong>Opdracht 1</strong>
 In deze opdracht ben ik in een groepje wat websites gaan bekijken en hebben we in een schema opgesteld welke site het meest en minst webby was.
 <img width="3706" height="2609" alt="webby opdracht " src="https://github.com/user-attachments/assets/a659cc5b-4684-48c9-af37-6cc24a6090eb" />
 
 #### Opdracht 2 - eigen verkenning
 
+<strong>Onderwerp</strong>
+Ik heb als onderwerp muziek gekozen omdat dat iets in mijn dagelijks leven is wat een grote rol speelt. Ik luister altijd wel naar muziek en het is iets wat echt bij mij hoort als persoon. Ik hou voornamelijk erg van jazz muziek dus wil ik iets "jazzy" gerelateerd hebben in mijn design.
+<strong>Webby</strong>
+De webby dingen die ik in mijn website wil hebben is natuurlijk zo veel mogelijk. Ik wil mijn site as webby as possible maken. Ik wil leuke hovers over de teksten en icoontjes zowel als een goeie herarchie die gepast is voor iedereen (Ook voor mensen met dikke vingertjes!!). Ik wil dat je van een pagina naar de ander kan klikken en een gepaste aesthetic + leuke fonts.
+<strong>Content</strong>
+Ik wil graag mijn eigen maar ook content van andere hebben. Aangezien het mijn persoonlijke digitale tuintje is wil ik er veel in hebben van en over mij. Denk aan bijvoorbeeld mijn playlist, wat fotos van mij of een foto collage met foto's die ik gemaakt heb. Maar ik wil bijvoorbeeld ook aesthetic fotos en icoontjes van andere om de vintagy vibe compleet te maken in mijn website. Dit ga ik natuurlijk doen met een bron vermelding op de site zodat je het altijd terug kan vinden.
+
+</details>
+
 #### checkout
+
+<summary><strong>Today's checkout</summary></strong>
 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
    -Een digital garden is een soort persoonlijke notebook met content die jij zelf wil publiceren. Het is niet als een blog maar kan wel met een blog worden verward omdat het een beetje erop lijkt. Het verschil is dat een digital garden op typografie focused en niet met tijdlijnen werkt op de manier zoals bloggen doen.
