@@ -29,7 +29,7 @@
 }
 
 
-/* COLORS */
+/* PROPERTIES */
 
 html {
     color-scheme: light dark;
@@ -40,7 +40,6 @@ html {
         rgb(44, 28, 20),
         rgb(195, 174, 142)
     );
-
     --mainbackgroundcolor: rgb(245, 231, 209);
     --navulliabackgroundcolor: rgb(221, 196, 168);
     --blacktext: rgb(0, 0, 0);
@@ -87,44 +86,33 @@ html {
 }
 
 
-/* BODY */
 
 body {
     margin: 0;
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     background: radial-gradient(
         circle,
         var(--gradient1) 0%,
         var(--gradient2) 10%,
         var(--gradient3) 100%
     );
-
     color: var(--bodycolor);
-
     overflow: hidden;
 }
 
 
-/* HEADER */
-
 header {
     width: 95%;
     height: 4.5em;
-
     border: 2.8px solid var(--h1color);
     border-radius: 10px;
-
     display: flex;
     align-items: center;
-
     margin-top: 1em;
     margin-bottom: 1em;
-
     box-sizing: border-box;
 }
 
@@ -139,35 +127,23 @@ nav {
 nav ul {
     width: 100%;
     height: 100%;
-
     margin: 0;
     padding: 0 2em;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 1em;
-
     list-style: none;
-
     box-sizing: border-box;
 }
 
-nav li {
-    flex-shrink: 0;
-}
 
 nav a {
     display: block;
-
     color: var(--headercolor);
-
     text-decoration: none;
-
     font-family: "Bright";
     font-size: 1.7em;
-
     transition:
         color 0.2s,
         transform 0.2s;
@@ -178,232 +154,162 @@ nav a:hover {
         rgb(42, 24, 6),
         rgb(245, 231, 209)
     );
-
     transform: translateY(-0.15em);
 }
 
 
-/* PAGINA */
 
 #pagina {
     width: 95%;
-
     flex: 1;
     min-height: 0;
-
     display: flex;
-
     gap: 1.5em;
-
     margin-bottom: 1em;
-
     box-sizing: border-box;
 }
 
 
-/* LINKS */
 
 #links {
     flex: 1 1 auto;
-
     min-width: 0;
     min-height: 0;
-
     border: 2.8px solid var(--h1color);
     border-radius: 10px;
-
     display: flex;
-
     gap: 3em;
-
     padding: 3em;
-
     box-sizing: border-box;
 }
 
 
-/* GROTE COLLAGE */
-
 #grotebox {
     position: relative;
-
     flex: 0 1 16em;
-
     width: 16em;
     min-width: 13em;
     height: 100%;
 }
 
 
-/* DECORATIVE IMAGES */
+/* DECORATIVE FOTO's */
 
 #musicnote {
     position: absolute;
-
     top: 24em;
     left: 8em;
-
     width: 10em;
-
     z-index: 1;
 }
 
 #browntext {
     position: absolute;
-
     top: 20em;
     left: -1em;
-
     width: 11em;
-
     z-index: 1;
 }
 
 #beigeback {
     position: absolute;
-
     top: 8em;
     left: -2.5em;
-
     width: 23em;
-
     rotate: 90deg;
-
     z-index: 1;
 }
 
 #piano {
     position: absolute;
-
     top: 17.5em;
     left: 5.4em;
-
     width: 7.5em;
-
     rotate: 90deg;
-
     opacity: 90%;
-
     z-index: 8;
 }
 
 #pin {
     position: absolute;
-
     top: -1.5em;
     left: 8em;
-
     width: 7em;
-
     z-index: 4;
 }
 
 #cutebow {
     position: absolute;
-
     top: 4em;
     left: 12em;
-
     width: 6em;
-
     z-index: 7;
 }
 
 #lace {
     position: absolute;
-
     top: 4em;
     left: -2em;
-
     width: 14em;
-
     rotate: 90deg;
-
     opacity: 85%;
-
     z-index: 0;
 }
 
 #me {
     position: absolute;
-
     top: 6em;
     left: 3em;
-
     width: 12em;
-
     z-index: 7;
 }
 
 
-/* MIDDEN */
 
 #midden {
     flex: 1 1 18em;
-
     min-width: 0;
-
     display: flex;
     flex-direction: column;
-
     gap: 5em;
-
     padding-top: 1em;
 }
 
 
-/* BOX 1 */
-
 #box1 {
     width: 100%;
-
     height: auto;
     min-height: 15em;
-
     background-color: var(--beige2bordercolor);
-
     border-radius: 10px;
-
     padding: 2em;
-
     box-sizing: border-box;
-
     box-shadow:
         0.4em 0.4em 0 var(--h1color);
 }
 
 #box1 h1 {
     position: relative;
-
     top: -1em;
-
     color: var(--bodycolor);
-
     font-family: "Bravibe";
     font-size: 2.2em;
 }
 
 #box1 p {
     position: relative;
-
     bottom: 2em;
-
     color: var(--h1color);
-
     font-size: 1.1em;
     font-family: "Comic sans";
-
     line-height: 1.4;
 }
-
 
 /* KLEINE BOXEN */
 
 #kleineboxen {
     width: 100%;
-
     display: flex;
-
     gap: 1em;
 }
 
@@ -411,73 +317,49 @@ nav a:hover {
 #plaat-link,
 #monkey-link {
     position: relative;
-
     flex: 1 1 0;
-
     min-width: 0;
-
     height: 8em;
-
     padding: 2em;
-
     box-sizing: border-box;
-
     display: block;
-
     text-decoration: none;
 }
 
-
-/* CAMERA */
-
 #camera {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
     width: 8em;
-
     transform:
         translate(-50%, -50%);
-
     transition:
         scale 0.3s,
         filter 0.3s;
 }
 
 
-/* VINYL PLAAT */
 
 #plaat {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
     width: 8em;
-
     z-index: 2;
-
     animation:
         spin 3s linear infinite;
-
     transition:
         scale 0.3s,
         filter 0.3s;
 }
 
 
-/* MONKEY */
 
 #Monkey {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
     width: 8em;
-
     transform:
         translate(-50%, -50%);
 
@@ -486,14 +368,11 @@ nav a:hover {
         filter 0.3s;
 }
 
-
-/* HOVER */
 
 #camera-link:hover #camera,
 #plaat-link:hover #plaat,
 #monkey-link:hover #Monkey {
     scale: 1.15;
-
     filter:
         drop-shadow(
             0 0 0.8em var(--mainbackgroundcolor)
@@ -504,36 +383,27 @@ nav a:hover {
 }
 
 
-/* FOCUS */
 
 #camera-link:focus-visible,
 #plaat-link:focus-visible,
 #monkey-link:focus-visible {
     outline:
         3px solid var(--mainbackgroundcolor);
-
     border-radius: 10px;
 }
 
 
-/* ASIDE */
 
 aside {
     flex: 0 1 25%;
-
     min-width: 12em;
     min-height: 0;
-
     border: 2.8px solid var(--h1color);
     border-radius: 10px;
-
     padding: 1em;
-
     display: flex;
     flex-direction: column;
-
     gap: 0.6em;
-
     box-sizing: border-box;
 }
 
@@ -546,16 +416,13 @@ aside {
 #sidebox4 {
     width: 100%;
     height: 8em;
-
     overflow: hidden;
-
     box-sizing: border-box;
-
     background-color: var(--h1color);
 }
 
 
-/* FOTO IMAGES IN DE SIDE BOXES */
+/* FOTO's IN DE SIDE BOXES */
 
 #sidebox1 img,
 #sidebox2 img,
@@ -563,9 +430,7 @@ aside {
 #sidebox4 img {
     width: 100%;
     height: 100%;
-
     display: block;
-
     object-fit: cover;
 }
 
@@ -575,13 +440,9 @@ aside {
 aside footer {
     margin-top: auto;
     margin-bottom: 0.3em;
-
     font-size: 1.1em;
-
     text-align: center;
-
     color: var(--beige2bordercolor);
-
     font-family: "Bravibe";
 }
 
@@ -678,31 +539,24 @@ aside footer {
     }
 
 
-    /* LINKS */
-
     #links {
         width: 100%;
-
         gap: 1em;
         padding: 1.5em;
     }
 
 
-    /* COLLAGE */
-
     #grotebox {
         min-width: 11em;
     }
 
-
-    /* MIDDEN */
+  
 
     #midden {
         gap: 2em;
     }
 
 
-    /* ABOUT ME BOX */
 
     #box1 {
         padding: 1.2em;
@@ -713,9 +567,6 @@ aside footer {
         line-height: 1.4;
     }
 
-
-    /* ICONS */
-
     #camera,
     #plaat,
     #Monkey {
@@ -723,14 +574,12 @@ aside footer {
     }
 
 
-    /* ASIDE */
+
 
     aside {
         flex: none;
-
         width: 100%;
         min-width: 0;
-
         padding: 0.8em;
     }
 }
@@ -743,7 +592,6 @@ aside footer {
     body {
         height: auto;
         min-height: 100vh;
-
         overflow: auto;
         overflow-x: hidden;
     }
@@ -753,18 +601,14 @@ aside footer {
 
     header {
         width: 90%;
-
         height: auto;
-
         padding: 1em;
-
         flex-direction: column;
-
         gap: 1em;
     }
 
 
-    /* NAV */
+
 
     nav {
         width: 100%;
@@ -772,11 +616,8 @@ aside footer {
 
     nav ul {
         justify-content: center;
-
         flex-wrap: wrap;
-
         gap: 1.5em;
-
         padding: 0;
     }
 
@@ -785,61 +626,43 @@ aside footer {
     }
 
 
-    /* PAGINA */
-
     #pagina {
         width: 90%;
-
         flex-direction: column;
-
         gap: 2em;
     }
 
 
-    /* LINKS */
 
     #links {
         width: 100%;
-
         flex-direction: column;
         align-items: center;
-
         gap: 3em;
-
         padding: 2em;
     }
 
 
-    /* COLLAGE */
 
     #grotebox {
         flex: none;
-
         width: 16em;
         min-width: 16em;
-
         height: 31em;
     }
 
 
-    /* MIDDEN */
 
     #midden {
         flex: none;
-
         width: 100%;
-
         gap: 3em;
     }
 
 
-    /* BOX 1 */
-
     #box1 {
         height: auto;
-
         min-height: 15em;
-
         padding: 2em;
     }
 
@@ -849,7 +672,6 @@ aside footer {
     }
 
 
-    /* KLEINE BOXEN */
 
     #kleineboxen {
         flex-direction: column;
@@ -868,13 +690,11 @@ aside footer {
 
 
 
-
     #camera {
         position: static;
         width: 8em;
         transform: none;
     }
-
 
 
     #Monkey {
@@ -884,7 +704,6 @@ aside footer {
     }
 
 
-
     #plaat {
         position: static;
         width: 8em;
@@ -892,7 +711,6 @@ aside footer {
     }
 
 
-    /* ASIDE BOXES */
 
     aside {
         flex: none;
@@ -913,7 +731,7 @@ aside footer {
 
 
 /* MOBILE SPIN */
-
+  
 @keyframes spin-mobile {
     from {
         transform:
@@ -1038,4 +856,13 @@ dialog button:hover {
     border: none;
     display: block;
     width: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
 }

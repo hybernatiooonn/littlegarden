@@ -21,9 +21,10 @@
   </head>
 
   <body>
-    <dialog open>
-      <h2>Important ! 🍪</h2>
-      <p>
+    <dialog open aria-labelledby="cookie-title" aria-describedby="cookie-text">
+      <h2 id="cookie-title">Important ! 🍪</h2>
+
+      <p id="cookie-text" tabindex="-1" autofocus>
         Hibanova.nl uses cookies. This website also uses an external component
         from Digitaal Tuintje. When cookies are accepted, information may be
         sent to digitaaltuintje.nl. Would you like to accept the cookies?
@@ -31,7 +32,6 @@
 
       <form method="dialog">
         <button>Accept</button>
-
         <button>Reject</button>
       </form>
     </dialog>
@@ -64,32 +64,36 @@
           <img
             id="musicnote"
             src="./assets/website-imgs/musicnotepic.png"
-            alt="Music notes" />
+            alt="" />
 
           <img
             id="browntext"
             src="./assets/website-imgs/browntextpic.png"
-            alt="Brown picture" />
+            alt="" />
 
-          <img id="beigeback" src="./assets/website-imgs/beigeback.png" />
+          <img
+            id="beigeback"
+            src="./assets/website-imgs/beigeback.png"
+            alt="" />
 
-          <img id="piano" src="./assets/website-imgs/piano.png" />
+          <img id="piano" src="./assets/website-imgs/piano.png" alt="" />
 
-          <img id="pin" src="./assets/website-imgs/pin.png" />
+          <img id="pin" src="./assets/website-imgs/pin.png" alt="" />
 
           <img
             id="me"
             src="./assets/website-imgs/hiba.png"
-            alt="A picture of the creator" />
+            alt="A picture of Hiba, the creator of Hibanova" />
 
-          <img id="cutebow" src="./assets/website-imgs/cutebow.png" />
+          <img id="cutebow" src="./assets/website-imgs/cutebow.png" alt="" />
 
-          <img id="lace" src="./assets/website-imgs/lacepic.png" />
+          <img id="lace" src="./assets/website-imgs/lacepic.png" alt="" />
         </article>
 
         <section id="midden">
           <article id="box1">
             <h1>About me</h1>
+
             <p>
               Hi hi! My name is Hiba and I made this website to express myself
               and show off music related topics that I can, and will yap about
@@ -100,25 +104,28 @@
           </article>
 
           <section id="kleineboxen">
-            <a id="camera-link" href="camera.html">
+            <a
+              id="camera-link"
+              href="camera.html"
+              aria-label="If you click here, you will find a collage with aesthetic pictures chosen and set up by Hibanova.">
               <img
                 id="camera"
                 src="./assets/website-imgs/fotocamera.png"
-                alt="Hibanova's collage" />
+                alt="" />
             </a>
 
-            <a id="plaat-link" href="musicplate.html">
-              <img
-                id="plaat"
-                src="./assets/website-imgs/plaats.png"
-                alt="Hibanova's playlist" />
+            <a
+              id="plaat-link"
+              href="musicplate.html"
+              aria-label="If you click here, you will find a playlist of Hibanova's favorite tunes.">
+              <img id="plaat" src="./assets/website-imgs/plaats.png" alt="" />
             </a>
 
-            <a id="monkey-link" href="journal.html">
-              <img
-                id="Monkey"
-                src="./assets/website-imgs/Monkey.png"
-                alt="Hibanova's journal" />
+            <a
+              id="monkey-link"
+              href="journal.html"
+              aria-label="If you click here, you will find a journal with quotes and doodles made by Hibanova herself.">
+              <img id="Monkey" src="./assets/website-imgs/Monkey.png" alt="" />
             </a>
           </section>
         </section>
@@ -126,25 +133,19 @@
 
       <aside>
         <article id="sidebox1">
-          <img
-            src="./assets/website-imgs/Asidemic.png"
-            alt="Vintage microphones" />
+          <img src="./assets/website-imgs/Asidemic.png" alt="" />
         </article>
 
         <article id="sidebox2">
-          <img src="./assets/website-imgs/Asidepiano.png" alt="Vintage piano" />
+          <img src="./assets/website-imgs/Asidepiano.png" alt="" />
         </article>
 
         <article id="sidebox3">
-          <img
-            src="./assets/website-imgs/Asidenote.png"
-            alt="Old sheet music" />
+          <img src="./assets/website-imgs/Asidenote.png" alt="" />
         </article>
 
         <article id="sidebox4">
-          <img
-            src="./assets/website-imgs/Asidepattern.png"
-            alt="Brown floral pattern" />
+          <img src="./assets/website-imgs/Asidepattern.png" alt="" />
         </article>
 
         <footer>© 2026 HIBANOVA</footer>
