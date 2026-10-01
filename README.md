@@ -24,8 +24,6 @@ Later vandaag heb ik gezeten met de docent en student assistend voor feedback en
 
 Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback. Ik heb de issue met mijn website kunnen fixen en mijn oude coden terug kunnen zetten. het syncen is mij nog steeds niet gelukt maar daar ga ik maandag met een student assistent mee zitten. Ik heb als feedback dan eigenlijk alleen gekregen om de deepdive van light en dark toch te doen en die heb ik ook gedaan + alle kleuren in mijn design properties geven want dat had ik eerst alleen nog bij mijn light en dark modus en niet met alle kleuren in mijn css.
 
-## Deepdive: Mooie kleuren en gradients
-
 ## 8 september -
 
 Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangepast in de index htm nadat ik een onderwerp heb gekozen. Ik heb gekozen voor Muziek als onderwerp en heb in mijn notities uitgeschreven wat ik in elke slide zou willen hebben qua informatie. Het lukte met de tekst allemaal wel prima. Het enige lastige was de afbeeldingen er in zetten want ze waren eerst niet allemaal dezelfde size (nog steeds niet maar wel allemaal kleiner naast elkaar).
@@ -64,10 +62,11 @@ Mee gedaan aan de deep dive van Nicky over Micro animaties en de daarbij gekrege
 
 ### 31 aug - Kickoff
 
+<details>
 Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde domein aangemaakt genaamd "hibanova.
 nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst.
 
-# Check out:
+<summary><strong>Check out:</strong><summary>
 
 - Leg uit wat een source hosting platform is en voor welke jij gekozen hebt:
   Het is een online platform waar je de source code van projecten opslaat en deelt met andere. Ik heb zelf gekozen voor Github.
@@ -76,4 +75,5 @@ nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepa
   Hibanova.nl en ik heb die gekoppeld door eerst een domijn aan te maken. Toen moest ik wat details invullen en heb ik geforked wat werd gedeeld op de dlo, toen heb ik de link in mijn github gezet.
 
 - Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden:
-  De aanpassingen moet je commiten in de changes en daarna vervolgens syncen zodat die ook op je web pagina gezien worden.
+De aanpassingen moet je commiten in de changes en daarna vervolgens syncen zodat die ook op je web pagina gezien worden.
+</details>
