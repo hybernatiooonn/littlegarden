@@ -25,7 +25,18 @@ Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback
 
 </details>
 
+<details>
 <summary><strong>Deepdive Light&Dark</summary></strong>
+Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met verschillende kleurtjes te doen en niet persee een light of dark thema.
+ <img width="1908" height="938" alt="Screenshot 2026-09-20 at 20 21 51" src="https://github.com/user-attachments/assets/8f860a47-5cc1-4d63-bd61-80e62a37ad5e" />
+
+</details>
+
+## 9 september - Workshop 2
+
+<details>
+<summary><strong>Presentatie</summary></strong>
+Hier kan je mijn presentatie bekijken.
 
 ## 8 september -
 
@@ -115,8 +126,6 @@ Ik wil graag mijn eigen maar ook content van andere hebben. Aangezien het mijn p
 -Ik wil graag aan de slag met het visuele dus hoe het eruit ziet al is het eigenlijk handiger om eerst content erin te zetten als tekst. ik weet gewoon nog niet zo goed waar ik met content mee moet beginnen en met het visuele gedeelte kan ik meestal wel ver denken.
 </details>
 
-[...]
-
 ## 2 sept - [Workshop/deepdive: Micro animations]
 
 <details>
@@ -137,8 +146,7 @@ Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde 
 nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst. Ik kwam er wel al snel achter dat ik een issue had met vscodium voor een of andere reden en ging daardoor gewoon verder op vs code.</details>
 
 <details>
-<summary><strong>Check out</strong><summary>
-
+<summary><strong>Check out</strong></summary>
 Leg uit wat een source hosting platform is en voor welke jij gekozen hebt:
 Het is een online platform waar je de source code van projecten opslaat en deelt met andere. Ik heb zelf gekozen voor Github.
 
