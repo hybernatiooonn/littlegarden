@@ -26,10 +26,15 @@ Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback
 
 ## 8 september -
 
+<details>
+<summary><strong>Huiswerk</summary></strong>
 Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangepast in de index htm nadat ik een onderwerp heb gekozen. Ik heb gekozen voor Muziek als onderwerp en heb in mijn notities uitgeschreven wat ik in elke slide zou willen hebben qua informatie. Het lukte met de tekst allemaal wel prima. Het enige lastige was de afbeeldingen er in zetten want ze waren eerst niet allemaal dezelfde size (nog steeds niet maar wel allemaal kleiner naast elkaar).
 Ik heb de deepdive light & dark theme geprobeerd te volgen op DLO maar het is een beetje lastig nog. Ik zou het later nog een keer proberen.
 
-#### 7 september -
+<summary><strong>Notities inhoud powerpoint</summary></strong>
+</details>
+
+## 7 september -
 
 <details>
 <summary><strong>Verkennen van mijn onderwerp</summary></strong>
@@ -54,11 +59,7 @@ De webby dingen die ik in mijn website wil hebben is natuurlijk zo veel mogelijk
 <strong>Content</strong>
 Ik wil graag mijn eigen maar ook content van andere hebben. Aangezien het mijn persoonlijke digitale tuintje is wil ik er veel in hebben van en over mij. Denk aan bijvoorbeeld mijn playlist, wat fotos van mij of een foto collage met foto's die ik gemaakt heb. Maar ik wil bijvoorbeeld ook aesthetic fotos en icoontjes van andere om de vintagy vibe compleet te maken in mijn website. Dit ga ik natuurlijk doen met een bron vermelding op de site zodat je het altijd terug kan vinden.
 
-</details>
-
-#### checkout
-
-<summary><strong>Today's checkout</summary></strong>
+<summary><strong>checkout</summary></strong>
 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
    -Een digital garden is een soort persoonlijke notebook met content die jij zelf wil publiceren. Het is niet als een blog maar kan wel met een blog worden verward omdat het een beetje erop lijkt. Het verschil is dat een digital garden op typografie focused en niet met tijdlijnen werkt op de manier zoals bloggen doen.
@@ -76,11 +77,11 @@ Ik wil graag mijn eigen maar ook content van andere hebben. Aangezien het mijn p
 
 [...]
 
-#### 2 sept - [Workshop/deepdive: Micro animations]
+## 2 sept - [Workshop/deepdive: Micro animations]
 
 <details>
  
-<summary><strong>[Workshop/deepdive: Micro animations]</strong></summary>
+<summary><strong>Deepdive: Micro animations</strong></summary>
 Mee gedaan aan de deep dive van Nicky over Micro animaties en de daarbij gekregen opdracht gemaakt die we in figma moesten doen. Het was de bedoeling om een on overzichtelijke menu kaart beter te vormgeven en microanimaties toe te voegen. Dat is bij mij erg soepel gegaan. In de afbeeldingen staan mijn uiteindelijke resultaten.
 
 <img width="1022" height="250" alt="deep dive micro animation" src="https://github.com/user-attachments/assets/89cb4838-74e0-4cee-9e2b-5d569465181d" />
@@ -88,13 +89,14 @@ Mee gedaan aan de deep dive van Nicky over Micro animaties en de daarbij gekrege
 <img width="1022" height="250" alt="deep dive micro animation" src="https://github.com/user-attachments/assets/89cb4838-74e0-4cee-9e2b-5d569465181d" />
 </details>
 
-#### 31 aug - Kickoff
+## 31 aug - Kickoff
 
 <details>
 Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde domein aangemaakt genaamd "hibanova.
-nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst. Ik kwam er wel al snel achter dat ik een issue had met vscodium voor een of andere reden en ging daardoor gewoon verder op vs code.
+nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst. Ik kwam er wel al snel achter dat ik een issue had met vscodium voor een of andere reden en ging daardoor gewoon verder op vs code.</details>
 
-<summary><strong>Check out:</strong><summary>
+<details>
+<summary><strong>Check out</strong><summary>
 
 Leg uit wat een source hosting platform is en voor welke jij gekozen hebt:
 Het is een online platform waar je de source code van projecten opslaat en deelt met andere. Ik heb zelf gekozen voor Github.
