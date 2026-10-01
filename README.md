@@ -44,12 +44,13 @@ In de les hebben we een artiekel gelezen genaamd 'A brief history and ethos of t
 
  <img width="1045" height="574" alt="Screenshot 2026-09-09 at 21 26 06" src="https://github.com/user-attachments/assets/932f6b50-6f9a-40eb-acd6-6e5dc1fdaaee" />
 
-#### Opdracht 1 - Rangschikken
-
 <strong>Opdracht 1</strong>
 In deze opdracht ben ik in een groepje wat websites gaan bekijken en hebben we in een schema opgesteld welke site het meest en minst webby was.
 <img width="3706" height="2609" alt="webby opdracht " src="https://github.com/user-attachments/assets/a659cc5b-4684-48c9-af37-6cc24a6090eb" />
 
+</details>
+
+<details>
 #### Opdracht 2 - eigen verkenning
 
 <strong>Onderwerp</strong>
@@ -59,6 +60,8 @@ De webby dingen die ik in mijn website wil hebben is natuurlijk zo veel mogelijk
 <strong>Content</strong>
 Ik wil graag mijn eigen maar ook content van andere hebben. Aangezien het mijn persoonlijke digitale tuintje is wil ik er veel in hebben van en over mij. Denk aan bijvoorbeeld mijn playlist, wat fotos van mij of een foto collage met foto's die ik gemaakt heb. Maar ik wil bijvoorbeeld ook aesthetic fotos en icoontjes van andere om de vintagy vibe compleet te maken in mijn website. Dit ga ik natuurlijk doen met een bron vermelding op de site zodat je het altijd terug kan vinden.
 
+</details>
+<details>
 <summary><strong>checkout</summary></strong>
 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
