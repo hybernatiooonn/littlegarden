@@ -2,17 +2,11 @@
 
 Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
 
-## Learning Log
+# Learning Log [ UNDER CONSTRUCTION ]
 
-# 30 september -
+##### 22 september -
 
-Checkout:
-
-- wEb content accessibility guidelines
-
-# 22 september -
-
-## 18 september [Deepdive light & Dark] + Feedback verwerken -
+##### 18 september [Deepdive light & Dark] + Feedback verwerken -
 
 <details>
 <summary><strong>Feedback van Charley en Samih:</summary></strong>
@@ -37,6 +31,24 @@ Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met versch
 <details>
 <summary><strong>Presentatie</summary></strong>
 Hier kan je mijn presentatie bekijken.
+<summary><strong>Visual research</summary></strong>
+<strong>Opdracht 5: Een sfeerwoord kiezen</strong>
+Voor deze opdracht moest ik afhankelijk van mijn presentatie een sfeerwoord(en) kiezen voor mijn onderwerp. Ik heb gekozen voor nostalgisch/vintage.
+<img width="418" height="196" alt="Screenshot 2026-10-02 at 00 31 55" src="https://github.com/user-attachments/assets/daf0337a-1905-4edd-9a50-1888598a895b" />
+<strong>Opdracht 6: Directe visuele vertaling</strong>
+Hier moest ik fotos over mijn sfeerwoord of die ermee te maken hebben, bij elkaar zetten als een soort collage.
+<img width="495" height="539" alt="Screenshot 2026-09-20 at 21 14 59" src="https://github.com/user-attachments/assets/dabf7cb7-f0b2-451b-bad3-4ff8b28be9f1" />
+<strong>Opdracht 7: Directe visuele vertaling</strong>
+Daarna moest ik van de directe visuele vertalingen meer abstracter gaan. Daarvoor hebben ik https://www.typographicposters.com/. bezocht en ben ik naar posters gaan zoeken.
+<img width="744" height="670" alt="Screenshot 2026-09-20 at 21 15 06" src="https://github.com/user-attachments/assets/75c4e781-67b2-4462-a0f6-5a7e9045279b" />
+<strong>Opdracht 8: Kenmerken</strong>
+Hier ben ik 4 posters gaan uitkiezen en van die vier posters ben ik kenmerken uit gaan typen. 
+<img width="722" height="742" alt="Screenshot 2026-09-20 at 21 15 20" src="https://github.com/user-attachments/assets/459a3aa6-e29c-4988-ae5c-3765ffffa537" />
+</details>
+
+<details>
+<summary><strong>Crazy 8</sumamry></strong>
+</details>
 
 ## 8 september -
 
