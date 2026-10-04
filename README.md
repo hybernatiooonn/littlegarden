@@ -4,6 +4,8 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 # Learning Log [ UNDER CONSTRUCTION ]
 
+## 5 Oktober -
+
 ## 30 september -
 
 <details>
