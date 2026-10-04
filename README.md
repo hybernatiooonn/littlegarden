@@ -11,7 +11,7 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 ## 18 september [Deepdive light & Dark] + Feedback verwerken -
 
 <details>
-<summary><strong>Feedback van Charley en Samih:</summary></strong>
+<summary><strong>Feedback van Charley en Samih:</strong></summary>
 Vandaag heb ik gezeten met de docent en student assistend voor feedback en die heb ik uiteindelijk gekregen.
 ''Je hebt veel ideeën en bent ook een eind gekomen met jouw Digital Garden. Het is wel belangrijker dat je jouw Learning Log beter gaat bijhouden (en er ook afbeeldingen met beschrijvingen bij zet) en ook de Deep Dives gaat doen en gaat vastleggen. Een deel heb je al wel gedaan maar dat kan ik nu niet zien vanwege het merge conflict. Trek hiervoor maandag even een studentassistent aan diens jasje. Ga zo door!
 </details>
@@ -24,27 +24,30 @@ Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback
 </details>
 
 <details>
-<summary><strong>Deepdive Light&Dark</summary></strong>
+<summary><strong>Deepdive Light&Dark</strong></summary>
 Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met verschillende kleurtjes te doen en niet persee een light of dark thema.
  <img width="1908" height="938" alt="Screenshot 2026-09-20 at 20 21 51" src="https://github.com/user-attachments/assets/8f860a47-5cc1-4d63-bd61-80e62a37ad5e" />
- </details>
+</details>
 
  <details>
- <summary><strong>Retrospective</summary></strong>
+ <summary><strong>Retrospective</strong></summary>
  <strong>Retrospect 1 - Het web is voor iedereen</strong>
+
  </details>
 
 ## 16 september - Workshop 5
 
 <details>
-<summary><strong> Grid/flexbox layout</summary></strong>
-<strong>Grid layout getekend in de les<strong>
+<summary><strong> Grid/flexbox layout</strong></summary>
+<strong>Grid layout getekend in de les</strong>
+
 Bij deze opdract moesten we onze mobiele layout overnemen en het in stukken opdelen zodat we daar later met grid of flexbox mee verder gaan prototypen. Ook moesten we de hierarchie aandacht geven in deze opdracht, denk aan contrast, witruimte etc.
 <img width="2889" height="1975" alt="IMG_0420" src="https://github.com/user-attachments/assets/52aa27bc-edd1-4d2e-8f4b-167b7a032fc4" />
+
 </details>
 
 <details>
-<summary><strong>Deepdive responsive grid + grid areas</summary></strong>
+<summary><strong>Deepdive responsive grid + grid areas</strong></summary>
 <strong>Oefening 1</strong>
 Bij deze oefening moest ik ervoor zorgen dat een responsive layout met behulp van grid template areas zou kunnen maken. Dat ging best wel makkelijk en het was ook niet verwarrend om te volgen. 
 <img width="3664" height="615" alt="grid area en responsiveness" src="https://github.com/user-attachments/assets/24c42ddc-64ce-424f-b461-7db1ca6f7bc2" />
@@ -56,7 +59,7 @@ hier heb ik ook mijn process vastgelegd
 </details>
 
 <details>
-<summary><strong>Checkout</summary></strong>
+<summary><strong>Checkout</strong></summary>
 
 </details>
 
@@ -65,19 +68,19 @@ hier heb ik ook mijn process vastgelegd
 ## 14 september - Workshop 4
 
 <details>
-<summary><strong>Bi-Weekly geek 1</summary></strong>
+<summary><strong>Bi-Weekly geek 1</strong></summary>
 <img width="3686" height="1364" alt="biweekly1 (1)" src="https://github.com/user-attachments/assets/5ecd6502-9fae-4d45-8ce1-bc2c5db54b12" />
 </details>
 
 <details>
-<summary><strong>Opdracht 16 - van one column layout naar responsive design</summary></strong>
+<summary><strong>Opdracht 16 - van one column layout naar responsive design</strong></summary>
 Duo: Rianne
 Bij deze opdrachten ging mijn duo mijn responsivness testen. 
 We hebben mijn mobiele layout dus op verschillende schermgroottes geprobeerd te bekijken alleen was er 1 opvallend probleem. De main bewoog wel mee, dus die was responsive maar de imgs bleven op hun plek. Wat ik wou is dat de imgs met de main mee bewegen alleen dat was niet het geval en dat heb ik van Rianne gelijk mee gekregen als feedback. 
 </details>
 
 <details>
-<summary><strong>Opdracht 17 - Responsive voorbeelden zoeken</summary></strong>
+<summary><strong>Opdracht 17 - Responsive voorbeelden zoeken</strong></summary>
 <strong>1.Als je het scherm kleiner maakt dan zie je bij de navigatie bar de zoek en log in worden vervangen door een icoontje</strong>
 Als het scherm kleiner word is er dus geen tekst meer maar een icoontje en dat is denk ik gedaan zodat ze niet veel ruimte in nemen.
 <strong>2.Niet alle fotos worden volledig gezien</strong>
@@ -87,7 +90,7 @@ De tekstformaat beweegt mee met de grootte. Als het scherm kleiner word dan word
 </details>
 
 <details>
-<summary><strong>Checkout</summary></strong>
+<summary><strong>Checkout</strong></summary>
 <strong>1. Wanneer wordt een website ‘lelijk’ en hoe kun je dit fixen?</strong>
 Als een website weinig stijl heeft en niet goed responsive is word het een lelijke website. 
 hoe je dat kunt fixen is door met flexbox of grid een responsive design te gaan maken.
@@ -100,7 +103,7 @@ Ik kan het nog niet helemaal uit met hoofd onderbouwen met webby vocubulair.
 ## 12 september - verder aan mijn site
 
 <details>
-<summary><strong>Mobiele layout prototype</summary></strong>
+<summary><strong>Mobiele layout prototype</strong></summary>
 Ik had eerst heel simpel alleen even een main toegevoegd met behulp van de studen assistent. Voor deze layout hebben we trouwens flexbox gebruikt. In de main zit de nav bar die ik wou hebben met de tekst erboven. Daarna ben ik verder de images toe gaan voegen. Ik had gauw al de lantaarn paal veranderd omdat ik eigenlijk na lang nadenken vond dat het niet echt een toegevoegde waarde had en het zag er ook niet zo mooi uit omdat het te groot was en ik wou niet dat de lantaarn paal als afleiding zou werken omdat het er groot naast staat. Dus ik had dat veranderd met de gordijn alleen vond ik die ook niet de beste optie maar ik laat het nu zo tot ik wat anders vind wat meer bijpassend is.
 <img width="2833" height="1080" alt="Artboard 1" src="https://github.com/user-attachments/assets/9af19dde-ce8d-4e66-93d3-60f20a221130" />
 </details>
@@ -108,7 +111,7 @@ Ik had eerst heel simpel alleen even een main toegevoegd met behulp van de stude
 ## 11 september - Workshop 3
 
 <details>
-<summary><strong>Huiswerk bespreken</summary></strong>
+<summary><strong>Huiswerk bespreken</strong></summary>
 <strong>Opdracht 12</strong>
 <strong>Zijn mijn schetsen webby genoeg?</strong>
 -Toegankelijk:
@@ -136,7 +139,7 @@ Nog niet zo veel verassende dingen naast de hover states.
 ## 10 September - Workshop 3 + Deepdive
 
 <details>
-<summary><strong>Uitgangspunten voor schetsen</summary></strong>
+<summary><strong>Uitgangspunten voor schetsen</strong></summary>
 Voor deze opdracht moesten we van de crazy 8, vijf nieuwe schetsen gaan maken maar dan voor een mobiele layout inplaats van een desktop versie.
 <strong>Vijf schetsen</strong>
 Ik ben bij deze schetsen goed gaan kijken naar de schetsen van de crazy 8 en heb duidelijk ook hier meerdere elementen terug gebracht. De interactieve icoontjes, lantaarn paal, en de muziekale straling komt vaker terug inmijn ontwerp.
@@ -147,7 +150,7 @@ De 2e en 3e schets vind ik zelf de beste keuze modat de nav bar/tekst daar centr
 </details>
 
 <details>
-<summary><strong>Deepdive mooie kleuren en gradients</summary></strong>
+<summary><strong>Deepdive mooie kleuren en gradients</strong></summary>
 Ik heb de powerpoint doorgenomen en ben daarna met de deepdive begonnen.
 
 <img width="1276" height="676" alt="OpdrachtGradient1" src="https://github.com/user-attachments/assets/a4ca9ef4-4080-4fdc-86db-daa8a3181dc0" /> <img width="1277" height="678" alt="OpdrachtGradient2" src="https://github.com/user-attachments/assets/febcd824-661a-473d-b674-0fd59167a71e" />
@@ -159,9 +162,9 @@ Nu weet ik hoe ik verschillende soorten gradients kan gebruiken en later kan toe
 ## 9 september - Workshop 2
 
 <details>
-<summary><strong>Presentatie</summary></strong>
+<summary><strong>Presentatie</strong></summary>
 Hier kan je mijn presentatie bekijken.
-<summary><strong>Visual research</summary></strong>
+<summary><strong>Visual research</strong></summary>
 <strong>Opdracht 5: Een sfeerwoord kiezen</strong>
 Voor deze opdracht moest ik afhankelijk van mijn presentatie een sfeerwoord(en) kiezen voor mijn onderwerp. Ik heb gekozen voor nostalgisch/vintage.
 <img width="418" height="196" alt="Screenshot 2026-10-02 at 00 31 55" src="https://github.com/user-attachments/assets/daf0337a-1905-4edd-9a50-1888598a895b" />
@@ -177,19 +180,19 @@ Hier ben ik 4 posters gaan uitkiezen en van die vier posters ben ik kenmerken ui
 </details>
 
 <details>
-<summary><strong>Crazy 8</summary></strong>
+<summary><strong>Crazy 8</strong></summary>
 Na de visual research ben ik bezig geweest met een crazy 8. Daarbij heb ik per schests 40 seconden voor grekregen. Omdat ik niet zo lang na kon denken heb ik ook bij wat schetsen een beetje wat randoms getekend en ziet het er niet allemaal super maar dat is nou eenmaal wat er bij een crazy 8 hoort.
 <img width="695" height="507" alt="Screenshot 2026-10-04 at 17 20 16" src="https://github.com/user-attachments/assets/a021f9a4-d4c0-4513-af84-287a58fd3622" />
 Zoals je ziet komt er vaker een bepaald element voor omdat ik bij die schetsen al wel een beetje een specefiek idee had. Ik wil namelijk dat mijn website een soort nostalgische/vintage vibe overdraagt en dat wou ik dan met bepaalde plaatjes doen en ik had een idee dat ik in ieder geval een vintage lamp erin wou hebben en die komt dus vaker in de schetsen voor. Voor de layout zelf ben ik bij meerdere schetsen gaan experimenteren met verschillende hierarchieeën. De schetsen waar de nav of tekst gecentreerd staan, spreken mij het meest aan omdat ik wil dat de gebruiker dat als eerst ziet. Ik dacht ook aan dat ik de tekst een about me zou maken zodat de gebruiker eerst wat over mij zou leren kennen en dan site lekker kan exploren.
 </details>
 
 <details>
-<summary><strong>Crazy 8 beoordeling</summary></strong>
+<summary><strong>Crazy 8 beoordeling</strong></summary>
 <img width="2753" height="1855" alt="IMG_0417" src="https://github.com/user-attachments/assets/2d1e3bc5-c3a3-4693-b986-5e23200cec77" />
 </details>
 
 <details>
-<summary><strong>Checkout</summary></strong>
+<summary><strong>Checkout</strong></strsummaryong>
 <strong>1. Leg uit waar het Visual Research in 3 stappen naartoe werkt</strong>
 De eerste stap waar visual research naartoe werkt is een directe visuele vertaling. Dan ga je vanuit het gekozen sfeerwoord bijpassende fotos zoeken. Je benoemd kenmerken uit deze gekozen beelden en gaat in de tweede stap ze vormen naar een abstracte vertaling. En in de laatste stap formuleer je de uitgangspunten om mee te schetsen.
 <strong>2. Vertel in 2 zinnen waar jouw Garden over gaat, en met welke content je dat gaat doen (beeld, tekst, sound, animatie).
@@ -203,11 +206,11 @@ Ik denk dat ik de middelste/5e crazy 8 schets het liefts zou willen uitwerken om
 ## 8 september -
 
 <details>
-<summary><strong>Huiswerk</summary></strong>
+<summary><strong>Huiswerk</strong></summary>
 Ik ben vandaag aan de slag geweest met het huiswerk, De powerpoint heb ik aangepast in de index html nadat ik een onderwerp heb gekozen. Ik heb gekozen voor Muziek als onderwerp en heb in mijn notities uitgeschreven wat ik in elke slide zou willen hebben qua informatie. Het lukte met de tekst allemaal wel prima. Het enige lastige was de afbeeldingen er in zetten want ze waren eerst niet allemaal dezelfde size (nog steeds niet maar wel allemaal kleiner naast elkaar).
 Ik heb de deepdive light & dark theme geprobeerd te volgen op DLO maar het is een beetje lastig nog. Ik zou het later nog een keer proberen.
 
-<summary><strong>Notities inhoud powerpoint</summary></strong>
+<summary><strong>Notities inhoud powerpoint</strong></summary>
 <strong>Hoe muzieksmaak zonder grenzen mij inspireert:</strong>
 
 -Muziek inspireert me juist omdat het niet bij één gevoel hoort. De bas van Kana-boon geeft me energie, klassieke Japanse muziek brengt rust, oldschool rap en R&B voelen vertrouwd. Elk genre kwam op zijn eigen manier mijn leven binnen via anime, tv, YouTube of gewoon bekendheid en dat stukje ontdekking draagt het nog steeds met zich mee. Met piano en straks hopelijk bas wil ik niet alleen luisteren, maar er zelf onderdeel van zijn. Daarom kent mijn muzieksmaak geen grenzen
@@ -249,7 +252,7 @@ Ik heb specifiek voor deze verzameling gekozen omdat het allemaal met met de ond
 ## 7 september -
 
 <details>
-<summary><strong>Verkennen van mijn onderwerp</summary></strong>
+<summary><strong>Verkennen van mijn onderwerp</strong></summary>
 In de les hebben we een artiekel gelezen genaamd 'A brief history and ethos of the digital garden." Na het gelezen te hebben moesten we een samenvatting maken met daarnaast nog 2 vragen die je zou willen stellen aan de auteur.
 
 #### Mijn samenvatting + vragen:
@@ -263,7 +266,7 @@ In deze opdracht ben ik in een groepje wat websites gaan bekijken en hebben we i
 </details>
 
 <details>
-<summary><strong>Opdracht 2 - eigen verkenning</summary></strong>
+<summary><strong>Opdracht 2 - eigen verkenning</strong></summary>
 
 <strong>Onderwerp</strong>
 Ik heb als onderwerp muziek gekozen omdat dat iets in mijn dagelijks leven is wat een grote rol speelt. Ik luister altijd wel naar muziek en het is iets wat echt bij mij hoort als persoon. Ik hou voornamelijk erg van jazz muziek dus wil ik iets "jazzy" gerelateerd hebben in mijn design.
@@ -274,7 +277,7 @@ Ik wil graag mijn eigen maar ook content van andere hebben. Aangezien het mijn p
 
 </details>
 <details>
-<summary><strong>checkout</summary></strong>
+<summary><strong>checkout</strong></summary>
 
 1. Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
    -Een digital garden is een soort persoonlijke notebook met content die jij zelf wil publiceren. Het is niet als een blog maar kan wel met een blog worden verward omdat het een beetje erop lijkt. Het verschil is dat een digital garden op typografie focused en niet met tijdlijnen werkt op de manier zoals bloggen doen.
@@ -303,7 +306,7 @@ Mee gedaan aan de deep dive van Nicky over Micro animaties en de daarbij gekrege
 ## 31 aug - Kickoff
 
 <details> 
-<summary><strong>Vandaag</summary><strong>
+<summary><strong>Vandaag</strong><summary>
 Gekozen voor github en gebruikt om files te forken. Later een gepersonalizeerde domein aangemaakt genaamd "hibanova.
 nl". Nadat ik vscodium heb gedownload heb ik in de index.html wat dingen aangepaast zoals de naam en tekst. Ik kwam er wel al snel achter dat ik een issue had met vscodium voor een of andere reden en ging daardoor gewoon verder op vs code.</details>
 
