@@ -8,6 +8,16 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## 19 september -
 
+<details>
+
+<summary><strong>Design veranderingen</strong></summary>
+Na de les over hierarchie heb ik lang nagedacht over mijn layout en vind ik het een beetje rommelig en vond ik ook dat er vrijwel bijna geen witruimte was. Ook aangezien ik veel van mijn code kwijt was geraakt nadat een student-assistent mij wou helpen met de merge conflict dacht ik er aan om een nieuwe meer bijpassendere layout te maken.
+
+<img width="975" height="633" alt="mobiel process" src="https://github.com/user-attachments/assets/4720aaab-690a-425e-b1e0-7fcd35fd683a" />
+
+Hierna ben ik de light en dark mode gaan testen van deze layout omdat dat een requirement was voor de 1e sprint. Die heb ik uiteindelijk ook op ded telefoon getest en dat zag er zo uit.
+<img width="468" height="488" alt="mobiel light dark" src="https://github.com/user-attachments/assets/adbb1d30-77ff-4358-8aa4-0a76e0ce6049" />
+
 ## 18 september [Deepdive light & Dark] + Feedback verwerken -
 
 <details>
@@ -43,6 +53,8 @@ Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met versch
 <summary><strong>Retrospective</strong></summary>
 
 <strong>Retrospect 1 - Het web is voor iedereen</strong>
+
+<img width="2756" height="633" alt="Artboard 1_2" src="https://github.com/user-attachments/assets/aab2941c-cb49-41be-bb02-2fdde81b8e78" />
 
 </details>
 
