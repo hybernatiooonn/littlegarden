@@ -49,6 +49,9 @@ Nog niet zo veel verassende dingen naast de hover states.
 -Hoe zorg ik ervoor dat mijn layout smooth responsive is
 -Hoe voeg ik animaties toe zonder Javascript.
 
+<strong>4. Maak waar nodig een laatste iteratie, zodat het helder is wat je definitieve bouwplan is in html/css.</strong>
+<img width="4320" height="7680" alt="Untitled86_20261004210205" src="https://github.com/user-attachments/assets/fdeed502-4090-4ff2-8b7e-5fdebfa8360b" />
+
 ## 10 September - Workshop 3 + Deepdive
 
 <details>
