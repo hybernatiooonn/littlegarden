@@ -6,18 +6,24 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ##### 22 september -
 
+## 19 september -
+
 ## 18 september [Deepdive light & Dark] + Feedback verwerken -
 
 <details>
 <summary><strong>Feedback van Charley en Samih:</summary></strong>
 Vandaag heb ik gezeten met de docent en student assistend voor feedback en die heb ik uiteindelijk gekregen.
 ''Je hebt veel ideeën en bent ook een eind gekomen met jouw Digital Garden. Het is wel belangrijker dat je jouw Learning Log beter gaat bijhouden (en er ook afbeeldingen met beschrijvingen bij zet) en ook de Deep Dives gaat doen en gaat vastleggen. Een deel heb je al wel gedaan maar dat kan ik nu niet zien vanwege het merge conflict. Trek hiervoor maandag even een studentassistent aan diens jasje. Ga zo door!
+</details>
 
-<strong> Feedback Charley en Semih</strong>
+<strong> Feedback Charley en Semih verwerken</strong>
 
 Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback. Ik heb de issue met mijn website kunnen fixen en mijn oude coden terug kunnen zetten omdat ik vast zit met een merge conflict. het syncen is mij nog steeds niet gelukt maar daar ga ik maandag met een student assistent mee zitten. Ik heb als feedback dan eigenlijk alleen gekregen om de deepdive van light en dark toch te doen en die heb ik ook gedaan + alle kleuren in mijn design properties geven want dat had ik eerst alleen nog bij mijn light en dark modus en niet met alle kleuren in mijn css.
 
-</details>
+<summary><strong>Deepdive Light&Dark</summary></strong>
+Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met verschillende kleurtjes te doen en niet persee een light of dark thema.
+ <img width="1908" height="938" alt="Screenshot 2026-09-20 at 20 21 51" src="https://github.com/user-attachments/assets/8f860a47-5cc1-4d63-bd61-80e62a37ad5e" />
+ </details>
 
 ## 16 september - Workshop 5
 
@@ -29,14 +35,21 @@ Bij deze opdract moesten we onze mobiele layout overnemen en het in stukken opde
 </details>
 
 <details>
-<summary><strong>Checkout</summary></strong>
+<summary><strong>Deepdive responsive grid + grid areas</summary></strong>
+<strong>Oefening 1</strong>
+Bij deze oefening moest ik ervoor zorgen dat een responsive layout met behulp van grid template areas zou kunnen maken. Dat ging best wel makkelijk en het was ook niet verwarrend om te volgen. 
+<img width="3664" height="615" alt="grid area en responsiveness" src="https://github.com/user-attachments/assets/24c42ddc-64ce-424f-b461-7db1ca6f7bc2" />
+
+<strong>Oefening 2</strong>
+hier heb ik ook mijn process vastgelegd
+<img width="3848" height="633" alt="Odracht 2 responsiveness" src="https://github.com/user-attachments/assets/890c1ef7-b6c6-4922-9160-2c6eac664e24" />
 
 </details>
 
 <details>
-<summary><strong>Deepdive Light&Dark</summary></strong>
-Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met verschillende kleurtjes te doen en niet persee een light of dark thema.
- <img width="1908" height="938" alt="Screenshot 2026-09-20 at 20 21 51" src="https://github.com/user-attachments/assets/8f860a47-5cc1-4d63-bd61-80e62a37ad5e" />
+<summary><strong>Checkout</summary></strong>
+
+</details>
 
 </details>
 
