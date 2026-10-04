@@ -52,14 +52,27 @@ Hier ben ik 4 posters gaan uitkiezen en van die vier posters ben ik kenmerken ui
 </details>
 
 <details>
-<summary><strong>Crazy 8</sumamry></strong>
+<summary><strong>Crazy 8</summary></strong>
 Na de visual research ben ik bezig geweest met een crazy 8. Daarbij heb ik per schests 40 seconden voor grekregen. Omdat ik niet zo lang na kon denken heb ik ook bij wat schetsen een beetje wat randoms getekend en ziet het er niet allemaal super maar dat is nou eenmaal wat er bij een crazy 8 hoort.
 <img width="695" height="507" alt="Screenshot 2026-10-04 at 17 20 16" src="https://github.com/user-attachments/assets/a021f9a4-d4c0-4513-af84-287a58fd3622" />
 Zoals je ziet komt er vaker een bepaald element voor omdat ik bij die schetsen al wel een beetje een specefiek idee had. Ik wil namelijk dat mijn website een soort nostalgische/vintage vibe overdraagt en dat wou ik dan met bepaalde plaatjes doen en ik had een idee dat ik in ieder geval een vintage lamp erin wou hebben en die komt dus vaker in de schetsen voor. Voor de layout zelf ben ik bij meerdere schetsen gaan experimenteren met verschillende hierarchieeën. De schetsen waar de nav of tekst gecentreerd staan, spreken mij het meest aan omdat ik wil dat de gebruiker dat als eerst ziet. Ik dacht ook aan dat ik de tekst een about me zou maken zodat de gebruiker eerst wat over mij zou leren kennen en dan site lekker kan exploren.
 </details>
+
 <details>
 <summary><strong>Crazy 8 beoordeling</summary></strong>
 <img width="2753" height="1855" alt="IMG_0417" src="https://github.com/user-attachments/assets/2d1e3bc5-c3a3-4693-b986-5e23200cec77" />
+</details>
+
+<details>
+<summary><strong>Checkout</summary></strong>
+<strong>1. Leg uit waar het Visual Research in 3 stappen naartoe werkt</strong>
+De eerste stap waar visual research naartoe werkt is een directe visuele vertaling. Dan ga je vanuit het gekozen sfeerwoord bijpassende fotos zoeken. Je benoemd kenmerken uit deze gekozen beelden en gaat in de tweede stap ze vormen naar een abstracte vertaling. En in de laatste stap formuleer je de uitgangspunten om mee te schetsen.
+<strong>2. Vertel in 2 zinnen waar jouw Garden over gaat, en met welke content je dat gaat doen (beeld, tekst, sound, animatie).
+</strong>
+Mijn garden gaat over mijn band met muziek, wat voor artiesten en genres ik leuk vind en waarom ik mij zo connected voel. Maar ook over mezelf ik zou er bijvoorbeeld graag een journal in willen hebben en wat van mijn kunst.
+<strong>3. Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren/ verder zou willen onderzoeken 
+</strong>
+Ik denk dat ik de middelste/5e crazy 8 schets het liefts zou willen uitwerken omdat de tekst daar centraal staat en de lamp erin voor komt. Ook omdat er interactieve icoontjes boven zijn en ik vind dat er wel wat interactiefs in mijn website moet zijn. En ook doordat er nog een nav bar bij zit omdat het dan makkelijk te zien is dat je kan exploren.
 </details>
 
 ## 8 september -
