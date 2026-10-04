@@ -26,10 +26,26 @@ Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met versch
 
 </details>
 
-## 11 September - Workshop 3
+## 10 September - Workshop 3 + Deepdive
 
 <details>
-<summary><strong>
+<summary><strong>Uitgangspunten voor schetsen</summary></strong>
+Voor deze opdracht moesten we van de crazy 8, vijf nieuwe schetsen gaan maken maar dan voor een mobiele layout inplaats van een desktop versie.
+<strong>Vijf schetsen</strong>
+Ik ben bij deze schetsen goed gaan kijken naar de schetsen van de crazy 8 en heb duidelijk ook hier meerdere elementen terug gebracht. De interactieve icoontjes, lantaarn paal, en de muziekale straling komt vaker terug inmijn ontwerp.
+
+De 2e en 3e schets vind ik zelf de beste keuze modat de nav bar/tekst daar centraal staan en het decoratieve daar wel nog dichtbij omheen dus belangrijke informatie staat daardoor in het midden en oogt omdat alles wel nog dicht bij elkaar staat. Ik heb hier nagedacht aan de gestalte principes en in dit geval proximity toegepast.
+<img width="1605" height="569" alt="Screens 5 mobile sketches" src="https://github.com/user-attachments/assets/601db5ef-f017-4721-90d5-c438de615b74" />
+
+</details>
+
+<details>
+<summary><strong>Deepdive mooie kleuren en gradients</summary></strong>
+Ik heb de powerpoint doorgenomen en ben daarna met de deepdive begonnen.
+
+<img width="1276" height="676" alt="OpdrachtGradient1" src="https://github.com/user-attachments/assets/a4ca9ef4-4080-4fdc-86db-daa8a3181dc0" /> <img width="1277" height="678" alt="OpdrachtGradient2" src="https://github.com/user-attachments/assets/febcd824-661a-473d-b674-0fd59167a71e" />
+
+Nu weet ik hoe ik verschillende soorten gradients kan gebruiken en later kan toevoegen in mijn website wat ik zeker plan om te doen!!!
 
 ## 9 september - Workshop 2
 
