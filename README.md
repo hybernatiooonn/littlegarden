@@ -313,6 +313,7 @@ Nog niet zo veel verassende dingen naast de hover states.
 
 <details>
 <summary><strong>Deepdive - Grid + Media queries</strong></summary>
+</details>
 
 ## 10 September - Workshop 3 + Deepdive
 
