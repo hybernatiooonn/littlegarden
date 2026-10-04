@@ -6,7 +6,7 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ##### 22 september -
 
-##### 18 september [Deepdive light & Dark] + Feedback verwerken -
+## 18 september [Deepdive light & Dark] + Feedback verwerken -
 
 <details>
 <summary><strong>Feedback van Charley en Samih:</summary></strong>
@@ -19,6 +19,20 @@ Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback
 
 </details>
 
+## 16 september - Workshop 5
+
+<details>
+<summary><strong> Grid/flexbox layout</summary></strong>
+<strong>Grid layout getekend in de les<strong>
+Bij deze opdract moesten we onze mobiele layout overnemen en het in stukken opdelen zodat we daar later met grid of flexbox mee verder gaan prototypen. Ook moesten we de hierarchie aandacht geven in deze opdracht, denk aan contrast, witruimte etc.
+<img width="2889" height="1975" alt="IMG_0420" src="https://github.com/user-attachments/assets/52aa27bc-edd1-4d2e-8f4b-167b7a032fc4" />
+</details>
+
+<details>
+<summary><strong>Checkout</summary></strong>
+
+</details>
+
 <details>
 <summary><strong>Deepdive Light&Dark</summary></strong>
 Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met verschillende kleurtjes te doen en niet persee een light of dark thema.
@@ -26,7 +40,50 @@ Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met versch
 
 </details>
 
-## 11 september - Workshop 4
+## 14 september - Workshop 4
+
+<details>
+<summary><strong>Bi-Weekly geek 1</summary></strong>
+<img width="3686" height="1364" alt="biweekly1 (1)" src="https://github.com/user-attachments/assets/5ecd6502-9fae-4d45-8ce1-bc2c5db54b12" />
+</details>
+
+<details>
+<summary><strong>Opdracht 16 - van one column layout naar responsive design</summary></strong>
+Duo: Rianne
+Bij deze opdrachten ging mijn duo mijn responsivness testen. 
+We hebben mijn mobiele layout dus op verschillende schermgroottes geprobeerd te bekijken alleen was er 1 opvallend probleem. De main bewoog wel mee, dus die was responsive maar de imgs bleven op hun plek. Wat ik wou is dat de imgs met de main mee bewegen alleen dat was niet het geval en dat heb ik van Rianne gelijk mee gekregen als feedback. 
+</details>
+
+<details>
+<summary><strong>Opdracht 17 - Responsive voorbeelden zoeken</summary></strong>
+<strong>1.Als je het scherm kleiner maakt dan zie je bij de navigatie bar de zoek en log in worden vervangen door een icoontje</strong>
+Als het scherm kleiner word is er dus geen tekst meer maar een icoontje en dat is denk ik gedaan zodat ze niet veel ruimte in nemen.
+<strong>2.Niet alle fotos worden volledig gezien</strong>
+Sommige fotos worden kleiner maar als je het scherm op het allerkleinst zitten zie je sommige fotos alleen maar voor de helft terwijl je andere wel volledig klein ziet.
+<strong>3.De teksten passen zich aan zodra het scherm kleiner of groter wordt</strong>
+De tekstformaat beweegt mee met de grootte. Als het scherm kleiner word dan word de tekst iets groter en andersom ook.
+</details>
+
+<details>
+<summary><strong>Checkout</summary></strong>
+<strong>1. Wanneer wordt een website ‘lelijk’ en hoe kun je dit fixen?</strong>
+Als een website weinig stijl heeft en niet goed responsive is word het een lelijke website. 
+hoe je dat kunt fixen is door met flexbox of grid een responsive design te gaan maken.
+<strong> 2. Welke volgende stap neem ik om mijn website responsive te maken?</strong>
+Een nieuw ontwerp maken voor de desktop versie maar mijn mobiele layout gebruiken als basis en met flexbox hem responsive maken zodat alles smooth veranderd als ik hem van gootte verander.
+<strong>3. Kan ik mijn Garden onderbouwen met Webby vocabulary?</strong>
+Ik kan het nog niet helemaal uit met hoofd onderbouwen met webby vocubulair.
+</details>
+
+## 12 september - verder aan mijn site
+
+<details>
+<summary><strong>Mobiele layout prototype</summary></strong>
+Ik had eerst heel simpel alleen even een main toegevoegd met behulp van de studen assistent. Voor deze layout hebben we trouwens flexbox gebruikt. In de main zit de nav bar die ik wou hebben met de tekst erboven. Daarna ben ik verder de images toe gaan voegen. Ik had gauw al de lantaarn paal veranderd omdat ik eigenlijk na lang nadenken vond dat het niet echt een toegevoegde waarde had en het zag er ook niet zo mooi uit omdat het te groot was en ik wou niet dat de lantaarn paal als afleiding zou werken omdat het er groot naast staat. Dus ik had dat veranderd met de gordijn alleen vond ik die ook niet de beste optie maar ik laat het nu zo tot ik wat anders vind wat meer bijpassend is.
+<img width="2833" height="1080" alt="Artboard 1" src="https://github.com/user-attachments/assets/9af19dde-ce8d-4e66-93d3-60f20a221130" />
+</details>
+
+## 11 september - Workshop 3
 
 <details>
 <summary><strong>Huiswerk bespreken</summary></strong>
@@ -52,6 +109,8 @@ Nog niet zo veel verassende dingen naast de hover states.
 <strong>4. Maak waar nodig een laatste iteratie, zodat het helder is wat je definitieve bouwplan is in html/css.</strong>
 <img width="4320" height="7680" alt="Untitled86_20261004210205" src="https://github.com/user-attachments/assets/fdeed502-4090-4ff2-8b7e-5fdebfa8360b" />
 
+</details>
+
 ## 10 September - Workshop 3 + Deepdive
 
 <details>
@@ -72,6 +131,8 @@ Ik heb de powerpoint doorgenomen en ben daarna met de deepdive begonnen.
 <img width="1276" height="676" alt="OpdrachtGradient1" src="https://github.com/user-attachments/assets/a4ca9ef4-4080-4fdc-86db-daa8a3181dc0" /> <img width="1277" height="678" alt="OpdrachtGradient2" src="https://github.com/user-attachments/assets/febcd824-661a-473d-b674-0fd59167a71e" />
 
 Nu weet ik hoe ik verschillende soorten gradients kan gebruiken en later kan toevoegen in mijn website wat ik zeker plan om te doen!!!
+
+</details>
 
 ## 9 september - Workshop 2
 
