@@ -25,6 +25,11 @@ Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met versch
  <img width="1908" height="938" alt="Screenshot 2026-09-20 at 20 21 51" src="https://github.com/user-attachments/assets/8f860a47-5cc1-4d63-bd61-80e62a37ad5e" />
  </details>
 
+ <details>
+ <summary><strong>Retrospective</summary></strong>
+ <strong>Retrospect 1 - Het web is voor iedereen</strong>
+
+
 ## 16 september - Workshop 5
 
 <details>
