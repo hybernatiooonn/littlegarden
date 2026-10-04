@@ -16,10 +16,14 @@ Vandaag heb ik gezeten met de docent en student assistend voor feedback en die h
 ''Je hebt veel ideeën en bent ook een eind gekomen met jouw Digital Garden. Het is wel belangrijker dat je jouw Learning Log beter gaat bijhouden (en er ook afbeeldingen met beschrijvingen bij zet) en ook de Deep Dives gaat doen en gaat vastleggen. Een deel heb je al wel gedaan maar dat kan ik nu niet zien vanwege het merge conflict. Trek hiervoor maandag even een studentassistent aan diens jasje. Ga zo door!
 </details>
 
+<details>
 <strong> Feedback Charley en Semih verwerken</strong>
 
 Ik ben later vandaag gelijk aan de slag gegaan met het verwerken van de feedback. Ik heb de issue met mijn website kunnen fixen en mijn oude coden terug kunnen zetten omdat ik vast zit met een merge conflict. het syncen is mij nog steeds niet gelukt maar daar ga ik maandag met een student assistent mee zitten. Ik heb als feedback dan eigenlijk alleen gekregen om de deepdive van light en dark toch te doen en die heb ik ook gedaan + alle kleuren in mijn design properties geven want dat had ik eerst alleen nog bij mijn light en dark modus en niet met alle kleuren in mijn css.
 
+</details>
+
+<details>
 <summary><strong>Deepdive Light&Dark</summary></strong>
 Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met verschillende kleurtjes te doen en niet persee een light of dark thema.
  <img width="1908" height="938" alt="Screenshot 2026-09-20 at 20 21 51" src="https://github.com/user-attachments/assets/8f860a47-5cc1-4d63-bd61-80e62a37ad5e" />
@@ -28,7 +32,7 @@ Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met versch
  <details>
  <summary><strong>Retrospective</summary></strong>
  <strong>Retrospect 1 - Het web is voor iedereen</strong>
-
+ </details>
 
 ## 16 september - Workshop 5
 
