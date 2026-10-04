@@ -119,6 +119,8 @@ Hierna ben ik de light en dark mode gaan testen van deze layout omdat dat een re
 <img width="975" height="275" alt="layout desktop process" src="https://github.com/user-attachments/assets/f650df59-2a17-4e4e-8c5e-be56decdc881" />
 <img width="983" height="287" alt="end prototype" src="https://github.com/user-attachments/assets/7a423f7b-da0d-4f37-a457-b13650fe4cac" />
 
+</details>
+
 ## 18 september [Deepdive light & Dark] + Feedback verwerken -
 
 <details>
