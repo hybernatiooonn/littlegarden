@@ -26,6 +26,29 @@ Ik heb de deepdive opnieuw gedaan en hier is het me wel gelukt om het met versch
 
 </details>
 
+## 11 september - Workshop 4
+
+<details>
+<summary><strong>Huiswerk bespreken</summary></strong>
+<strong>Opdracht 12</strong>
+<strong>Zijn mijn schetsen webby genoeg?</strong>
+-Toegankelijk:
+De pagina zelf is best toegangkelijk alleen is het niet meteen duidelijk welke imgs een animatie hebben of interactief zijn. Ik wil de buttons ook een hover geven en ik wil dat de icoontjes boven het middenstuk bewegen als je erover hovert of misschien zelfs geluid laten geven als je erover heen hovert.
+
+-Volwassen:
+Mijn design is zeker wel haalbaar met html en css. Ik denk dat ik wel een lange css ga krijgen door de hoeveelheid images en ik moet ze ook kunnen overlappen en op een precieze positie zetten wat misschien wel wat tijd zou gaan kosten.
+
+-Expressief:
+Ik vind mijn design erg expressief omdat je niet veel van dit soort design tegenkom, de layout en vibe die mijn design heeft heb ik op een bepaalde manier vormgegen met content erin die persoonlijk over mij gaan.
+
+-Leuk/Verassend:
+Nog niet zo veel verassende dingen naast de hover states.
+
+<strong>Vragen</strong>
+-Hoe zorg ik ervoor dat de imgs op dezelfde plek blijven als ik het scherm later groter maak?
+-Hoe zorg ik ervoor dat mijn layout smooth responsive is
+-Hoe voeg ik animaties toe zonder Javascript.
+
 ## 10 September - Workshop 3 + Deepdive
 
 <details>
