@@ -4,7 +4,101 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 # Learning Log [ UNDER CONSTRUCTION ]
 
-##### 22 september -
+## 30 september -
+
+<details>
+<summary><strong>WCAG Checklist</strong></summary>
+</details>
+
+<details>
+<summary><strong>Checkout</strong></summary>
+</details>
+
+<details>
+<summary><strong>Aria labels en alt teksten</strong></summary>
+</details>
+
+<details>
+<summary><strong>Contrast</strong></summary>
+</details>
+
+## 27 september - Workshop 4
+
+<details>
+<summary><strong>Bi-weekly geek 2</strong></summary>
+</details>
+<details>
+<summary><strong>Werken aan Toetsenbord&Screenreader</strong></summary>
+</details>
+<details>
+<summary><strong>Checkout</strong></summary>
+</details>
+
+## 26 september -
+
+<details>
+<summary><strong>Deepdive - Positions and Dialogs</strong></summary>
+</details>
+
+## 25 september - Workshop 3
+
+<details>
+<summary><strong>Compliance/Valide HTML</strong></summary>
+</details>
+
+<details>
+<summary><strong>Checkout</strong></summary>
+</details>
+
+## 23 september - Workshop 2
+
+<details>
+<summary><strong>Human consent component</strong></summary>
+</details>
+
+<details>
+<summary><strong>Dark pattern herontwerp</strong></summary>
+</details>
+
+<details>
+<summary><strong>Wireframes and wireflows</strong></summary>
+</details>
+
+<details>
+<summary><strong>Checkout</strong></summary>
+</details>
+
+## 22 september -
+
+<details>
+<summary><strong>Artikel 1 - Dark patterns in UX</strong></summary>
+</details>
+
+<details>
+<summary><strong>Talk 1 - Microinteractions : Design with details</strong></summary>
+</details>
+
+<details>
+<summary><strong>Talk 2 - Deceptive patterns</strong></summary>
+</details>
+
+<details>
+<summary><strong>Deepdive - Buttons, states and selectors</strong></summary>
+</details>
+
+## 21 september - Workshop 1
+
+<details>
+<summary><strong>Geïnformeerd cookies accepteren</strong></summary>
+<img width="6393" height="1254" alt="cookie schets" src="https://github.com/user-attachments/assets/86663b8e-2d0f-43d0-8836-97cd4ff859b3" />
+</details>
+
+<details>
+<summary><strong>Checkout</strong></summary>
+<strong>Wat zijn HTML landmark role elements?</strong>
+<strong>Wat zijn heading elementen en hoe horen deze ‘genest’ te worden?</strong>
+<strong>Hoe ga jij met cookies om? Beschrijf je beweegredenen en of die zijn veranderd na het volgen van dit college.</strong>
+</details>
 
 ## 19 september -
 
@@ -17,6 +111,11 @@ Na de les over hierarchie heb ik lang nagedacht over mijn layout en vind ik het 
 
 Hierna ben ik de light en dark mode gaan testen van deze layout omdat dat een requirement was voor de 1e sprint. Die heb ik uiteindelijk ook op ded telefoon getest en dat zag er zo uit.
 <img width="468" height="488" alt="mobiel light dark" src="https://github.com/user-attachments/assets/adbb1d30-77ff-4358-8aa4-0a76e0ce6049" />
+
+<strong>Desktop layout</strong>
+<img width="975" height="555" alt="layout ideas" src="https://github.com/user-attachments/assets/363b95e7-f64d-4d08-b362-eb45fc1aa6da" />
+<img width="975" height="275" alt="layout desktop process" src="https://github.com/user-attachments/assets/f650df59-2a17-4e4e-8c5e-be56decdc881" />
+<img width="983" height="287" alt="end prototype" src="https://github.com/user-attachments/assets/7a423f7b-da0d-4f37-a457-b13650fe4cac" />
 
 ## 18 september [Deepdive light & Dark] + Feedback verwerken -
 
@@ -207,6 +306,9 @@ Nog niet zo veel verassende dingen naast de hover states.
 <img width="4320" height="7680" alt="Untitled86_20261004210205" src="https://github.com/user-attachments/assets/fdeed502-4090-4ff2-8b7e-5fdebfa8360b" />
 
 </details>
+
+<details>
+<summary><strong>Deepdive - Grid + Media queries</strong></summary>
 
 ## 10 September - Workshop 3 + Deepdive
 
