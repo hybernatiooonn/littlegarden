@@ -6,6 +6,59 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## 5 Oktober -
 
+<details>
+<summary><strong>Aantekeningen Article over layouts</strong></summary>
+In de les hebben we een Article geleze over viewpoints, spacial tension etc.
+Daar heb ik wat aantekeningen over gemaakt met een klasgenoot.
+<img width="1377" height="1014" alt="Aantekeningen" src="https://github.com/user-attachments/assets/f2dc48cd-feca-4a37-bee3-52e5c13942be" />
+</details>
+
+<details>
+<summary><strong>Opdracht 1 - Songtekst analyseren</strong></summary>
+Ik heb een nummer gekozen die mij aanspreekt en dat is "Let it Happen" van Tame Impala.
+Daarna heb ik een stukje van de lyrics gekozen waar ik vind waarbij ritme, contrast en dynamiek word herkent. Het liedje is zelf 4 minuten lang dus het stukje dat ik specefiek heb gekozen was dit stukje.
+
+"You will not scare me, try to get through it, try to bounce to it
+You were not thinking that I will not do it
+They be lovin' someone and I'm another story
+Take the next ticket, get the next train
+Why would I do it? Have you ever think that?
+I cannot vanish, you will not scare me
+Try to get through it, try to bounce to it
+You were not thinking that I will not do it
+They be lovin' someone and I'm another story
+Take the next ticket, get the next train
+Why would I do it? Anyone'd think that
+Baby, now I'm ready, moving on
+Oh, but maybe I was ready all along
+Oh, I'm ready for the moment and the sound
+Oh, but maybe I was ready all along"
+
+<strong>Schetsen</strong>
+<img width="2326" height="1623" alt="Schetsen" src="https://github.com/user-attachments/assets/4f8eebc6-beec-4fb5-9875-da64e796db8f" />
+
+</details>
+
+<details>
+<summary><strong>Opdracht 2 - Bespreek met een ander</strong></summary>
+
+<strong>Wat wil je bij de kijker bereiken met je vormgeving?</strong>
+Ik wil niet alleen dat de lezer van dit stukje alleen de song tekst leest, maar ook het ritme en de dynamiek van dit nummer zien in de vormgeving. Dus daarom heb ik geexperimenteerd met grote en kleine letters, dik gedrukte letters, verschillende richtingen en herhaling. Ik wou eigenlijk dat sommige stukken meer druk en chaotisch voelen en andere (vooral het laatste stuk) wat rustiger is.
+
+<strong>Hoe voegt jouw opzet iets toe aan de tekst?</strong>
+Door bepaalde woorden en zinnen groter te maken, laat ik zien welke delen ik het belangrijkst vind. Bijvoorbeeld “I cannot vanish” en “Baby, now I’m ready, moving on” komen in meerdere schetsen groot terug. Ik heb ook tekst verticaal, horizontaal, in een cirkel en in verschillende kolommen geplaatst.
+Bij sommige schetsen heb ik herhaling en overlappende tekst gebruikt om het drukkere gevoel van het nummer te laten zien.
+
+<strong>Wat is een volgende stap: welke schets vind je het meest geschikt om digitaal uit te werken?</strong>
+Ik vind schets 2 het meest geschikt om digitaal uit te werken. Ik vind deze schets interessant omdat ik veel verschillende manieren van typografie heb gebruikt, zoals grote en kleine tekst, horizontale en verticale tekst, herhaling en veel witruimte. Ook lijkt deze schets mij haalbaar om met HTML en CSS na te maken.
+
+<strong>Hoe zou je dit kunnen aanpakken in code?</strong>
+Ik zou de verschillende delen van de songtekst in HTML opdelen met bijvoorbeeld <section>, <article>, <p> en headings. Ik weet niet of wij divs en spans mogen gebruiken dus die ga ik proberen te vermijden. In CSS kan ik font-size gebruiken voor de grote en kleine teksten en opacity voor het echo-effect. Voor de verticale tekst kan ik rotate gebruiken. Met margin, gap en position kan ik de tekst op verschillende plekken plaatsen. Ik zou eerst de tekst ering zetten en daarna de grootte, richting, herhaling en witruimte aanpassen totdat het zoveel mogelijk op mijn schets lijkt.
+
+</details>
+
+<strong>Opdracht 3 -
+
 ## 30 september -
 
 <details>
