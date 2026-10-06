@@ -53,12 +53,12 @@ Bij sommige schetsen heb ik herhaling en overlappende tekst gebruikt om het druk
 Ik vind schets 2 het meest geschikt om digitaal uit te werken. Ik vind deze schets interessant omdat ik veel verschillende manieren van typografie heb gebruikt, zoals grote en kleine tekst, horizontale en verticale tekst, herhaling en veel witruimte. Ook lijkt deze schets mij haalbaar om met HTML en CSS na te maken.
 
 <strong>Hoe zou je dit kunnen aanpakken in code?</strong>
-Ik zou de verschillende delen van de songtekst in HTML opdelen met bijvoorbeeld <section>, <article>, <p> en headings. Ik weet niet of wij divs en spans mogen gebruiken dus die ga ik proberen te vermijden. In CSS kan ik font-size gebruiken voor de grote en kleine teksten en opacity voor het echo-effect. Voor de verticale tekst kan ik rotate gebruiken. Met margin, gap en position kan ik de tekst op verschillende plekken plaatsen. Ik zou eerst de tekst ering zetten en daarna de grootte, richting, herhaling en witruimte aanpassen totdat het zoveel mogelijk op mijn schets lijkt.
+Ik zou de verschillende delen van de songtekst in HTML opdelen met bijvoorbeeld section, article, p, en headings. Ik weet niet of wij divs en spans mogen gebruiken dus die ga ik proberen te vermijden. In CSS kan ik font-size gebruiken voor de grote en kleine teksten en opacity voor het echo-effect. Voor de verticale tekst kan ik rotate gebruiken. Met margin, gap en position kan ik de tekst op verschillende plekken plaatsen. Ik zou eerst de tekst ering zetten en daarna de grootte, richting, herhaling en witruimte aanpassen totdat het zoveel mogelijk op mijn schets lijkt.
 
 </details>
 
 <details>
-<summary><strong>Opzet Html</strong></summary>
+<summary><strong>Het digitaal maken van mijn schets</strong></summary>
 <strong>Schets</strong>
 Eerst ben ik gaan denken hoe ik mijn layout ga maken met behulp van grid dus heb ik daar een schets van gemaakt om het beter in te kunnen zien want ik heb nog moeite met grid gebruiken en iets te maken ermee zonder dat ik het me kan verbeelden.
 <img width="1435" height="1080" alt="prototype plan" src="https://github.com/user-attachments/assets/029999ee-0e83-411e-b3bf-d158e849cd56" />
