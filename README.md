@@ -57,7 +57,25 @@ Ik zou de verschillende delen van de songtekst in HTML opdelen met bijvoorbeeld 
 
 </details>
 
-<strong>Opdracht 3 -
+<details>
+<summary><strong>Opzet Html</strong></summary>
+<strong>Schets</strong>
+Eerst ben ik gaan denken hoe ik mijn layout ga maken met behulp van grid dus heb ik daar een schets van gemaakt om het beter in te kunnen zien want ik heb nog moeite met grid gebruiken en iets te maken ermee zonder dat ik het me kan verbeelden.
+<img width="1435" height="1080" alt="prototype plan" src="https://github.com/user-attachments/assets/029999ee-0e83-411e-b3bf-d158e849cd56" />
+
+Daarna ben ik eigenlijk gelijk begonnen met stylen nadat ik me html heb opgesteld.
+Ik ben gaan werken met IDs omdat ik veel stukjes tekst apart van elkaar moet gaan stijlen en dat ging zo veel fijner.
+<img width="2508" height="526" alt="html opzet 1" src="https://github.com/user-attachments/assets/9809e2e1-29b8-4bcd-8034-1917d91f6c16" />
+
+</details>
+
+<details>
+<summary><strong>Checkout</strong></summary>
+<strong>Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)</strong>
+<strong>Wat is jouw ideale regellengte (measure)? Leg uit waarom.</strong>
+<strong>Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?</strong>
+Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het belangrijkst is. Grote tekst valt meteen meer op dan kleine tekst.
+</details>
 
 ## 30 september -
 
