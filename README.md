@@ -145,24 +145,6 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 <summary><strong>Checkout</strong></summary>
 </details>
 
-## 22 september -
-
-<details>
-<summary><strong>Artikel 1 - Dark patterns in UX</strong></summary>
-</details>
-
-<details>
-<summary><strong>Talk 1 - Microinteractions : Design with details</strong></summary>
-</details>
-
-<details>
-<summary><strong>Talk 2 - Deceptive patterns</strong></summary>
-</details>
-
-<details>
-<summary><strong>Deepdive - Buttons, states and selectors</strong></summary>
-</details>
-
 ## 21 september - Workshop 1
 
 <details>
@@ -171,7 +153,7 @@ Dit heel snel een idee geschets van hoe ik wil dat het eruit ziet
 <img width="6393" height="1254" alt="cookie schets" src="https://github.com/user-attachments/assets/86663b8e-2d0f-43d0-8836-97cd4ff859b3" />
 
 <storng>Cookie opdracht</strong>
-<img width="2965" height="2088" alt="opdracht_cookies" src="https://github.com/user-attachments/assets/51f91f1d-1f2e-4773-9335-9d4f85d02d11" />
+<img width="2965" height="2088" alt="image" src="https://github.com/user-attachments/assets/4298618f-2797-4a2d-8c1c-b583f6e5b51d" />
 
 </details>
 
