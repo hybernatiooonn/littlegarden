@@ -186,12 +186,16 @@ Na de les over hierarchie heb ik lang nagedacht over mijn layout en vind ik het 
 
 <img width="975" height="633" alt="mobiel process" src="https://github.com/user-attachments/assets/4720aaab-690a-425e-b1e0-7fcd35fd683a" />
 
-Hierna ben ik de light en dark mode gaan testen van deze layout omdat dat een requirement was voor de 1e sprint. Die heb ik uiteindelijk ook op ded telefoon getest en dat zag er zo uit.
+Hierna ben ik de light en dark mode gaan testen van deze layout omdat dat een requirement was voor de 1e sprint. Die heb ik uiteindelijk ook op de telefoon getest en dat zag er zo uit.
 <img width="468" height="488" alt="mobiel light dark" src="https://github.com/user-attachments/assets/adbb1d30-77ff-4358-8aa4-0a76e0ce6049" />
 
 <strong>Desktop layout</strong>
+Ik wou natuurlijk proberen om mijnmobiele layout te behouden dus ik heb de main aan de zijkant gezet en wou eigenlijk de rest aan de linker of rechter kant hebben van de site. Ik ben in adobe illustrator gelijk bezig geweest met layouts maken. Ik heb een screenshot gemaakt van mijn site met de main aan de linker kant zodat de rechter kant leeg is en ik in het programma daar blokjes kon editten en ben zo een beetje gaan experimeteren met meerdere layouts.
+De 4e layout vond ik het mooist en het meest bijpassend omdat ik veel decoratieve fotos op mijn site wou hebben en de 3 boxen die los van elkaar staan onderaan de site waren daar een goed plekje voor dus die heb ik uiteindelijk gekozen. Ook heb ik gekozen voor deze opties omdat hij twee borders en dat zo twee duidelijke delen van de site laat zien.
 <img width="975" height="555" alt="layout ideas" src="https://github.com/user-attachments/assets/363b95e7-f64d-4d08-b362-eb45fc1aa6da" />
+Hier ben ik mijn layout in html en css begonnen en snel in html alles een naam gegeven zodat ik het later mooier kon vormgeven. Ik heb uiteindelijk ook de keuze gemaakt om de main te evranderen omdat de knoppen daar een beetje inrelevant werden aangezien ik de kopjes die in de main stonden eigenlijk groot aan de rechter kant wou hebben. De knopjes in de main waren namelijk groot genoeg voor een mobiele layout maar vond ze voor de desktop nog eigenlijk veelste klein en niet makkelijk te zien. Dus heb ik die weg gezet en heb ik het vervangen met een foto van mij zodat het ook gelijk persoonlijker voelt. De korte text die ik in de main wou gaan zetten heb ik nu groot in het midden gezet en dat is de ''about me'' geworden.
 <img width="975" height="275" alt="layout desktop process" src="https://github.com/user-attachments/assets/f650df59-2a17-4e4e-8c5e-be56decdc881" />
+Ook heb ik in het visuele de gradient terug gebracht die ik in mijn mobiele layout had op het begin alleen weet nog niet zo goed hoe ik dat moet doen met dark en light aangezien hij dat op het mobiel niet deed met de gradient maar daar ga ik later wel naar kijken.
 <img width="983" height="287" alt="end prototype" src="https://github.com/user-attachments/assets/7a423f7b-da0d-4f37-a457-b13650fe4cac" />
 
 </details>
