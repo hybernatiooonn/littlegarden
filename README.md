@@ -167,14 +167,26 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 
 <details>
 <summary><strong>Geïnformeerd cookies accepteren</strong></summary>
+Dit heel snel een idee geschets van hoe ik wil dat het eruit ziet
 <img width="6393" height="1254" alt="cookie schets" src="https://github.com/user-attachments/assets/86663b8e-2d0f-43d0-8836-97cd4ff859b3" />
+
+<storng>Cookie opdracht</strong>
+<img width="2965" height="2088" alt="opdracht_cookies" src="https://github.com/user-attachments/assets/51f91f1d-1f2e-4773-9335-9d4f85d02d11" />
+
 </details>
 
 <details>
 <summary><strong>Checkout</strong></summary>
+
 <strong>Wat zijn HTML landmark role elements?</strong>
+Dit zijn elementen die de grote delen van een website betekenis en structuur geven. Voorbeelden van deze elementen zijn nav, header, footer.
+
 <strong>Wat zijn heading elementen en hoe horen deze ‘genest’ te worden?</strong>
+Dit zijn de kopjes h1, h2, h3 etc. Die geven hierarchie van de content in html en worden op logische volgorde gebruikt.
+
 <strong>Hoe ga jij met cookies om? Beschrijf je beweegredenen en of die zijn veranderd na het volgen van dit college.</strong>
+Ik ging eigenlijk vaak niet nadenkend om met cookies. Ik zag het meer als een soort last dus klikte het meestal wel weg zodat ik gewoon verder kon op een site maar heb geleerd dat het eigenlijk best wel belangrijk is omdat het gaat om toestemming dat ik geef.
+
 </details>
 
 ## 19 september -
@@ -193,10 +205,11 @@ Hierna ben ik de light en dark mode gaan testen van deze layout omdat dat een re
 Ik wou natuurlijk proberen om mijnmobiele layout te behouden dus ik heb de main aan de zijkant gezet en wou eigenlijk de rest aan de linker of rechter kant hebben van de site. Ik ben in adobe illustrator gelijk bezig geweest met layouts maken. Ik heb een screenshot gemaakt van mijn site met de main aan de linker kant zodat de rechter kant leeg is en ik in het programma daar blokjes kon editten en ben zo een beetje gaan experimeteren met meerdere layouts.
 De 4e layout vond ik het mooist en het meest bijpassend omdat ik veel decoratieve fotos op mijn site wou hebben en de 3 boxen die los van elkaar staan onderaan de site waren daar een goed plekje voor dus die heb ik uiteindelijk gekozen. Ook heb ik gekozen voor deze opties omdat hij twee borders en dat zo twee duidelijke delen van de site laat zien.
 <img width="975" height="555" alt="layout ideas" src="https://github.com/user-attachments/assets/363b95e7-f64d-4d08-b362-eb45fc1aa6da" />
-Hier ben ik mijn layout in html en css begonnen en snel in html alles een naam gegeven zodat ik het later mooier kon vormgeven. Ik heb uiteindelijk ook de keuze gemaakt om de main te evranderen omdat de knoppen daar een beetje inrelevant werden aangezien ik de kopjes die in de main stonden eigenlijk groot aan de rechter kant wou hebben. De knopjes in de main waren namelijk groot genoeg voor een mobiele layout maar vond ze voor de desktop nog eigenlijk veelste klein en niet makkelijk te zien. Dus heb ik die weg gezet en heb ik het vervangen met een foto van mij zodat het ook gelijk persoonlijker voelt. De korte text die ik in de main wou gaan zetten heb ik nu groot in het midden gezet en dat is de ''about me'' geworden.
+Hier onder ben ik mijn layout in html en css begonnen en snel in html alles een naam gegeven zodat ik het later mooier kon vormgeven. Ik heb uiteindelijk ook de keuze gemaakt om de main te evranderen omdat de knoppen daar een beetje inrelevant werden aangezien ik de kopjes die in de main stonden eigenlijk groot aan de rechter kant wou hebben. De knopjes in de main waren namelijk groot genoeg voor een mobiele layout maar vond ze voor de desktop nog eigenlijk veelste klein en niet makkelijk te zien. Dus heb ik die weg gezet en heb ik het vervangen met een foto van mij zodat het ook gelijk persoonlijker voelt. De korte text die ik in de main wou gaan zetten heb ik nu groot in het midden gezet en dat is de ''about me'' geworden.
 <img width="975" height="275" alt="layout desktop process" src="https://github.com/user-attachments/assets/f650df59-2a17-4e4e-8c5e-be56decdc881" />
 Ook heb ik in het visuele de gradient terug gebracht die ik in mijn mobiele layout had op het begin alleen weet nog niet zo goed hoe ik dat moet doen met dark en light aangezien hij dat op het mobiel niet deed met de gradient maar daar ga ik later wel naar kijken.
 <img width="983" height="287" alt="end prototype" src="https://github.com/user-attachments/assets/7a423f7b-da0d-4f37-a457-b13650fe4cac" />
+Als laatst heb ik een nav bar toegevoegd en heb ik de rechter kant veranderd na indirect feedback van Sanne. Mijn originele idee was namelijk dat ik aan de rechter kant van de 4 boxes buttons maak die je sturen naar een andere tab maar heb ik bij de deepdive geleerd dat een link en een button niet hetzelfde zijn en mogen zijn. Ik heb namelijk 4 linkjes laten lijken op buttons en Sanne zei dat dat eigenlijk niet de bedoeling is dus dat heb ik veranderd. Toen had ik dus een nav bar toegevoegd en heb ik het aan de rechter kant decoratiever gemaakt omdat ik vond dat de vintage vibe er nog niet uitsprong en dat wil ik wel over laten brengen aangezien dat een belangrijk deel is van mijn ontwerp.
 
 </details>
 
