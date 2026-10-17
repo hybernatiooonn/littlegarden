@@ -72,9 +72,13 @@ Ik ben gaan werken met IDs omdat ik veel stukjes tekst apart van elkaar moet gaa
 <details>
 <summary><strong>Checkout</strong></summary>
 <strong>Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)</strong>
+
 <strong>Wat is jouw ideale regellengte (measure)? Leg uit waarom.</strong>
+
 <strong>Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?</strong>
+
 Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het belangrijkst is. Grote tekst valt meteen meer op dan kleine tekst.
+
 </details>
 
 ## 30 september -
