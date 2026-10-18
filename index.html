@@ -1,13 +1,9 @@
 <!doctype html>
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <meta name="Hiba" content="interface hibanova" />
-
     <meta name="color-scheme" content="dark light" />
 
     <title>Little garden</title>
@@ -21,21 +17,38 @@
   </head>
 
   <body>
-    <!-- ik heb tabindex en autofocus van een andere bron omdat het mij niet lukte om het zelf te doen dus ik vroeg google ai voor hulp -->
-    <dialog open aria-labelledby="cookie-title" aria-describedby="cookie-text">
+    <input type="checkbox" id="cookie-toggle" checked />
+
+    <div
+      class="cookie-popup"
+      role="dialog"
+      aria-labelledby="cookie-title"
+      aria-describedby="cookie-text">
       <h2 id="cookie-title">Important ! 🍪</h2>
 
-      <p id="cookie-text" tabindex="-1" autofocus>
-        Hibanova.nl uses cookies. This website also uses an external component
-        from Digitaal Tuintje. When cookies are accepted, information may be
-        sent to digitaaltuintje.nl. Would you like to accept the cookies?
+      <p id="cookie-text">
+        Hibanova.nl uses cookies. This website also uses external component such
+        as Digitaaltuitje.nl and spotify.com. When cookies are accepted,
+        information may be sent to digitaaltuintje.nl. Would you like to accept
+        the cookies?
       </p>
 
-      <form method="dialog">
-        <button>Accept</button>
-        <button>Reject</button>
-      </form>
-    </dialog>
+      <div class="cookie-buttons">
+        <label for="cookie-toggle" class="cookie-button"> Accept </label>
+
+        <a
+          href="https://www.youtube.com/watch?v=iwd8N6K-sLk"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cookie-button">
+          Reject
+        </a>
+      </div>
+    </div>
+
+    <label for="cookie-toggle" class="cookie-settings">
+      🍪 Cookie settings
+    </label>
 
     <header>
       <nav>
@@ -45,15 +58,15 @@
           </li>
 
           <li>
-            <a href="Socialize.html">Socialize</a>
+            <a href="socialize.html">Socialize</a>
           </li>
 
           <li>
-            <a href="Pinboard.html">Pinboard</a>
+            <a href="pinboard.html">Pinboard</a>
           </li>
 
           <li>
-            <a href="Credits.html">Credits</a>
+            <a href="credits.html">Credits</a>
           </li>
         </ul>
       </nav>
@@ -107,7 +120,7 @@
           <section id="kleineboxen">
             <a
               id="camera-link"
-              href="Camera.html"
+              href="camera.html"
               aria-label="If you click here, you will find a collage with aesthetic pictures chosen and set up by Hibanova.">
               <img
                 id="camera"
@@ -117,15 +130,14 @@
 
             <a
               id="plaat-link"
-              href="Musicplate.html"
-              aria-label="If you click here, you will find a pla
-              ylist of Hibanova's favorite tunes.">
+              href="musicplate.html"
+              aria-label="If you click here, you will find a playlist of Hibanova's favorite tunes.">
               <img id="plaat" src="./assets/website-imgs/plaats.png" alt="" />
             </a>
 
             <a
               id="monkey-link"
-              href="Journal.html"
+              href="journal.html"
               aria-label="If you click here, you will find a journal with quotes and doodles made by Hibanova herself.">
               <img id="Monkey" src="./assets/website-imgs/Monkey.png" alt="" />
             </a>

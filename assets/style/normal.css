@@ -1,3 +1,6 @@
+
+/* fonts */
+
 @font-face {
     font-family: "Comic Relief";
     src: url("../type/ComicRelief-Regular.woff2");
@@ -29,21 +32,19 @@
 }
 
 
-/* PROPERTIES */
+/* properties */
 
 html {
     color-scheme: light dark;
-
     --bodycolor: rgb(120, 55, 33);
-
     --h1color: light-dark(
         rgb(44, 28, 20),
         rgb(195, 174, 142)
     );
+
     --mainbackgroundcolor: rgb(245, 231, 209);
     --navulliabackgroundcolor: rgb(221, 196, 168);
     --blacktext: rgb(0, 0, 0);
-
     --beigeborderlight: light-dark(
         rgb(42, 24, 6),
         rgb(198, 161, 125)
@@ -86,6 +87,7 @@ html {
 }
 
 
+/* body */
 
 body {
     margin: 0;
@@ -104,6 +106,8 @@ body {
 }
 
 
+/* header */
+
 header {
     width: 95%;
     height: 4.5em;
@@ -117,7 +121,7 @@ header {
 }
 
 
-/* NAV BAR */
+/* nav bar */
 
 nav {
     flex: 1;
@@ -136,7 +140,6 @@ nav ul {
     list-style: none;
     box-sizing: border-box;
 }
-
 
 nav a {
     display: block;
@@ -158,6 +161,7 @@ nav a:hover {
 }
 
 
+/* De pagina */
 
 #pagina {
     width: 95%;
@@ -170,6 +174,7 @@ nav a:hover {
 }
 
 
+/* links */
 
 #links {
     flex: 1 1 auto;
@@ -184,6 +189,8 @@ nav a:hover {
 }
 
 
+/* the BIGGG Box */
+
 #grotebox {
     position: relative;
     flex: 0 1 16em;
@@ -192,8 +199,6 @@ nav a:hover {
     height: 100%;
 }
 
-
-/* DECORATIVE FOTO's */
 
 #musicnote {
     position: absolute;
@@ -265,6 +270,7 @@ nav a:hover {
 }
 
 
+/* midden */
 
 #midden {
     flex: 1 1 18em;
@@ -276,6 +282,8 @@ nav a:hover {
 }
 
 
+/* about me */
+
 #box1 {
     width: 100%;
     height: auto;
@@ -284,8 +292,7 @@ nav a:hover {
     border-radius: 10px;
     padding: 2em;
     box-sizing: border-box;
-    box-shadow:
-        0.4em 0.4em 0 var(--h1color);
+    box-shadow: 0.4em 0.4em 0 var(--h1color);
 }
 
 #box1 h1 {
@@ -305,13 +312,14 @@ nav a:hover {
     line-height: 1.4;
 }
 
-/* KLEINE BOXEN */
+
+/* kleine boxen */
 
 #kleineboxen {
     width: 100%;
     display: flex;
     gap: 1em;
-}
+}   
 
 #camera-link,
 #plaat-link,
@@ -320,24 +328,25 @@ nav a:hover {
     flex: 1 1 0;
     min-width: 0;
     height: 8em;
-    padding: 2em;
+    padding: 2em;  
     box-sizing: border-box;
     display: block;
     text-decoration: none;
 }
+
+
+/* camera */
 
 #camera {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 8em;
-    transform:
-        translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     transition:
         scale 0.3s,
         filter 0.3s;
 }
-
 
 
 #plaat {
@@ -345,14 +354,14 @@ nav a:hover {
     top: 50%;
     left: 50%;
     width: 8em;
+
     z-index: 2;
-    animation:
-        spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+
     transition:
         scale 0.3s,
         filter 0.3s;
 }
-
 
 
 #Monkey {
@@ -360,14 +369,16 @@ nav a:hover {
     top: 50%;
     left: 50%;
     width: 8em;
-    transform:
-        translate(-50%, -50%);
+
+    transform: translate(-50%, -50%);
 
     transition:
         scale 0.3s,
         filter 0.3s;
 }
 
+
+/* hover voor de kleine boxen */
 
 #camera-link:hover #camera,
 #plaat-link:hover #plaat,
@@ -382,17 +393,15 @@ nav a:hover {
         );
 }
 
-
-
 #camera-link:focus-visible,
 #plaat-link:focus-visible,
 #monkey-link:focus-visible {
-    outline:
-        3px solid var(--mainbackgroundcolor);
+    outline: 3px solid var(--mainbackgroundcolor);
     border-radius: 10px;
 }
 
 
+/* rechter kant */
 
 aside {
     flex: 0 1 25%;
@@ -408,7 +417,7 @@ aside {
 }
 
 
-/* RECHTER SIDE BOXES */
+/* rechter side boxes */
 
 #sidebox1,
 #sidebox2,
@@ -422,8 +431,6 @@ aside {
 }
 
 
-/* FOTO's IN DE SIDE BOXES */
-
 #sidebox1 img,
 #sidebox2 img,
 #sidebox3 img,
@@ -435,7 +442,7 @@ aside {
 }
 
 
-/* FOOTER */
+/* footer */
 
 aside footer {
     margin-top: auto;
@@ -447,7 +454,7 @@ aside footer {
 }
 
 
-/* ANIMATIONNNNNN */
+/* ANIMATION */
 
 @keyframes spin {
     from {
@@ -464,7 +471,7 @@ aside footer {
 }
 
 
-/* SMALLER DESKTOP */
+/* kleinere desktop */
 
 @media (max-width: 1200px) {
 
@@ -502,14 +509,13 @@ aside footer {
 }
 
 
-/* IPAD */
+/* ipad */
 
 @media (max-width: 900px) {
 
     body {
         height: auto;
         min-height: 100vh;
-
         overflow: auto;
         overflow-x: hidden;
     }
@@ -527,17 +533,13 @@ aside footer {
         font-size: 1.4em;
     }
 
-
-    /* PAGINA */
+    /* pagina */
 
     #pagina {
         width: 92%;
-
         flex-direction: column;
-
         gap: 1em;
     }
-
 
     #links {
         width: 100%;
@@ -545,18 +547,13 @@ aside footer {
         padding: 1.5em;
     }
 
-
     #grotebox {
         min-width: 11em;
     }
 
-  
-
     #midden {
         gap: 2em;
     }
-
-
 
     #box1 {
         padding: 1.2em;
@@ -573,9 +570,6 @@ aside footer {
         width: 6em;
     }
 
-
-
-
     aside {
         flex: none;
         width: 100%;
@@ -585,7 +579,7 @@ aside footer {
 }
 
 
-/* MOBILIELTJUHHH */
+/* mobiel */
 
 @media (max-width: 750px) {
 
@@ -596,8 +590,7 @@ aside footer {
         overflow-x: hidden;
     }
 
-
-    /* HEADER */
+    /* header */
 
     header {
         width: 90%;
@@ -606,9 +599,6 @@ aside footer {
         flex-direction: column;
         gap: 1em;
     }
-
-
-
 
     nav {
         width: 100%;
@@ -625,14 +615,13 @@ aside footer {
         font-size: 1.1em;
     }
 
+    /* pagina */
 
     #pagina {
         width: 90%;
         flex-direction: column;
         gap: 2em;
     }
-
-
 
     #links {
         width: 100%;
@@ -642,23 +631,19 @@ aside footer {
         padding: 2em;
     }
 
-
-
     #grotebox {
         flex: none;
+
         width: 16em;
         min-width: 16em;
         height: 31em;
     }
-
-
 
     #midden {
         flex: none;
         width: 100%;
         gap: 3em;
     }
-
 
     #box1 {
         height: auto;
@@ -671,8 +656,6 @@ aside footer {
         line-height: 1.4;
     }
 
-
-
     #kleineboxen {
         flex-direction: column;
         gap: 2em;
@@ -683,12 +666,11 @@ aside footer {
     #monkey-link {
         width: 100%;
         height: 10em;
+
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-
 
     #camera {
         position: static;
@@ -696,21 +678,17 @@ aside footer {
         transform: none;
     }
 
-
     #Monkey {
         position: static;
         width: 8em;
         transform: none;
     }
 
-
     #plaat {
         position: static;
         width: 8em;
         animation: spin-mobile 3s linear infinite;
     }
-
-
 
     aside {
         flex: none;
@@ -730,47 +708,45 @@ aside footer {
 }
 
 
-/* MOBILE SPIN */
-  
+/* Mobiel vinyl plaat spin */
+
 @keyframes spin-mobile {
     from {
-        transform:
-            rotate(0deg);
+        transform: rotate(0deg);
     }
 
     to {
-        transform:
-            rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
 
-/* DIALOG POP UP COOKIES */
+/* cookie popup */
 
-dialog {
+.cookie-popup {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform:  translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 75%;
     height: 68%;
     padding: 3em;
     box-sizing: border-box;
-    background-color:  var(--beige2bordercolor);
+    background-color: var(--beige2bordercolor);
     color: var(--h1color);
-    border:  0.7em solid var(--h1color);
+    border: 0.7em solid var(--h1color);
     border-radius: 30px;
     text-align: center;
     z-index: 1000;
 }
 
-dialog h2 {
+.cookie-popup h2 {
     margin-top: 0;
     font-size: 3em;
     font-family: "Bravibe";
 }
 
-dialog p {
+.cookie-popup p {
     font-size: 1.5em;
     line-height: 1.4;
     margin-top: 1.5em;
@@ -779,13 +755,17 @@ dialog p {
     font-family: "Comic sans";
 }
 
-dialog form {
+
+/* cookie button */
+
+.cookie-buttons {
     display: flex;
     justify-content: center;
     gap: 5em;
 }
 
-dialog button {
+.cookie-button {
+    display: inline-block;
     padding: 2em 3em;
     border: none;
     border-radius: 15px;
@@ -793,20 +773,55 @@ dialog button {
     color: var(--beige2bordercolor);
     font-family: "Comic Relief";
     font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
     transition: transform 0.2s;
 }
 
-dialog button:hover {
-    transform:
-        translateY(-0.5em);
+.cookie-button:hover {
+    transform: translateY(-0.5em);
 }
 
 
-/* DIALOG MOBILE */
+/* cookie popup openen en sluiten */
+
+#cookie-toggle {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+#cookie-toggle:not(:checked) + .cookie-popup {
+    display: none;
+}
+
+
+/* knop cookie settings   */
+
+.cookie-settings {
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+    padding: 0.7em 1em;
+    background-color: var(--h1color);
+    color: var(--beige2bordercolor);
+    border-radius: 10px;
+    font-family: "Comic Relief";
+    cursor: pointer;
+    z-index: 999;
+}
+
+.cookie-settings:hover {
+    transform: translateY(-0.2em);
+}
+
+
+/* COOKIE MOBILE */
 
 @media (max-width: 750px) {
 
-    dialog {
+    .cookie-popup {
         width: 90%;
         height: auto;
         max-height: 90vh;
@@ -816,12 +831,12 @@ dialog button:hover {
         overflow-y: auto;
     }
 
-    dialog h2 {
+    .cookie-popup h2 {
         margin-top: 0;
         font-size: 2em;
     }
 
-    dialog p {
+    .cookie-popup p {
         font-size: 1.1em;
         line-height: 1.4;
         margin-top: 1em;
@@ -829,18 +844,18 @@ dialog button:hover {
         margin-right: 0;
     }
 
-    dialog form {
+    .cookie-buttons {
         gap: 1em;
     }
 
-    dialog button {
+    .cookie-button {
         padding: 1em 1.5em;
         font-size: 1em;
     }
 }
 
 
-/* PRESENTATIE */
+/* presentatie */
 
 .remark-slide-content img {
     width: 80px;
