@@ -137,7 +137,7 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 
 <details>
 <summary><strong>Human consent component schetsen</strong></summary>
-[diensten-van-digitalgarden.pdf](https://github.com/user-attachments/files/33737798/diensten-van-digitalgarden.pdf)
+<img width="667" height="277" alt="Screenshot 2026-10-20 at 22 15 45" src="https://github.com/user-attachments/assets/0467b673-0c12-4cf9-ab5c-f65a7f3c9db2" />
 
 </details>
 
