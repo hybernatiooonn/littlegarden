@@ -356,7 +356,7 @@ nav a:hover {
     width: 8em;
 
     z-index: 2;
-    animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;    /*dit zag ik bij rianne en vond ik echt heel leuk dus heb ik het ook gedaan*/
 
     transition:
         scale 0.3s,
@@ -710,7 +710,7 @@ aside footer {
 
 /* Mobiel vinyl plaat spin */
 
-@keyframes spin-mobile {
+@keyframes spin-mobile { 
     from {
         transform: rotate(0deg);
     }
