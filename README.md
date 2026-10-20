@@ -145,13 +145,6 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 <summary><strong>Cookie popup schets</strong></summary>
 <img width="6393" height="1254" alt="cookie schets" src="https://github.com/user-attachments/assets/86663b8e-2d0f-43d0-8836-97cd4ff859b3" />
 
-</details>
-
-<details>
-<summary><strong>Dark pattern herontwerp</strong></summary>
-
-</details>
-
 <details>
 <summary><strong>Wireframes and wireflows</strong></summary>
 Ik heb voor deze opdracht de website Aliexpress gekozen. Na het lezen van de artikelen ben ik meer te weten gekomen over dark patterns en daar ben ik bij deze site op zoek naar geweest.
@@ -165,6 +158,16 @@ Meestal haken klanten dan ook af nadat ze de totale prijs zien en deze situatie 
 
 <details>
 <summary><strong>Checkout</strong></summary>
+<strong>Wat is een wireflow en wat heb je eraan?</strong>
+Een wireflow is een combinatie van een flow chart en een wireframe. Je laat zien hoe her eruit ziet net als bij een wireframe maar laat ook zien hoe het word gebruikt met behulp van pijlen en aanwijzigen (annotaties).
+
+<strong>Wat zijn dark UX patterns? Geef drie voorbeelden. </strong>
+Dit zijn ontwerpkeuzes die de gebruiker manipuleren in hun keuzes om iets te doen. Het gebruiken van dark patterns zijn bijna altijd voordeliger voor het bedrijf en niet voor de gebruiker zelf.
+
+<strong>Waar moet je als ontwerper rekening mee houden bij het maken van een Human Consent Component?
+</strong>
+De gebruiker moet goed begrijpen waarvoor er bij hem toestemming word gevraagd en dat de gebruiker zelf vrij in zijn keuze is.
+
 </details>
 
 ## 21 september - Workshop 1
