@@ -4,6 +4,11 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 # Learning Log [ UNDER CONSTRUCTION ]
 
+##18 Oktober -
+
+<details>
+<summary><strong>Is mijn site webby?</strong></summary>
+
 ## 5 Oktober -
 
 <details>
