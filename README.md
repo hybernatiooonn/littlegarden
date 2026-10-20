@@ -127,16 +127,27 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 
 <details>
 <summary><strong>Compliance/Valide HTML</strong></summary>
+Ik heb mijn url in de website gezet waar mijn html in word gecheckt en heb gelukkig 0 errors. Ik heb wel een paar 'info' berichten maar weet niet echt waar het om gaat. Ook heb ik een paar warnings maar die gaan over de lege 'Alts' in mijn html maar die heb ik express leeg gelaten omdat een van de eisen waren dat de screenreader geen deocarative pictures mogen describen dus heb ik daar niks gezet anders zou die dat automatisch helemaal gaan oplezen en dat is niet de bedoeling.
 </details>
 
 <details>
 <summary><strong>Checkout</strong></summary>
+<strong>Wat is HTML-validatie, waarom is het belangrijk en hoe heb je dat vandaag uitgevoerd?</strong>
+Dit is controleren of jou html op een valide manier is opgebouwd.
+
+<strong>Welke dingen vielen je op?</strong>
+Wat voor mij op viel is dat er heel snel met kleine dingen een warning kan ontstaan ook bij dingen waarvan je eigenlijk zou denken dat die gewoon goed zijn.
+
+<strong>Welke feedback heb je ontvangen tijdens het gesprek met je docenten?</strong>
+geen, ik was afwezig in de les
+
 </details>
 
 ## 23 september - Workshop 2
 
 <details>
 <summary><strong>Human consent component schetsen</strong></summary>
+Ik wil mijn pop up graag hebben zodat het past in mijn website met taal zowel als hoe het visueel eruit ziet. Denk aan kleur etc. Het moet echt matchen en in mijn website passen maar ik wil dan dus ook dat de manier hoe ik schrijf persoonlijk word. Dus probeer ik het bericht formeel en zacht te houden.
 <img width="667" height="277" alt="Screenshot 2026-10-20 at 22 15 45" src="https://github.com/user-attachments/assets/0467b673-0c12-4cf9-ab5c-f65a7f3c9db2" />
 
 </details>
