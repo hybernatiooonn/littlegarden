@@ -137,12 +137,19 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 
 <details>
 <summary><strong>Human consent component schetsen</strong></summary>
+[diensten-van-digitalgarden.pdf](https://github.com/user-attachments/files/33737798/diensten-van-digitalgarden.pdf)
+
+</details>
+
+<details>
+<summary><strong>Cookie popup schets</strong></summary>
 <img width="6393" height="1254" alt="cookie schets" src="https://github.com/user-attachments/assets/86663b8e-2d0f-43d0-8836-97cd4ff859b3" />
 
 </details>
 
 <details>
 <summary><strong>Dark pattern herontwerp</strong></summary>
+
 </details>
 
 <details>
