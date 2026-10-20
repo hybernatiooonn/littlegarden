@@ -1,0 +1,305 @@
+/* FONT */
+
+@font-face {
+    font-family: 'Seraphs';
+    src: url('font/SeraphsVF.woff2') format('woff2');
+}
+
+
+/* body */
+
+body {
+    margin: 0;
+    font-family: 'Seraphs', sans-serif;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+
+/* header */
+
+header {
+    max-width: 32em;
+    margin: 0 auto;
+    padding: 0.5em 1em 0;
+}
+
+
+/* groot grid vlak */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:
+        5em
+        6em
+        7em
+        8em
+        6em
+        6em
+        8em;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    max-width: 32em;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: white;
+    border: 0.1em solid #d3d3d3;
+    box-sizing: border-box;
+}
+
+
+/* margins */
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+
+/* "you will not sacare me" stukje" */
+
+#scare {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#scare h1 {
+    font-size: 2em;
+    line-height: 0.9;
+    white-space: nowrap;
+}
+
+#scare-echo1 {
+    font-size: 2em;
+    line-height: 0.8;
+    opacity: 0.5;
+    white-space: nowrap;
+}
+
+#scare-echo2 {
+    font-size: 2em;
+    line-height: 0.8;
+    opacity: 0.2;
+    white-space: nowrap;
+}
+
+
+/* "try to get through it" stukje */
+
+#try-links {
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+#try-links p {
+    font-size: 0.8em;
+    line-height: 1.1;
+}
+
+
+/* "they be loving someone else" linker kant */
+
+#lovin-links {
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+#lovin-links p {
+    font-size: 0.8em;
+    line-height: 1.1;
+}
+
+
+/* "while" */
+
+#while {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#while p {
+    font-size: 0.8em;
+    writing-mode: vertical-rl;
+}
+
+
+/* "I'm another story" linker kan */
+
+#another-story-links {
+    grid-column: 1;
+    grid-row: 4 / 7;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+#another-story-links h2 {
+    font-size: 1.6em;
+    font-weight: normal;
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+}
+
+
+/* i cannot vanish */
+
+#vanish {
+    grid-column: 3 / 5;
+    grid-row: 3;
+}
+
+#vanish h2 {
+    font-size: 2em;
+    line-height: 0.85;
+    font-weight: Bold;
+    white-space: nowrap;
+}
+
+#vanish-echo1 {
+    font-size: 2em;
+    line-height: 0.8;
+    opacity: 0.5;
+    white-space: nowrap;
+}
+
+#vanish-echo2 {
+    font-size: 2em;
+    line-height: 0.8;
+    opacity: 0.2;
+    white-space: nowrap;
+}
+
+
+/* tekst rechts  */
+
+#try-rechts {
+    grid-column: 3 / 5;
+    grid-row: 4;
+    justify-self: end;
+}
+
+#try-rechts p {
+    font-size: 0.8em;
+    line-height: 1.1;
+}
+
+
+/* they be lovin someone else rechter kant */
+
+#lovin-rechts {
+    grid-column: 4;
+    grid-row: 5;
+    justify-self: end;
+    width: 8em;
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+#lovin-rechts p {
+    width: max-content;
+    margin-left: auto;
+}
+
+#they-rechts {
+    transform: translateX(0);
+}
+
+#be-rechts {
+    transform: translateX(-0.5em);
+}
+
+#lovin-woord-rechts {
+    transform: translateX(-1em);
+}
+
+#someone-rechts {
+    transform: translateX(-1.5em);
+}
+
+#and-rechts {
+    transform: translateX(-0.5em);
+}
+
+
+/* "i'm another story" rechter kant*/
+
+#another-story-rechts {
+    grid-column: 3 / 5;
+    grid-row: 6;
+    text-align: right;
+    align-self: start;
+}
+
+#another-story-rechts h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+
+/* "baby now im ready" stukje" */
+
+#ready {
+    grid-column: 3 / 5;
+    grid-row: 6;
+    text-align: right;
+    align-self: end;
+}
+
+#ready h2 {
+    font-size: 1.4em;
+    line-height: 1;
+    font-weight: Bold;
+}
+
+#ready strong {
+    font-size: 1.2em;
+}
+
+
+/* ticket */
+
+#ticket {
+    grid-column: 1 / 3;
+    grid-row: 7;
+}
+
+#ticket p {
+    font-size: 0.8em;
+    line-height: 1.1;
+}
+
+
+/* einde */
+
+#ending {
+    grid-column: 4;
+    grid-row: 7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 0.7em;
+    line-height: 1;
+    text-align: center;
+}
+
+#ending-echo1 {
+    opacity: 0.15;
+}
+
+#ending-echo2 {
+    opacity: 0.4;
+}
+
+#ending-echo3 {
+    opacity: 1;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+footer {
+    max-width: 32em;
+    margin: 0 auto;
+    padding: 0.5em 1em 1em;
+}
