@@ -4,6 +4,8 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 # Learning Log [ UNDER CONSTRUCTION ]
 
+## 23 Oktober -
+
 ##18 Oktober -
 
 <details>
@@ -115,12 +117,14 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 </details>
 <details>
 <summary><strong>Checkout</strong></summary>
+
 </details>
 
 ## 26 september -
 
 <details>
 <summary><strong>Deepdive - Positions and Dialogs</strong></summary>
+
 </details>
 
 ## 25 september - Workshop 3
@@ -139,7 +143,7 @@ Dit is controleren of jou html op een valide manier is opgebouwd.
 Wat voor mij op viel is dat er heel snel met kleine dingen een warning kan ontstaan ook bij dingen waarvan je eigenlijk zou denken dat die gewoon goed zijn.
 
 <strong>Welke feedback heb je ontvangen tijdens het gesprek met je docenten?</strong>
-geen, ik was afwezig in de les
+geen, ik was afwezig in de les.
 
 </details>
 

@@ -312,14 +312,15 @@ nav a:hover {
     line-height: 1.4;
 }
 
-
 /* kleine boxen */
 
 #kleineboxen {
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 1em;
-}   
+}
 
 #camera-link,
 #plaat-link,
@@ -328,55 +329,44 @@ nav a:hover {
     flex: 1 1 0;
     min-width: 0;
     height: 8em;
-    padding: 2em;  
+    padding: 0;
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
 }
-
 
 /* camera */
 
 #camera {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: static;
     width: 8em;
-    transform: translate(-50%, -50%);
-    transition:
-        scale 0.3s,
-        filter 0.3s;
+    max-width: 100%;
+    transform: none;
+    transition: scale 0.3s, filter 0.3s;
 }
 
+/* vinylplaat */
 
 #plaat {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: static;
     width: 8em;
-
+    max-width: 100%;
     z-index: 2;
-    animation: spin 3s linear infinite;    /*dit zag ik bij rianne en vond ik echt heel leuk dus heb ik het ook gedaan*/
-
-    transition:
-        scale 0.3s,
-        filter 0.3s;
+    animation: spin-mobile 3s linear infinite;
+    transition: scale 0.3s, filter 0.3s;
 }
 
+/* monkey */
 
 #Monkey {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: static;
     width: 8em;
-
-    transform: translate(-50%, -50%);
-
-    transition:
-        scale 0.3s,
-        filter 0.3s;
+    max-width: 100%;
+    transform: none;
+    transition: scale 0.3s, filter 0.3s;
 }
-
 
 /* hover voor de kleine boxen */
 
@@ -385,12 +375,8 @@ nav a:hover {
 #monkey-link:hover #Monkey {
     scale: 1.15;
     filter:
-        drop-shadow(
-            0 0 0.8em var(--mainbackgroundcolor)
-        )
-        drop-shadow(
-            0 0 1.5em var(--mainbackgroundcolor)
-        );
+        drop-shadow(0 0 0.8em var(--mainbackgroundcolor))
+        drop-shadow(0 0 1.5em var(--mainbackgroundcolor));
 }
 
 #camera-link:focus-visible,
@@ -399,7 +385,6 @@ nav a:hover {
     outline: 3px solid var(--mainbackgroundcolor);
     border-radius: 10px;
 }
-
 
 /* rechter kant */
 
