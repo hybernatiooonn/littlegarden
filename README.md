@@ -6,7 +6,7 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## 23 Oktober -
 
-##18 Oktober -
+## 18 Oktober -
 
 <details>
 <summary><strong>Is mijn site webby?</strong></summary>
