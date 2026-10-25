@@ -145,7 +145,7 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 ## 2 Oktober -
 
 <details>
-<summary><strong></strong></summary>
+<summary><strong> </strong></summary>
 </details>
 
 ## 30 september -
@@ -236,6 +236,19 @@ Er zijn nog een aantal andere warnings die ik meteen ga aanpassen.
 Na het aanpassen van alles heb ik opnieuw mijn url erin gezet en kreeg ik nu maar 1 melding te zien.
 <img width="1444" height="759" alt="Screenshot 2026-10-25 at 22 12 38" src="https://github.com/user-attachments/assets/9effe3b8-ab2f-4544-bf87-69aeacb4c0bc" />
 deze heb ik ook aangepast.
+</details>
+
+<details>
+<summary><strong>Retrospective + feedback </strong></summary>
+<img width="2211" height="549" alt="Retrospective 2" src="https://github.com/user-attachments/assets/6041442f-582c-4ca5-ab50-bb560aabf25a" />
+<strong>Feedback en opmerkingen van Charley</strong>
+-Je voldoet aan bijna alle randvoorwaarden maar moet je learning log nog bijwerken
+-Je bent heel duidelijk met plezier bezig geweest met een garden in een eigen stijl.
+-Je hebt hier al grote stappen in gemaakt. Denk nog na over het ontwerp van:
+1. Hoe kan een gebruiker terug naar de consent notice?ipv dat de pop-up steeds verschijnt als je op de home page klikt (ook best vervelend).
+2. Wat gebeurt er als je op 'reject' klikt?
+-Je geeft het voorbeeld van de screenreader test waaruit bleek dat je een alt-tekst op een afbeelding had gezet die een decoratieve functie had. Dat heb je aangepast.
+
 </details>
 
 <details>
@@ -519,10 +532,6 @@ Nog niet zo veel verassende dingen naast de hover states.
 
 <img width="4320" height="7680" alt="Untitled86_20261004210205" src="https://github.com/user-attachments/assets/fdeed502-4090-4ff2-8b7e-5fdebfa8360b" />
 
-</details>
-
-<details>
-<summary><strong>Deepdive - Grid + Media queries</strong></summary>
 </details>
 
 ## 10 September - Workshop 3 + Deepdive

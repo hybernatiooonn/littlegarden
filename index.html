@@ -40,11 +40,16 @@
       </p>
 
       <div class="cookie-buttons">
-        <label for="cookie-toggle" class="cookie-button" tabindex="3">
+        <label
+          id="cookie-accept"
+          for="cookie-toggle"
+          class="cookie-button"
+          tabindex="3">
           Accept
         </label>
 
         <a
+          id="cookie-reject"
           href="https://www.youtube.com/watch?v=iwd8N6K-sLk"
           target="_blank"
           rel="noopener noreferrer"
@@ -226,5 +231,34 @@
     <label for="cookie-toggle" class="cookie-settings" tabindex="100">
       🍪 Cookie settings
     </label>
+
+    <script>
+      const cookieToggle = document.getElementById("cookie-toggle");
+      const consentKey = "hibanova-cookie-consent";
+      const acceptButton = document.getElementById("cookie-accept");
+      const rejectButton = document.getElementById("cookie-reject");
+
+      const applyCookieConsentState = () => {
+        const consent = localStorage.getItem(consentKey);
+        cookieToggle.checked = !consent;
+      };
+
+      const saveCookieChoice = (value) => {
+        localStorage.setItem(consentKey, value);
+        cookieToggle.checked = false;
+      };
+
+      acceptButton?.addEventListener("click", (event) => {
+        event.preventDefault();
+        saveCookieChoice("accepted");
+      });
+
+      rejectButton?.addEventListener("click", (event) => {
+        event.preventDefault();
+        saveCookieChoice("rejected");
+      });
+
+      applyCookieConsentState();
+    </script>
   </body>
 </html>
