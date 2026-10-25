@@ -700,8 +700,9 @@ aside footer {
     transform: translate(-50%, -50%);
     width: min(75vw, 820px);
     max-width: calc(100vw - 1.5rem);
-    min-height: 28rem;
-    max-height: 88vh;
+    height: auto;
+    min-height: 0;
+    max-height: none;
     padding: clamp(1.2rem, 3vw, 3rem);
     box-sizing: border-box;
     background-color: var(--beige2bordercolor);
@@ -710,8 +711,7 @@ aside footer {
     border-radius: 30px;
     text-align: center;
     z-index: 1000;
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .cookie-popup h2 {
@@ -738,6 +738,9 @@ aside footer {
     align-items: center;
     gap: clamp(1rem, 3vw, 5rem);
     flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.35rem;
 }
 
 .cookie-button {
@@ -802,7 +805,8 @@ aside footer {
 
     .cookie-popup {
         width: min(92vw, 560px);
-        max-height: 86vh;
+        max-height: none;
+        height: auto;
         padding: 1.2em;
         border: 0.4em solid var(--h1color);
         border-radius: 25px;
@@ -823,15 +827,20 @@ aside footer {
     }
 
     .cookie-buttons {
+        width: calc(100% - 0.5rem);
         gap: 0.8rem;
         flex-direction: column;
+        margin: 0 auto;
+        padding: 0 0.25rem;
     }
 
     .cookie-button {
         width: 100%;
+        max-width: 100%;
         min-width: 0;
         padding: 1em 1.25em;
         font-size: 1rem;
+        box-sizing: border-box;
     }
 
     .cookie-settings {
@@ -850,6 +859,8 @@ aside footer {
         width: min(90vw, 440px);
         padding: 1rem;
         max-width: calc(100vw - 0.75rem);
+        max-height: none;
+        height: auto;
     }
 
     .cookie-popup h2 {
