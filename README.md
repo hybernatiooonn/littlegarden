@@ -159,8 +159,6 @@ Ik wil mijn pop up graag hebben zodat het past in mijn website met taal zowel al
 <details>
 <summary><strong>Cookie popup schets</strong></summary>
 <img width="6393" height="1254" alt="cookie schets" src="https://github.com/user-attachments/assets/86663b8e-2d0f-43d0-8836-97cd4ff859b3" />
-
-<details>
 <summary><strong>Wireframes and wireflows</strong></summary>
 Ik heb voor deze opdracht de website Aliexpress gekozen. Na het lezen van de artikelen ben ik meer te weten gekomen over dark patterns en daar ben ik bij deze site op zoek naar geweest.
 De dark pattern die ik heb getekend is de bundeldeal. Maar waarom is de bundeldeal een dark pattern?
@@ -168,7 +166,6 @@ De bundel deal is een dark pattern omdat je als klant een beetje geforceerd word
 Hoe het namelijk werkt is, de klant wilt graag 1 item kopen. Die staat toevallig bij de bundel deals en niet ergens apart op de site, bundeldeals worden namelijk op random items toegevoegd. En de klant wilt heel graag dat ene artikel om redenen als, misschien niet veel willen uitgeven of niet genoeg geld in bezit hebben. Nadat de klant op het item klikt word hij naar een aparte pagina gestuurd waar er allemaal items staan die ook onder de bundeldeal gelabeld staan. De klant moet dus eigenlijk minimaal 3 items kopen om het ene te hebben wat de klant eigenlijk wou. Dus je word geforceerd om 3 items te kopen in plaats van dat ene item dat je eigenlijk wilt hebben.
 Meestal haken klanten dan ook af nadat ze de totale prijs zien en deze situatie heb ik hieronder uitgeschets in een wireflow.
 [wireframebundel.pdf](https://github.com/user-attachments/files/33736814/wireframebundel.pdf)
-
 </details>
 
 <details>
