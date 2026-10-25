@@ -225,6 +225,29 @@ Ik heb de deepdive opdracht zelf thuis gevolgd via dlo en heb alle stappen doorl
 <img width="2301" height="438" alt="buttons and dialogsd" src="https://github.com/user-attachments/assets/1dcd4289-3484-4257-a401-c14120219f7d" />
 </details>
 
+<details>
+<summary><strong>Feedback bijgewerkt</strong></summary>
+Vandaag ben ik de feedback van gister bij gaan werken.
+Wat ik dus moest gaan veranderen in mijn website was
+
+1- Een functie geven aan de reject button.
+2- Het cookies bericht specefieker maken.
+3- Een plekje op mijn site waar je de cookies melding terug kan vinden.
+4- Fonts uitzetten die niet gebruikt worden.
+
+<strong>Functie voor de reject button</strong>
+Mijn reject button had eerst geen functie dus haalde beide knoppen de pop-up gewoon weg maar van de docent kreeg ik daar feedback op maar ook inspiratie. Er werd mij dus verteld dat ik bijvoorbeeld als de gebruiker dan op de reject knop drukt dat de gebruiker dan naar een andere tab word gestuurd en dat heb ik dus gedaan. Je word dan gestuurd naar een Jaz classic en ook een van me favoriete jazz songs. Het is dus persoonlijk maar past ook bij de hele vibe en sfeerwoord van de website.
+<img width="1278" height="1400" alt="andere tab" src="https://github.com/user-attachments/assets/4a072411-3e0d-4632-8a80-1ae1fde8a21e" />
+
+<strong>Cookies bericht specefieker gemaakt</strong>
+Hier heb ik de tekst aangepast om de gebruiker specefieker te laten weten wat de gebruiker nou eigenlijk accepteerd bij deze cookies pop-up. Ik heb uiteindelijk ook geen spotify gebruikt dus die heb ik uit het bericht gehaald. Ik wou namelijk een spotify playlist in de vinyl plaat van mijn site maar ik was daar niet aan toe gekomen.
+<img width="1544" height="509" alt="cookies specefiek" src="https://github.com/user-attachments/assets/09e5ac9e-350b-4fe8-b99b-e2f672d179b3" />
+
+<strong>Cookies dialog+button toegevoegd</strong>
+Ik heb met gebruik van de deepdive buttons en dialogs ervoor gezorgd dat de pop-up terug gevonden kan worden in mijn site.
+
+</details>
+
 ## 25 september - Workshop 3
 
 <details>
