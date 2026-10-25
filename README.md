@@ -137,7 +137,12 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 
 <details>
 <summary><strong>Compliance/Valide HTML</strong></summary>
-Ik heb mijn url in de website gezet waar mijn html in word gecheckt en heb gelukkig 0 errors. Ik heb wel een paar 'info' berichten maar weet niet echt waar het om gaat. Ook heb ik een paar warnings maar die gaan over de lege 'Alts' in mijn html maar die heb ik express leeg gelaten omdat een van de eisen waren dat de screenreader geen deocarative pictures mogen describen dus heb ik daar niks gezet anders zou die dat automatisch helemaal gaan oplezen en dat is niet de bedoeling.
+
+<img width="2758" height="438" alt="html validator" src="https://github.com/user-attachments/assets/cecf995c-3654-4424-8618-d68542d879c6" />
+Ik heb mijn url in de website gezet waar mijn html in word gecheckt en heb gelukkig 0 errors. Ik heb wel veel 'info' berichten. Ook heb ik een paar warnings maar die gaan over de lege 'Alts' in mijn html maar die heb ik express leeg gelaten omdat een van de eisen waren dat de screenreader geen deocarative pictures mogen describen dus heb ik daar niks gezet anders zou die dat automatisch helemaal gaan oplezen en dat is niet de bedoeling.
+Er zijn nog een aantal andere warnings die ik meteen ga aanpassen.
+Na het aanpassen van alles heb ik opnieuw mijn url erin gezet en kreeg ik nu maar 1 melding te zien.
+<img width="1444" height="759" alt="Screenshot 2026-10-25 at 22 12 38" src="https://github.com/user-attachments/assets/9effe3b8-ab2f-4544-bf87-69aeacb4c0bc" />
 </details>
 
 <details>
