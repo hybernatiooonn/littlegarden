@@ -117,12 +117,27 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 
 <details>
 <summary><strong>Bi-weekly geek 2</strong></summary>
+<img width="1186" height="420" alt="biweekly2" src="https://github.com/user-attachments/assets/d28d3f00-bbf7-4d22-bafd-ec6723658174" />
+<img width="1186" height="420" alt="biweekly2 (1)" src="https://github.com/user-attachments/assets/56637640-7310-41e7-a1f1-b728d84a6c2d" />
+
 </details>
 <details>
 <summary><strong>Werken aan Toetsenbord&Screenreader</strong></summary>
+<img width="1461" height="809" alt="Screenshot 2026-10-25 at 22 41 59" src="https://github.com/user-attachments/assets/96fb8cd6-efe4-485a-a462-2b9d0aec6973" />
+In deze opdrachten moesten we een reis plannen met behulp van de tab toets. We moesten dus het toetsenbord gebruiken om door de pagina te navigeren. Dit deden we met de screenreader en voiceover. 
 </details>
 <details>
 <summary><strong>Checkout</strong></summary>
+<strong>Wat bedoelt Vasilis met: “Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML”?</strong>
+Dat het erom gaat dat het ook een fijne ervaring moet zijn voor de gebruiker om de site te gebruiken. Iemand moet soepel door de website kunnen gaan navigeren.
+
+<strong>Wat voor type beperkingen hebben invloed op het gebruiken van websites?</strong>
+Visuele beperkingen
+Motorische beperkingen
+Auditieve beperkingen en cognitieve beperkingen
+
+<strong>Noem drie manieren om door een website te navigeren met jouw screenreader.</strong>
+Met de tab button kan je over elementen gaan naar links en rechts. Je kan met de pijltjes van je toetsenbord hetzelfde doen en via headings kopjes.
 
 </details>
 
@@ -130,7 +145,8 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 
 <details>
 <summary><strong>Deepdive - Positions and Dialogs</strong></summary>
-
+Ik heb de deepdive opdracht zelf thuis gevolgd via dlo en heb alle stappen doorlopen om de deepdive te maken. Dit was erg makkelijk omdat er best wel specefiek in de deepdive oefeningen stond wat je erin moest zetten en dat was fijn.
+<img width="2301" height="438" alt="buttons and dialogsd" src="https://github.com/user-attachments/assets/1dcd4289-3484-4257-a401-c14120219f7d" />
 </details>
 
 ## 25 september - Workshop 3
@@ -143,6 +159,7 @@ Ik heb mijn url in de website gezet waar mijn html in word gecheckt en heb geluk
 Er zijn nog een aantal andere warnings die ik meteen ga aanpassen.
 Na het aanpassen van alles heb ik opnieuw mijn url erin gezet en kreeg ik nu maar 1 melding te zien.
 <img width="1444" height="759" alt="Screenshot 2026-10-25 at 22 12 38" src="https://github.com/user-attachments/assets/9effe3b8-ab2f-4544-bf87-69aeacb4c0bc" />
+deze heb ik ook aangepast.
 </details>
 
 <details>
