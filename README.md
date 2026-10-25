@@ -54,6 +54,8 @@ https://prismic.io/blog/css-text-animations
 
 <details>
 <summary><strong>Is mijn site webby?</strong></summary>
+Ingevuld hoe webby mijn website is en daarna met een leerling besproken
+<img width="1115" height="739" alt="webby " src="https://github.com/user-attachments/assets/ee8634f5-4a50-43a0-8cf8-f3b13b5df35c" />
 
 </details>
 
