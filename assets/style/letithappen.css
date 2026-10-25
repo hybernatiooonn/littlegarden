@@ -1,0 +1,835 @@
+
+/* Fonts */
+
+@font-face {
+    font-family: "Seraphs";
+    src: url("../type/SeraphsVF.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Bright";
+    src:
+        url("../type/Bright Sunlist DEMO VERSION.otf") format("opentype"),
+        url("../type/Bright Sunlist DEMO VERSION.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url("https://ggayane.github.io/css-experiments/Inconsolata-VF.ttf");
+    font-weight: 275 900;
+    font-stretch: 50% 200%;
+}
+
+
+/* properties*/
+
+html {
+    color-scheme: light dark;
+
+    --h1color: light-dark(
+        rgb(44, 28, 20),
+        rgb(195, 174, 142)
+    );
+
+    --headercolor: light-dark(
+        rgb(208, 180, 151),
+        rgb(198, 161, 125)
+    );
+
+    --navhovercolor: light-dark(
+        rgb(42, 24, 6),
+        rgb(245, 231, 209)
+    );
+
+    --gradient1: light-dark(
+        rgb(221, 196, 168),
+        rgb(85, 65, 50)
+    );
+
+    --gradient2: light-dark(
+        rgb(208, 180, 151),
+        rgb(65, 45, 34)
+    );
+
+    --gradient3: light-dark(
+        rgb(42, 24, 6),
+        rgb(35, 24, 10)
+    );
+}
+
+
+/* Body */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Seraphs", sans-serif;
+    color: black;
+
+    background: radial-gradient(
+        circle,
+        var(--gradient1) 0%,
+        var(--gradient2) 10%,
+        var(--gradient3) 100%
+    );
+
+    background-attachment: fixed;
+}
+
+
+/* Header */
+
+header {
+    width: 95%;
+    height: 4.5em;
+    border: 2.8px solid var(--h1color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 1em auto;
+    box-sizing: border-box;
+}
+
+.garden-header nav a,
+header nav a,
+nav a {
+    font-family: "Bright", Georgia, serif;
+}
+
+
+/* Nav bar */
+
+nav {
+    flex: 1;
+    height: 100%;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav a {
+    display: block;
+    color: var(--headercolor);
+    text-decoration: none;
+    font-family: "Bright", Georgia, serif;
+    font-size: 1.7em;
+
+    transition:
+        color 0.2s,
+        transform 0.2s;
+}
+
+nav a:hover {
+    color: var(--navhovercolor);
+    transform: translateY(-0.15em);
+}
+
+
+/* Lyric title */
+
+.lyrics-title {
+    max-width: 32em;
+    margin: 0 auto;
+    padding: 2em 1em 0;
+    color: white;
+}
+
+
+/* Nav bar op mobiel */
+
+@media (max-width: 750px) {
+    header {
+        width: 90%;
+        height: auto;
+        padding: 1em;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5em;
+        padding: 0;
+    }
+
+    nav a {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 680px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .lyrics-title {
+        max-width: 92vw;
+        font-size: clamp(1rem, 3vw, 1.4rem);
+        text-align: center;
+    }
+
+    main {
+        max-width: 92vw;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.8rem;
+        padding: 0.8em;
+    }
+
+    #scare,
+    #try-links,
+    #lovin-links,
+    #while,
+    #another-story-links,
+    #vanish,
+    #try-rechts,
+    #lovin-rechts,
+    #another-story-rechts,
+    #ready,
+    #ticket,
+    #ending {
+        grid-column: auto;
+        grid-row: auto;
+        justify-self: stretch;
+        align-self: auto;
+        margin: 0;
+        width: auto;
+        text-align: left;
+    }
+
+    #scare h1,
+    #scare-echo1,
+    #scare-echo2,
+    #vanish h2,
+    #vanish-echo1,
+    #vanish-echo2 {
+        font-size: clamp(1.35rem, 5.8vw, 2.1rem);
+        line-height: 1;
+        white-space: normal;
+    }
+
+    #while p,
+    #another-story-links h2,
+    #another-story-rechts h2 {
+        writing-mode: initial;
+        transform: none;
+        white-space: normal;
+    }
+
+    #lovin-rechts,
+    #lovin-links {
+        width: auto;
+        font-size: 0.75em;
+    }
+
+    #lovin-rechts p,
+    #lovin-links p,
+    #try-links p,
+    #try-rechts p,
+    #ticket p {
+        width: auto;
+        margin-left: 0;
+        transform: none;
+    }
+
+    #another-story-links,
+    #another-story-rechts,
+    #ready {
+        text-align: left;
+    }
+
+    #ending {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        font-size: 0.6em;
+    }
+
+    footer {
+        max-width: 92vw;
+        text-align: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .lyrics-title {
+        max-width: 94vw;
+        padding-top: 1em;
+        font-size: 0.8rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: min(82vw, 290px);
+        max-width: 290px;
+        gap: 0.45rem;
+        padding: 0.6em;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+
+    #scare,
+    #try-links,
+    #lovin-links,
+    #while,
+    #another-story-links,
+    #vanish,
+    #try-rechts,
+    #lovin-rechts,
+    #another-story-rechts,
+    #ready,
+    #ticket,
+    #ending,
+    section,
+    article {
+        grid-column: auto;
+        grid-row: auto;
+        justify-self: auto;
+        align-self: auto;
+        width: auto;
+        max-width: none;
+        margin: 0;
+        text-align: left;
+    }
+
+    #scare h1,
+    #scare-echo1,
+    #scare-echo2,
+    #vanish h2,
+    #vanish-echo1,
+    #vanish-echo2 {
+        font-size: clamp(0.9rem, 5.8vw, 1.25rem);
+        line-height: 0.9;
+        white-space: normal;
+    }
+
+    #while p,
+    #another-story-links h2,
+    #another-story-rechts h2,
+    #ready h2,
+    #lovin-rechts p,
+    #lovin-links p,
+    #try-links p,
+    #try-rechts p,
+    #ticket p,
+    #ending {
+        writing-mode: initial;
+        transform: none;
+        white-space: normal;
+    }
+
+    #lovin-rechts,
+    #lovin-links {
+        width: auto;
+        font-size: 0.55rem;
+    }
+
+    #lovin-rechts p,
+    #lovin-links p,
+    #try-links p,
+    #try-rechts p,
+    #ticket p,
+    #ending {
+        font-size: 0.52rem;
+        line-height: 1;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #another-story-links h2,
+    #another-story-rechts h2,
+    #ready h2 {
+        font-size: 0.7rem;
+    }
+
+    #ready {
+        align-self: auto;
+    }
+
+    #ending {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.2rem;
+        font-size: 0.42rem;
+        line-height: 1;
+    }
+}
+
+/*
+  Bron:
+  - https://text-effects.colorion.co/effects/echo-text-effect/
+  - https://prismic.io/blog/css-text-animations
+  Naam van de animatie: fx-echo / Echo-Verse
+*/
+
+.echo-text {
+    --ink: currentColor;
+    --ink-2: #481204;
+    --ink-3: #b28a5c;
+    position: relative;
+    display: inline-block;
+    font-family: "Inconsolata", "JetBrains Mono", monospace;
+    font-variation-settings: "wght" 275, "wdth" 50;
+    letter-spacing: 0.12em;
+    color: var(--ink);
+}
+
+.echo-text::before,
+.echo-text::after {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    animation: fx-echo 3s ease-out infinite;
+    pointer-events: none;
+    white-space: pre;
+}
+
+.echo-text::before {
+    color: var(--ink-2);
+}
+
+.echo-text::after {
+    color: var(--ink-3);
+    animation-delay: 1s;
+}
+
+@keyframes fx-echo {
+    0% {
+        opacity: 0.8;
+        transform: scale(1);
+        filter: blur(0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.9);
+        filter: blur(3px);
+    }
+}
+
+.wave-text {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 0.05em;
+}
+
+.wave-text span {
+    display: inline-block;
+    transform-origin: bottom center;
+    animation: wave 1.2s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 0.08s);
+}
+
+@keyframes wave {
+    0%,
+    100% {
+        transform: translateY(0) scaleY(1);
+    }
+    25% {
+        transform: translateY(-4px) scaleY(1.06);
+    }
+    50% {
+        transform: translateY(2px) scaleY(0.96);
+    }
+    75% {
+        transform: translateY(-2px) scaleY(1.04);
+    }
+}
+
+/* groot grid vlak */
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:
+        5em
+        6em
+        7em
+        8em
+        6em
+        6em
+        8em;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    max-width: 32em;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: white;
+    border: 0.1em solid #d3d3d3;
+    box-sizing: border-box;
+}
+
+
+/* margins */
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+
+/* "you will not sacare me" stukje" */
+
+#scare {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#scare h1 {
+    font-size: 2em;
+    line-height: 0.9;
+    white-space: nowrap;
+}
+
+#scare-echo1 {
+    font-size: 2em;
+    line-height: 0.8;
+    opacity: 0.5;
+    white-space: nowrap;
+}
+
+#scare-echo2 {
+    font-size: 2em;
+    line-height: 0.8;
+    opacity: 0.2;
+    white-space: nowrap;
+}
+
+
+/* "try to get through it" stukje */
+
+#try-links {
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+#try-links p {
+    font-size: 0.8em;
+    line-height: 1.1;
+}
+
+
+/* "they be loving someone else" linker kant */
+
+#lovin-links {
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+#lovin-links p {
+    font-size: 1em;
+    line-height: 1.1;
+}
+
+
+/* "while" */
+
+#while {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#while p {
+    font-size: 1.1em;
+    writing-mode: vertical-rl;
+}
+
+
+/* "I'm another story" linker kan */
+
+#another-story-links {
+    grid-column: 1;
+    grid-row: 4 / 7;
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+#another-story-links h2 {
+    font-size: 1.6em;
+    font-weight: normal;
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+}
+
+
+/* i cannot vanish */
+
+#vanish {
+    grid-column: 3 / 5;
+    grid-row: 3;
+}
+
+#vanish h2 {
+    font-size: 2em;
+    line-height: 0.85;
+    font-weight: Bold;
+    white-space: nowrap;
+}
+
+#vanish-echo1 {
+    font-size: 2em;
+    line-height: 0.8;
+    opacity: 0.5;
+    white-space: nowrap;
+}
+
+#vanish-echo2 {
+    font-size: 2em;
+    line-height: 0.8;
+    opacity: 0.2;
+    white-space: nowrap;
+}
+
+
+/* tekst rechts  */
+
+#try-rechts {
+    grid-column: 3 / 5;
+    grid-row: 4;
+    justify-self: end;
+}
+
+#try-rechts p {
+    font-size: 0.8em;
+    line-height: 1.1;
+}
+
+
+/* they be lovin someone else rechter kant */
+
+#lovin-rechts {
+    grid-column: 4;
+    grid-row: 5;
+    justify-self: end;
+    width: 8em;
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+#lovin-rechts p {
+    width: max-content;
+    margin-left: auto;
+}
+
+#they-rechts {
+    transform: translateX(0);
+}
+
+#be-rechts {
+    transform: translateX(-0.5em);
+}
+
+#lovin-woord-rechts {
+    transform: translateX(-1em);
+}
+
+#someone-rechts {
+    transform: translateX(-1.5em);
+}
+
+#and-rechts {
+    transform: translateX(-0.5em);
+}
+
+
+/* "i'm another story" rechter kant*/
+
+#another-story-rechts {
+    grid-column: 3 / 5;
+    grid-row: 6;
+    text-align: right;
+    align-self: start;
+}
+
+#another-story-rechts h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+
+/* "baby now im ready" stukje" */
+
+#ready {
+    grid-column: 3 / 5;
+    grid-row: 6;
+    text-align: right;
+    align-self: end;
+}
+
+#ready h2 {
+    font-size: 1.4em;
+    line-height: 1;
+    font-weight: Bold;
+}
+
+#ready strong {
+    font-size: 1.2em;
+}
+
+
+/* ticket */
+
+#ticket {
+    grid-column: 1 / 3;
+    grid-row: 7;
+}
+
+#ticket p {
+    font-size: 1em;
+    line-height: 1.1;
+}
+
+
+/* einde */
+
+#ending {
+    grid-column: 4;
+    grid-row: 7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 0.7em;
+    line-height: 1;
+    text-align: center;
+}
+
+#ending-echo1 {
+    opacity: 0.15;
+}
+
+#ending-echo2 {
+    opacity: 0.4;
+}
+
+#ending-echo3 {
+    opacity: 1;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+footer {
+    max-width: 32em;
+    margin: 0 auto;
+    padding: 0.5em 1em 1em;
+    color: white;
+}
+
+@media (max-width: 420px) {
+    .lyrics-title {
+        max-width: 94vw;
+        padding-top: 1em;
+        font-size: 0.8rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: min(82vw, 290px);
+        max-width: 290px;
+        gap: 0.45rem;
+        padding: 0.6em;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+
+    #scare,
+    #try-links,
+    #lovin-links,
+    #while,
+    #another-story-links,
+    #vanish,
+    #try-rechts,
+    #lovin-rechts,
+    #another-story-rechts,
+    #ready,
+    #ticket,
+    #ending,
+    section,
+    article {
+        grid-column: auto;
+        grid-row: auto;
+        justify-self: auto;
+        align-self: auto;
+        width: auto;
+        max-width: none;
+        margin: 0;
+        text-align: left;
+    }
+
+    #scare h1,
+    #scare-echo1,
+    #scare-echo2,
+    #vanish h2,
+    #vanish-echo1,
+    #vanish-echo2 {
+        font-size: clamp(0.9rem, 5.8vw, 1.25rem);
+        line-height: 0.9;
+        white-space: normal;
+    }
+
+    #while p,
+    #another-story-links h2,
+    #another-story-rechts h2,
+    #ready h2,
+    #lovin-rechts p,
+    #lovin-links p,
+    #try-links p,
+    #try-rechts p,
+    #ticket p,
+    #ending {
+        writing-mode: initial;
+        transform: none;
+        white-space: normal;
+    }
+
+    #lovin-rechts,
+    #lovin-links {
+        width: auto;
+        font-size: 0.55rem;
+    }
+
+    #lovin-rechts p,
+    #lovin-links p,
+    #try-links p,
+    #try-rechts p,
+    #ticket p,
+    #ending {
+        font-size: 0.52rem;
+        line-height: 1;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #another-story-links h2,
+    #another-story-rechts h2,
+    #ready h2 {
+        font-size: 0.7rem;
+    }
+
+    #ready {
+        align-self: auto;
+    }
+
+    #ending {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.2rem;
+        font-size: 0.42rem;
+        line-height: 1;
+    }
+}

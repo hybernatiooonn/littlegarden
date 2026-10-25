@@ -698,30 +698,34 @@ aside footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
-    height: 68%;
-    padding: 3em;
+    width: min(75vw, 820px);
+    max-width: calc(100vw - 1.5rem);
+    min-height: 28rem;
+    max-height: 88vh;
+    padding: clamp(1.2rem, 3vw, 3rem);
     box-sizing: border-box;
     background-color: var(--beige2bordercolor);
     color: var(--h1color);
-    border: 0.7em solid var(--h1color);
+    border: clamp(0.3rem, 0.9vw, 0.7rem) solid var(--h1color);
     border-radius: 30px;
     text-align: center;
     z-index: 1000;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .cookie-popup h2 {
     margin-top: 0;
-    font-size: 3em;
+    font-size: clamp(2.2rem, 4vw, 4rem);
     font-family: "Bravibe";
 }
 
 .cookie-popup p {
-    font-size: 1.5em;
+    font-size: clamp(1.1rem, 2vw, 1.6rem);
     line-height: 1.4;
     margin-top: 1.5em;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: clamp(0.5rem, 4vw, 3rem);
+    margin-right: clamp(0.5rem, 4vw, 3rem);
     font-family: "Comic sans";
 }
 
@@ -731,12 +735,17 @@ aside footer {
 .cookie-buttons {
     display: flex;
     justify-content: center;
-    gap: 5em;
+    align-items: center;
+    gap: clamp(1rem, 3vw, 5rem);
+    flex-wrap: wrap;
 }
 
 .cookie-button {
-    display: inline-block;
-    padding: 2em 3em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    padding: clamp(1rem, 2vw, 2rem) clamp(1.2rem, 3vw, 3rem);
     border: none;
     border-radius: 15px;
     background-color: var(--h1color);
@@ -792,35 +801,63 @@ aside footer {
 @media (max-width: 750px) {
 
     .cookie-popup {
-        width: 90%;
-        height: auto;
-        max-height: 90vh;
-        padding: 1.5em;
+        width: min(92vw, 560px);
+        max-height: 86vh;
+        padding: 1.2em;
         border: 0.4em solid var(--h1color);
         border-radius: 25px;
-        overflow-y: auto;
+        max-width: calc(100vw - 1rem);
     }
 
     .cookie-popup h2 {
         margin-top: 0;
-        font-size: 2em;
+        font-size: clamp(2rem, 7vw, 2.7rem);
     }
 
     .cookie-popup p {
-        font-size: 1.1em;
-        line-height: 1.4;
+        font-size: 1.05rem;
+        line-height: 1.5;
         margin-top: 1em;
         margin-left: 0;
         margin-right: 0;
     }
 
     .cookie-buttons {
-        gap: 1em;
+        gap: 0.8rem;
+        flex-direction: column;
     }
 
     .cookie-button {
-        padding: 1em 1.5em;
-        font-size: 1em;
+        width: 100%;
+        min-width: 0;
+        padding: 1em 1.25em;
+        font-size: 1rem;
+    }
+
+    .cookie-settings {
+        font-size: 0.9rem;
+        bottom: 0.75em;
+        left: 0.75em;
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .cookie-popup {
+        width: min(90vw, 440px);
+        padding: 1rem;
+        max-width: calc(100vw - 0.75rem);
+    }
+
+    .cookie-popup h2 {
+        font-size: 2rem;
+    }
+
+    .cookie-popup p {
+        font-size: 0.97rem;
     }
 }
 
