@@ -4,18 +4,63 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 # Learning Log [ UNDER CONSTRUCTION ]
 
+## Credits -
+
+<details>
+<summary><strong>Linkjes</strong></summary>
+<strong>Pinterest foto's die ik heb gebruikt op de voovoorste pagina</strong>
+https://nl.pinterest.com/pin/1005850898052986987/
+https://nl.pinterest.com/pin/1005850898053238393/
+
+https://nl.pinterest.com/pin/1005850898052921827/
+
+https://nl.pinterest.com/pin/1005850898052714114/
+
+https://nl.pinterest.com/pin/1005850898052713860/
+
+https://nl.pinterest.com/pin/1005850898052730435/
+
+https://nl.pinterest.com/pin/1005850898053301702/
+
+https://nl.pinterest.com/pin/1005850898053204355/
+
+https://nl.pinterest.com/pin/1005850898053238475/
+
+https://nl.pinterest.com/pin/1005850898053287993/
+
+https://nl.pinterest.com/pin/1005850898053288854/
+
+https://nl.pinterest.com/pin/1005850898053289379/
+
+https://nl.pinterest.com/pin/1005850898053289048/
+
+https://mx.pinterest.com/pin/338403359521679610/
+
+https://nl.pinterest.com/pin/1005850898052923364/
+
+<strong>Animatie bron die ik heb gebruikt in de lyric</strong>
+https://text-effects.colorion.co/effects/echo-text-effect/
+https://prismic.io/blog/css-text-animations
+
+</details>
+
 ## 23 Oktober -
+
+<details>
+<summary><strong>Retrospective en feedback</strong></summary>
+</details>
 
 ## 19 Oktober -
 
 <details>
 <summary><strong>Is mijn site webby?</strong></summary>
+
 </details>
 
-## 16 Oktober -
+## 9 Oktober -
 
 <details>
-<summary><strong></strong></summary>
+<summary><strong>retrospective</strong></summary>
 </details>
 
 ## 5 Oktober -
@@ -95,22 +140,51 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 
 </details>
 
+## 2 Oktober -
+
+<details>
+<summary><strong></strong></summary>
+</details>
+
 ## 30 september -
 
 <details>
 <summary><strong>WCAG Checklist</strong></summary>
+<img width="2301" height="626" alt="wcag" src="https://github.com/user-attachments/assets/8921deaf-1d22-476e-b04d-604608629aba" />
+Deze checklist heb ik eerst samen met mijn klasgenoot Rianne ingevuld. We zijn door onze websites heen gegaan en een voor een alles ingaan vullen. Nadat ik alles had geupdate heb ik dezelfde test opnieuw gedaan met een andere klasgenoot en wat checkboxes aangepast waar ik eerst no bij had staan. Sommige checkboxen staan nog steeds op no omdat ik die elementen dan niet gebruik zoals bijvoorbeeld autoplay en dingen met video's of audio's. 
 </details>
 
 <details>
-<summary><strong>Checkout</strong></summary>
+<summary><strong>Focus state's</strong></summary>
+Ik heb hier allemaal focus states gezet op plekken die dat niet al hadden zoals bijvoorbeeld mijn cookies pop up zowel als de 3 boxen onderaan en op mijn nav bar had hij dat soort van al maar die is blauw en ik heb voor mijn hover state overal in mijn website een witte border gedaan omdat dat duidelijker is. 
+<img width="3022" height="547" alt="focus state" src="https://github.com/user-attachments/assets/32881a95-c161-4228-aba3-646f1c1742d3" />
 </details>
 
 <details>
 <summary><strong>Aria labels en alt teksten</strong></summary>
+In de les van Sanne liet hij ons zien hoe je aria labels kan gebruiken zodat mensen die een screenreader en voiceover gebruiken ook kunnen horen wat iets is of betekend zonder het te zien. Daar heb ik gebruik gemaakt in mijn website. Ik heb namelijk onderaan 3 boxen zitten met plaatjes waar je over hovert en dan al een idee hebt van wat het is maar blinde gebruikers kunnen dat bijvoorbeeld niet zien. Dus ik heb bij die boxen aria labels toegevoegd met een korte uitleg van wat het is of wat er gebeurt als je erop klikt. De alt teksten heb ik vooral ook leeg gehouden omdat het niet de bedoeling was om over decoratieve beschrijvingen te hebben. 
+<img width="1274" height="1247" alt="aria labels en alt" src="https://github.com/user-attachments/assets/7e6ae83b-2b63-466e-b067-d962d5e0cd78" />
 </details>
 
 <details>
 <summary><strong>Contrast</strong></summary>
+Voor contrast heb ik mijn light en dark mode beide getest met een zwart wit beeld om te kijken of je in beide versies nog contrast ziet en ik vond dat wel leuk om te zien vooral omdat het ook geslaagd is.
+<img width="1431" height="993" alt="Contrast" src="https://github.com/user-attachments/assets/4e90fcea-92c7-42b5-81d8-6eab891b443e" />
+</details>
+
+<details>
+<summary><strong>Checkout</strong></summary>
+<strong>Wat bedoelt Vasilis met: “Semantiek doet mij niet zo veel, ik ben liever bezig met de UX van HTML”?</strong>
+Dat het erom gaat dat het ook een fijne ervaring moet zijn voor de gebruiker om de site te gebruiken. Iemand moet soepel door de website kunnen gaan navigeren.
+
+<strong>Wat voor type beperkingen hebben invloed op het gebruiken van websites?</strong>
+Visuele beperkingen
+Motorische beperkingen
+Auditieve beperkingen en cognitieve beperkingen
+
+<strong>Noem drie manieren om door een website te navigeren met jouw screenreader.</strong>
+Met de tab button kan je over elementen gaan naar links en rechts. Je kan met de pijltjes van je toetsenbord hetzelfde doen en via headings kopjes.
+
 </details>
 
 ## 27 september - Workshop 4

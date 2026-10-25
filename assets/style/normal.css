@@ -280,20 +280,23 @@ nav a:hover {
     box-shadow: 0.4em 0.4em 0 var(--h1color);
 }
 
-#box1 h1 {
+#box1 h1,
+#box1 h2 {
     position: relative;
-    top: -1em;
+    top: -1;
+    margin: 0 0 0.5em;
     color: var(--bodycolor);
     font-family: "Bravibe";
-    font-size: 2.2em;
+    font-size: 3em;
+    font-weight: 400;
 }
 
 #box1 p {
     position: relative;
-    bottom: 2em;
+    bottom: 1em;
     color: var(--h1color);
     font-size: 1.1em;
-    font-family: "Comic sans";
+    font-family: "Comic Sans";
     line-height: 1.4;
 }
 
@@ -366,8 +369,15 @@ nav a:hover {
 
 #camera-link:focus-visible,
 #plaat-link:focus-visible,
-#monkey-link:focus-visible {
-    outline: 3px solid var(--mainbackgroundcolor);
+#monkey-link:focus-visible,
+.cookie-button:focus-visible,
+.cookie-settings:focus-visible,
+.cookie-popup:focus-visible,
+.cookie-popup:focus-within,
+#cookie-toggle:focus-visible + .cookie-popup {
+    outline: 3px solid #ffffff;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.4);
     border-radius: 10px;
 }
 
@@ -419,7 +429,7 @@ aside footer {
     margin-bottom: 0.3em;
     font-size: 1.1em;
     text-align: center;
-    color: var(--beige2bordercolor);
+    color: var(--headercolor);
     font-family: "Bravibe";
 }
 
@@ -764,6 +774,15 @@ aside footer {
     transform: translateY(-0.5em);
 }
 
+.cookie-button:focus-visible,
+.cookie-settings:focus-visible,
+.cookie-popup:focus-visible,
+.cookie-popup:focus-within {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.35);
+}
+
 
 /* cookie popup openen en sluiten */
 
@@ -796,6 +815,12 @@ aside footer {
 
 .cookie-settings:hover {
     transform: translateY(-0.2em);
+}
+
+.cookie-settings:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.35);
 }
 
 

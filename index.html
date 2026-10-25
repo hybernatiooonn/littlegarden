@@ -21,12 +21,13 @@
 
     <div
       class="cookie-popup"
+      tabindex="-1"
       role="dialog"
       aria-labelledby="cookie-title"
       aria-describedby="cookie-text">
-      <h2 id="cookie-title">Important ! 🍪</h2>
+      <h2 id="cookie-title" tabindex="1">Important ! 🍪</h2>
 
-      <p id="cookie-text">
+      <p id="cookie-text" tabindex="2">
         Welcome to my little garden! My website is publicly available through
         GitHub and is also part of Digitaaltuintje.nl, a collection of personal
         websites. When you visit my website, technical information such as your
@@ -39,39 +40,38 @@
       </p>
 
       <div class="cookie-buttons">
-        <label for="cookie-toggle" class="cookie-button"> Accept </label>
+        <label for="cookie-toggle" class="cookie-button" tabindex="3">
+          Accept
+        </label>
 
         <a
           href="https://www.youtube.com/watch?v=iwd8N6K-sLk"
           target="_blank"
           rel="noopener noreferrer"
-          class="cookie-button">
+          class="cookie-button"
+          tabindex="4">
           Reject
         </a>
       </div>
     </div>
 
-    <label for="cookie-toggle" class="cookie-settings">
-      🍪 Cookie settings
-    </label>
-
-    <header>
+    <header tabindex="-1">
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html" tabindex="10">Home</a>
           </li>
 
           <li>
-            <a href="Socialize.html">Socialize</a>
+            <a href="Socialize.html" tabindex="11">Socialize</a>
           </li>
 
           <li>
-            <a href="Pinboard.html">Pinboard</a>
+            <a href="Pinboard.html" tabindex="12">Pinboard</a>
           </li>
 
           <li>
-            <a href="Credits.html">Credits</a>
+            <a href="Credits.html" tabindex="13">Credits</a>
           </li>
         </ul>
       </nav>
@@ -135,9 +135,9 @@
         <section id="midden">
           <h2 class="visually-hidden">About section</h2>
           <article id="box1">
-            <h2>About me</h2>
+            <h2 tabindex="20">About me</h2>
 
-            <p>
+            <p tabindex="21">
               Hi hi! My name is Hiba and I made this website to express myself
               and show off music related topics that I can, and will yap about
               24/7. I love varies of genres and artists that really hold my
@@ -151,6 +151,7 @@
             <a
               id="camera-link"
               href="Camera.html"
+              tabindex="30"
               aria-label="If you click here, you will find a collage with aesthetic pictures chosen and set up by Hibanova.">
               <img
                 id="camera"
@@ -162,6 +163,7 @@
             <a
               id="plaat-link"
               href="Musicplate.html"
+              tabindex="31"
               aria-label="If you click here, you will find a playlist of Hibanova's favorite tunes.">
               <img
                 id="plaat"
@@ -172,6 +174,7 @@
             <a
               id="monkey-link"
               href="./lyric.html"
+              tabindex="32"
               aria-label="If you click here, you will view my visual interpretation of Let It Happen by Tame Impala.">
               <img
                 id="Monkey"
@@ -217,8 +220,11 @@
             aria-hidden="true" />
         </article>
 
-        <footer>© 2026 HIBANOVA</footer>
+        <footer tabindex="101">© 2026 HIBANOVA</footer>
       </aside>
     </section>
+    <label for="cookie-toggle" class="cookie-settings" tabindex="100">
+      🍪 Cookie settings
+    </label>
   </body>
 </html>
