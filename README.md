@@ -269,6 +269,8 @@ Hier heb ik de tekst aangepast om de gebruiker specefieker te laten weten wat de
 
 <strong>Cookies dialog+button toegevoegd</strong>
 Ik heb met gebruik van de deepdive buttons en dialogs ervoor gezorgd dat de pop-up terug gevonden kan worden in mijn site.
+Het enige waar ik nog moeite mee had met deze opdracht was ervoor zorgen dat de cookie pop-up neit terug kwam als ik elke keer weer naar home ging dus daarvoor heb ik Ai (Github copilot) gevraagd om hulp. Daar kreeg ik in html dit stukje code van en heb ik het daarin gezet.
+<img width="1402" height="918" alt="image" src="https://github.com/user-attachments/assets/432255a6-327b-4d74-947b-a16a10e8c605" />
 
 </details>
 
