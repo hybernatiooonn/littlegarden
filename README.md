@@ -34,6 +34,17 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 </details>
 
+## 26 Oktober -
+
+<details>
+<summary><strong>Expo</strong></summary>
+<strong>Sticker ronde</strong>
+Deze ronde hebben ik en klasgenoten allemaal onze site's tentoongesteld. Ik ben vrij rond gaan lopen om feedback te verspreiden en heb zelf ook feedback ontvangen. De onderstaande foto gaat daarover.
+Na de sticker ronde moesten we de vragen in het <strong>webby formuleir</strong> in duos met elkaar bespreken en voor elkaar invullen. En op het einde deden we dat met elkaars log.
+<img width="2158" height="517" alt="Expo" src="https://github.com/user-attachments/assets/b449ae82-a88c-46bb-a068-48ed24c4575b" />
+
+</details>
+
 ## 23 Oktober -
 
 <details>
