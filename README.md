@@ -8,39 +8,29 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 <details>
 <summary><strong>Linkjes</strong></summary>
+
 <strong>Pinterest foto's die ik heb gebruikt op de voovoorste pagina</strong>
-https://nl.pinterest.com/pin/1005850898052986987/
-https://nl.pinterest.com/pin/1005850898053238393/
 
-https://nl.pinterest.com/pin/1005850898052921827/
-
-https://nl.pinterest.com/pin/1005850898052714114/
-
-https://nl.pinterest.com/pin/1005850898052713860/
-
-https://nl.pinterest.com/pin/1005850898052730435/
-
-https://nl.pinterest.com/pin/1005850898053301702/
-
-https://nl.pinterest.com/pin/1005850898053204355/
-
-https://nl.pinterest.com/pin/1005850898053238475/
-
-https://nl.pinterest.com/pin/1005850898053287993/
-
-https://nl.pinterest.com/pin/1005850898053288854/
-
-https://nl.pinterest.com/pin/1005850898053289379/
-
-https://nl.pinterest.com/pin/1005850898053289048/
-
-https://mx.pinterest.com/pin/338403359521679610/
-
-https://nl.pinterest.com/pin/1005850898052923364/
+- [Pinterest 1](https://nl.pinterest.com/pin/1005850898052986987/)
+- [Pinterest 2](https://nl.pinterest.com/pin/1005850898053238393/)
+- [Pinterest 3](https://nl.pinterest.com/pin/1005850898052921827/)
+- [Pinterest 4](https://nl.pinterest.com/pin/1005850898052714114/)
+- [Pinterest 5](https://nl.pinterest.com/pin/1005850898052713860/)
+- [Pinterest 6](https://nl.pinterest.com/pin/1005850898052730435/)
+- [Pinterest 7](https://nl.pinterest.com/pin/1005850898053301702/)
+- [Pinterest 8](https://nl.pinterest.com/pin/1005850898053204355/)
+- [Pinterest 9](https://nl.pinterest.com/pin/1005850898053238475/)
+- [Pinterest 10](https://nl.pinterest.com/pin/1005850898053287993/)
+- [Pinterest 11](https://nl.pinterest.com/pin/1005850898053288854/)
+- [Pinterest 12](https://nl.pinterest.com/pin/1005850898053289379/)
+- [Pinterest 13](https://nl.pinterest.com/pin/1005850898053289048/)
+- [Pinterest 14](https://mx.pinterest.com/pin/338403359521679610/)
+- [Pinterest 15](https://nl.pinterest.com/pin/1005850898052923364/)
 
 <strong>Animatie bron die ik heb gebruikt in de lyric</strong>
-https://text-effects.colorion.co/effects/echo-text-effect/
-https://prismic.io/blog/css-text-animations
+
+- [Echo text effect](https://text-effects.colorion.co/effects/echo-text-effect/)
+- [CSS text animations](https://prismic.io/blog/css-text-animations)
 
 </details>
 
@@ -59,11 +49,20 @@ https://prismic.io/blog/css-text-animations
 
 <strong>Verwerkte feedback</strong>
 -Mijn songtekst heeft nu een plekje gekregen op mijn website. Als je op de draainde vinyl plaat klikt dan word je gestuurd naar mijn visuele lyric.
+Ook heb ik wat kleur toegevoegd. (Wat bruine letters)
+<img width="2882" height="1588" alt="image" src="https://github.com/user-attachments/assets/504b13a3-d068-4100-a5a9-ef918ed4ee9a" />
+-Het wgac formulier is nu bewijsbaar in mijn leerning log.
+-Ben alle checkouts langs geweest
+-Cookies pop-up responsiver gemaakt. Ik liep aan tegen een probleem dat de tekst soms uit het kadertje viel. Dat heb ik gelijk aangepast
+<img width="1428" height="806" alt="Screenshot 2026-10-25 at 19 11 02" src="https://github.com/user-attachments/assets/ea782fa6-825c-4f34-bdd1-e5a535beda3f" /> <img width="1452" height="791" alt="Screenshot 2026-10-25 at 21 01 26" src="https://github.com/user-attachments/assets/379e8bdf-2777-4c5e-9c0f-735295eac91b" />
 
--
+- <strong>Retrospective tekening</strong>
+  <img width="2032" height="526" alt="retro 4" src="https://github.com/user-attachments/assets/24037309-e30a-4e43-8cad-9e759fc07d88" />
 
-<strong>Retrospective tekening</strong>
-<img width="2032" height="526" alt="retro 4" src="https://github.com/user-attachments/assets/24037309-e30a-4e43-8cad-9e759fc07d88" />
+<strong>Lyric animatie</strong>
+Later in de middag ben ik wat animaties toe gaan voegen in mijn visuele lyric. Ik heb namelijk bij you will not scare me en i cannot vanish een soort van bewegende echo animatie naar de zijkant naast dat er ook een soort van beweging onder zit doordat ik de zin in meerdere kleuren grijs eronder heb gezet alsof het verdwijnt. Ook heb ik die een bruine kleur gegeven zodat het een beetje matcht met de achtergrond.
+Ook heb ik bij im another story een soort van runny animatie gedaan omdat die in het liedje meestal heel vloeiend en snel achter elkaar klinken. Daarnaast heb bij de try to get through it stukjes links en rechts een hover gezet met een scale.
+<img width="2838" height="1566" alt="image" src="https://github.com/user-attachments/assets/84303d83-2ebe-481b-8802-ff7533186303" />
 
 </details>
 
@@ -143,11 +142,25 @@ Ik ben gaan werken met IDs omdat ik veel stukjes tekst apart van elkaar moet gaa
 <details>
 <summary><strong>Checkout</strong></summary>
 <strong>Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben)</strong>
+Kerning: Ruimte tussen twee specefieke letters aanpassen zodat ze bij elkaar passen op visueel gebied.
+Tracking: De letetrafstand van heel een woord vergroten of verkleinen.
+Leading: Verticale ruimte tussen teksten en regels.
+Flush-left:De linkerkant is niet gelijk omdat de tekst rechts is uitgelijnd.
+Flush-righ:De rechterkant is niet gelijk omdat de tekst links is uitgelijnd.
+Centered: Tekst is gecentreerd.
+Justified: Tekst wordt uitgevuld en beide kanten zijn heirdoor ongelijk.
+Indent: Een regel tekst laten inspringen, meestal de eerste regel van een alinea.
+Outdent: Een regel tekst juist naar buiten laten springen.
+Modualar scale: Een systeem waarbij lettergroottes bepaalt met een vaste verhouding.
+Movable type: een oude druktechniek waar losse letters werden gebruikt om teksten mee samen te stellen en te drukken.
+Focus point: Het onderdeel van een ontwerp dat als eerste de aandacht trekt.
+Vijf soorten contrast: Grootte, Gewicht, vorm, kleur, plaatsing.
+Spatial tension: SPanning die ontstaat doordat de plaatsing van plekken witruimte creeeren.
 
 <strong>Wat is jouw ideale regellengte (measure)? Leg uit waarom.</strong>
+Ik zou zeggen vrijwel korte vooral met de song die ik heb gekozen omdat de zinnen erg kort zijn en makkelij om te lezen zijn dus de regellengte zal vast niet te lang zijn.
 
 <strong>Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?</strong>
-
 Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het belangrijkst is. Grote tekst valt meteen meer op dan kleine tekst.
 
 </details>

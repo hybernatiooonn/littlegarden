@@ -6,25 +6,13 @@
     src: url("../type/SeraphsVF.woff2") format("woff2");
 }
 
-@font-face {
-    font-family: "Bright";
-    src:
-        url("../type/Bright Sunlist DEMO VERSION.otf") format("opentype"),
-        url("../type/Bright Sunlist DEMO VERSION.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Inconsolata";
-    src: url("https://ggayane.github.io/css-experiments/Inconsolata-VF.ttf");
-    font-weight: 275 900;
-    font-stretch: 50% 200%;
-}
-
 
 /* properties*/
 
 html {
     color-scheme: light dark;
+    --nav-font: "Bright", Georgia, serif;
+    --lyric-font: "Seraphs", Georgia, serif;
 
     --h1color: light-dark(
         rgb(44, 28, 20),
@@ -63,7 +51,7 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    font-family: "Seraphs", sans-serif;
+    font-family: var(--lyric-font);
     color: black;
 
     background: radial-gradient(
@@ -93,7 +81,7 @@ header {
 .garden-header nav a,
 header nav a,
 nav a {
-    font-family: "Bright", Georgia, serif;
+    font-family: var(--nav-font);
 }
 
 
@@ -121,7 +109,7 @@ nav a {
     display: block;
     color: var(--headercolor);
     text-decoration: none;
-    font-family: "Bright", Georgia, serif;
+    font-family: var(--nav-font);
     font-size: 1.7em;
 
     transition:
@@ -381,9 +369,9 @@ nav a:hover {
     --ink-3: #b28a5c;
     position: relative;
     display: inline-block;
-    font-family: "Inconsolata", "JetBrains Mono", monospace;
-    font-variation-settings: "wght" 275, "wdth" 50;
-    letter-spacing: 0.12em;
+    font-family: "Seraphs", serif;
+    font-weight: 700;
+    letter-spacing: 0.06em;
     color: var(--ink);
 }
 
@@ -414,8 +402,8 @@ nav a:hover {
     }
     100% {
         opacity: 0;
-        transform: scale(1.9);
-        filter: blur(3px);
+        transform: scale(1.35);
+        filter: blur(1.5px);
     }
 }
 
@@ -429,8 +417,8 @@ nav a:hover {
 .wave-text span {
     display: inline-block;
     transform-origin: bottom center;
-    animation: wave 1.2s ease-in-out infinite;
-    animation-delay: calc(var(--i) * 0.08s);
+    animation: wave 2.8s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 0.15s);
 }
 
 @keyframes wave {
@@ -456,14 +444,14 @@ main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows:
         5em
-        6em
+        5.5em
+        6.5em
         7em
-        8em
-        6em
-        6em
-        8em;
+        5.5em
+        5.5em
+        6.5em;
     column-gap: 0.5em;
-    row-gap: 0.5em;
+    row-gap: 0.35em;
     max-width: 32em;
     margin: 1em auto;
     padding: 1em;
@@ -490,22 +478,40 @@ p {
 }
 
 #scare h1 {
+    font-family: "Seraphs", Georgia, serif;
     font-size: 2em;
-    line-height: 0.9;
+    line-height: 0.72;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #1b120d;
+    margin-left: -0.08em;
+    text-shadow: 0.02em 0.02em 0 rgba(0, 0, 0, 0.08);
     white-space: nowrap;
 }
 
 #scare-echo1 {
+    font-family: "Seraphs", Georgia, serif;
     font-size: 2em;
     line-height: 0.8;
-    opacity: 0.5;
+    font-weight: 450;
+    letter-spacing: 0.02em;
+    opacity: 0.72;
+    color: rgba(27, 18, 13, 0.9);
+    margin-left: -0.08em;
+    text-shadow: 0.02em 0.02em 0 rgba(0, 0, 0, 0.06);
     white-space: nowrap;
 }
 
 #scare-echo2 {
+    font-family: "Seraphs", Georgia, serif;
     font-size: 2em;
     line-height: 0.8;
-    opacity: 0.2;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    opacity: 0.48;
+    color: rgba(27, 18, 13, 0.8);
+    margin-left: -0.08em;
+    text-shadow: 0.02em 0.02em 0 rgba(0, 0, 0, 0.04);
     white-space: nowrap;
 }
 
@@ -576,8 +582,10 @@ p {
 }
 
 #another-story-links h2 {
+    font-family: "Seraphs", Georgia, serif;
     font-size: 1.6em;
-    font-weight: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
     writing-mode: vertical-rl;
     white-space: nowrap;
 }
@@ -591,23 +599,40 @@ p {
 }
 
 #vanish h2 {
+    font-family: "Seraphs", Georgia, serif;
     font-size: 2em;
-    line-height: 0.85;
-    font-weight: Bold;
+    line-height: 0.72;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #1b120d;
+    margin-left: -0.06em;
+    text-shadow: 0.02em 0.02em 0 rgba(0, 0, 0, 0.08);
     white-space: nowrap;
 }
 
 #vanish-echo1 {
+    font-family: "Seraphs", Georgia, serif;
     font-size: 2em;
     line-height: 0.8;
-    opacity: 0.5;
+    font-weight: 450;
+    letter-spacing: 0.02em;
+    opacity: 0.72;
+    color: rgba(27, 18, 13, 0.9);
+    margin-left: -0.06em;
+    text-shadow: 0.02em 0.02em 0 rgba(0, 0, 0, 0.06);
     white-space: nowrap;
 }
 
 #vanish-echo2 {
+    font-family: "Seraphs", Georgia, serif;
     font-size: 2em;
     line-height: 0.8;
-    opacity: 0.2;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    opacity: 0.48;
+    color: rgba(27, 18, 13, 0.8);
+    margin-left: -0.06em;
+    text-shadow: 0.02em 0.02em 0 rgba(0, 0, 0, 0.04);
     white-space: nowrap;
 }
 
@@ -635,11 +660,14 @@ p {
     width: 8em;
     font-size: 0.8em;
     line-height: 1;
+    text-align: right;
 }
 
 #lovin-rechts p {
     width: max-content;
     margin-left: auto;
+    margin-right: 0;
+    display: block;
 }
 
 #they-rechts {
@@ -647,19 +675,26 @@ p {
 }
 
 #be-rechts {
-    transform: translateX(-0.5em);
+    transform: translateX(-0.4em);
 }
 
 #lovin-woord-rechts {
-    transform: translateX(-1em);
+    transform: translateX(-0.8em);
 }
 
 #someone-rechts {
-    transform: translateX(-1.5em);
+    transform: translateX(-1.2em);
 }
 
 #and-rechts {
-    transform: translateX(-0.5em);
+    transform: translateX(-0.4em);
+}
+
+#lovin-rechts p,
+#lovin-links p {
+    font-family: "Seraphs", Georgia, serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 
@@ -673,8 +708,10 @@ p {
 }
 
 #another-story-rechts h2 {
+    font-family: "Seraphs", Georgia, serif;
     font-size: 1.1em;
-    font-weight: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 
@@ -754,7 +791,7 @@ p {
 footer {
     max-width: 32em;
     margin: 0 auto;
-    padding: 0.5em 1em 1em;
+    padding: 0.15em 1em 0.8em;
     color: white;
 }
 
