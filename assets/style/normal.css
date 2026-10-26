@@ -146,6 +146,77 @@ nav a:hover {
 }
 
 
+/* Socialize pagina */
+
+.social-page {
+    width: min(100%, 62rem);
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.social-page h1 {
+    margin: 0;
+    font-family: "Bravibe";
+    font-size: clamp(3rem, 4vw, 4rem);
+    line-height: 1.2;
+    color: #000000;
+}
+
+.social-intro {
+    margin: 0 0 2rem;
+    font-family: "Comic Relief";
+    font-size: clamp(1.15rem, 2vw, 1.7rem);
+    color: #000000;
+}
+
+.social-card {
+    width: min(100%, 60rem);
+    margin: 0 auto 1.8rem;
+    padding: 2rem 1.5rem 1.6rem;
+    border: 3px solid #000000;
+    border-radius: 1.5rem;
+    background: rgba(255, 63, 166, 0.9);
+    box-sizing: border-box;
+}
+
+.social-card h2 {
+    margin: 0 0 0.5rem;
+    font-family: "Bravibe";
+    font-size: clamp(2rem, 3vw, 3rem);
+    color: #000000;
+}
+
+.social-card p {
+    margin: 0 0 1.2rem;
+    font-family: "Comic Relief";
+    font-size: clamp(1.1rem, 2vw, 1.6rem);
+    color: #000000;
+}
+
+.social-card a {
+    display: inline-block;
+    color: #1e2dff;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 2px;
+    font-family: "Comic Relief";
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    transition: opacity 0.2s ease;
+}
+
+.social-card a:hover,
+.social-card a:focus-visible {
+    opacity: 0.8;
+}
+
+.social-card a:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
+
+
 /* De pagina */
 
 #pagina {

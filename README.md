@@ -63,6 +63,7 @@ Ingevuld hoe webby mijn website is en daarna met een leerling besproken
 
 <details>
 <summary><strong>retrospective</strong></summary>
+
 </details>
 
 ## 5 Oktober -
@@ -145,7 +146,8 @@ Ik zou grootte gebruiken, omdat je daarmee heel snel kunt laten zien wat het bel
 ## 2 Oktober -
 
 <details>
-<summary><strong> </strong></summary>
+<summary><strong>Retrospective</strong></summary>
+<strong>Ik was afwezig en heb het formulier op DLO niet kunnen vinden/</strong>
 </details>
 
 ## 30 september -
