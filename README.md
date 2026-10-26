@@ -48,6 +48,23 @@ https://prismic.io/blog/css-text-animations
 
 <details>
 <summary><strong>Retrospective en feedback</strong></summary>
+<strong>Gekregen feedback en opmerkingenvan Justus</strong>
+1- Er moet nog wel een link opgenomen worden naar jouw songtekst. Nu moet de beoordelaar een vreemde url uit zijn hoofd kennen :D
+2- Wat betreft de songtekst best wel compleet maar hier en daar ontbreken nog delen. Probeer een volgende keer slimmere detail elementen te gebruiken zodat je een dag open kunt klappen.
+3- Ja, kleur niet echt maar wel shades of grey...
+4- Wel gedaan maar nog niet bewijsbaar in je learning-log..
+5- ja.. maar loop de checkout nog even na...
+6- je hebt retro's verwerkt.. toegankelijkheid getest en testresultaten verwerkt.
+7- Er is nog iets geks met het inzoomen op de cookie popup.. verder in orde..
+
+<strong>Verwerkte feedback</strong>
+-Mijn songtekst heeft nu een plekje gekregen op mijn website. Als je op de draainde vinyl plaat klikt dan word je gestuurd naar mijn visuele lyric.
+
+-
+
+<strong>Retrospective tekening</strong>
+<img width="2032" height="526" alt="retro 4" src="https://github.com/user-attachments/assets/24037309-e30a-4e43-8cad-9e759fc07d88" />
+
 </details>
 
 ## 19 Oktober -
@@ -56,14 +73,6 @@ https://prismic.io/blog/css-text-animations
 <summary><strong>Is mijn site webby?</strong></summary>
 Ingevuld hoe webby mijn website is en daarna met een leerling besproken
 <img width="1115" height="739" alt="webby " src="https://github.com/user-attachments/assets/ee8634f5-4a50-43a0-8cf8-f3b13b5df35c" />
-
-</details>
-
-## 9 Oktober -
-
-<details>
-<summary><strong>retrospective</strong></summary>
-
 </details>
 
 ## 5 Oktober -

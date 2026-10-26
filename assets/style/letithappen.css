@@ -522,6 +522,23 @@ p {
     line-height: 1.1;
 }
 
+#scare,
+#try-links,
+#try-rechts {
+    transition: transform 0.25s ease;
+}
+
+#scare:hover,
+#try-links:hover {
+    transform: scale(1.08);
+    transform-origin: left center;
+}
+
+#try-rechts:hover {
+    transform: scale(1.08);
+    transform-origin: right center;
+}
+
 
 /* "they be loving someone else" linker kant */
 

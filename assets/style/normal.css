@@ -35,6 +35,11 @@ html {
         rgb(198, 161, 125)
     );
 
+    --boxshadow: light-dark(
+        rgba(255, 255, 255, 0.35),
+        rgba(255, 255, 255, 0.35)
+    );
+
     --headercolor: light-dark(
         rgb(208, 180, 151),
         rgb(198, 161, 125)
@@ -849,9 +854,9 @@ aside footer {
 .cookie-settings:focus-visible,
 .cookie-popup:focus-visible,
 .cookie-popup:focus-within {
-    outline: 3px solid #ffffff;
+    outline: 3px var(--fontcolor) solid;
     outline-offset: 4px;
-    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0 0 4px var(--boxshadow);
 }
 
 
@@ -889,9 +894,9 @@ aside footer {
 }
 
 .cookie-settings:focus-visible {
-    outline: 3px solid #ffffff;
+    outline: 3px var(--fontcolor) solid;
     outline-offset: 4px;
-    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0 0 4px var(--boxshadow);
 }
 
 
