@@ -2,40 +2,411 @@
 
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Hiba" content="Doodles and messages" />
+    <title>Journal</title>
+    <link rel="stylesheet" href="./assets/style/normal.css" />
+    <style>
+      body {
+        overflow: auto;
+        min-height: 100vh;
+      }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      main {
+        width: min(100%, 80rem);
+        padding: 1rem 1rem 4rem;
+        box-sizing: border-box;
+      }
 
-    <meta name="Hiba" content="Doodles and messages">
+      .journal-page {
+        width: min(100%, 65rem);
+        margin: 0 auto;
+        padding: 1rem 1rem 2rem;
+        box-sizing: border-box;
+      }
 
-    <title>Socialize</title>
+      .journal-shell {
+        background: rgba(245, 231, 209, 0.9);
+        border: 3px solid #000000;
+        border-radius: 1.5rem;
+        padding: 2rem 1.5rem;
+        box-shadow: 0 0 18px rgba(0, 0, 0, 0.12);
+      }
 
-    <link rel="stylesheet" href="./assets/style/normal.css">
+      #readme-content {
+        color: var(--blacktext);
+        font-family: "Comic Relief", Arial, sans-serif;
+        line-height: 1.7;
+      }
+
+      #readme-content h1,
+      #readme-content h2,
+      #readme-content h3,
+      #readme-content h4 {
+        color: var(--blacktext);
+        font-family: "Bravibe", "Comic Relief", Arial, sans-serif;
+        margin: 1.5rem 0 0.75rem;
+        line-height: 1.2;
+      }
+
+      #readme-content h1 {
+        font-size: clamp(2.2rem, 4vw, 3.5rem);
+      }
+
+      #readme-content h2 {
+        font-size: clamp(1.7rem, 3vw, 2.3rem);
+      }
+
+      #readme-content h3 {
+        font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+      }
+
+      #readme-content p,
+      #readme-content li,
+      #readme-content strong,
+      #readme-content em {
+        font-size: clamp(1rem, 1.7vw, 1.2rem);
+      }
+
+      #readme-content a {
+        color: #1e2dff;
+      }
+
+      #readme-content ul,
+      #readme-content ol {
+        padding-left: 1.5rem;
+      }
+
+      #readme-content img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 1rem 0;
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        border-radius: 0.75rem;
+      }
+
+      #readme-content details {
+        margin: 1rem 0;
+        padding: 0.5rem 0.8rem;
+        border: 2px solid rgba(0, 0, 0, 0.35);
+        border-radius: 0.7rem;
+        background: rgba(255, 255, 255, 0.22);
+      }
+
+      #readme-content summary {
+        cursor: pointer;
+        font-weight: 700;
+      }
+
+      #readme-content code {
+        background: rgba(0, 0, 0, 0.06);
+        padding: 0.12rem 0.35rem;
+        border-radius: 0.35rem;
+      }
+    </style>
   </head>
 
   <body>
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-
-          <li>
-            <a href="Socialize.html">Socialize</a>
-          </li>
-
-          <li>
-            <a href="Pinboard.html">Pinboard</a>
-          </li>
-
-          <li>
-            <a href="Credits.html">Credits</a>
-          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Socialize.html">Socialize</a></li>
+          <li><a href="Pinboard.html">Pinboard</a></li>
+          <li><a href="Credits.html">Credits</a></li>
         </ul>
       </nav>
     </header>
 
-    <main></main>
+    <main class="journal-page">
+      <article class="journal-shell">
+        <div id="readme-content">Loading journal...</div>
+      </article>
+    </main>
+
+    <script>
+      const readmeMarkdown = `
+# Model
+
+Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door studenten worden gemaakt.
+
+# Learning Log [ UNDER CONSTRUCTION ]
+
+## Credits -
+
+<strong>Linkjes</strong>
+
+<strong>Pinterest foto's die ik heb gebruikt op de voovoorste pagina</strong>
+
+- [Pinterest 1](https://nl.pinterest.com/pin/1005850898052986987/)
+- [Pinterest 2](https://nl.pinterest.com/pin/1005850898053238393/)
+- [Pinterest 3](https://nl.pinterest.com/pin/1005850898052921827/)
+- [Pinterest 4](https://nl.pinterest.com/pin/1005850898052714114/)
+- [Pinterest 5](https://nl.pinterest.com/pin/1005850898052713860/)
+- [Pinterest 6](https://nl.pinterest.com/pin/1005850898052730435/)
+- [Pinterest 7](https://nl.pinterest.com/pin/1005850898053301702/)
+- [Pinterest 8](https://nl.pinterest.com/pin/1005850898053204355/)
+- [Pinterest 9](https://nl.pinterest.com/pin/1005850898053238475/)
+- [Pinterest 10](https://nl.pinterest.com/pin/1005850898053287993/)
+- [Pinterest 11](https://nl.pinterest.com/pin/1005850898053288854/)
+- [Pinterest 12](https://nl.pinterest.com/pin/1005850898053289379/)
+- [Pinterest 13](https://nl.pinterest.com/pin/1005850898053289048/)
+- [Pinterest 14](https://mx.pinterest.com/pin/338403359521679610/)
+- [Pinterest 15](https://nl.pinterest.com/pin/1005850898052923364/)
+
+<strong>Animatie bron die ik heb gebruikt in de lyric</strong>
+
+- [Echo text effect](https://text-effects.colorion.co/effects/echo-text-effect/)
+- [CSS text animations](https://prismic.io/blog/css-text-animations)
+
+## 26 Oktober -
+
+<strong>Expo</strong>
+Deze ronde hebben ik en klasgenoten allemaal onze site's tentoongesteld. Ik ben vrij rond gaan lopen om feedback te verspreiden en heb zelf ook feedback ontvangen. De onderstaande foto gaat daarover.
+Na de sticker ronde moesten we de vragen in het <strong>webby formuleir</strong> in duos met elkaar bespreken en voor elkaar invullen. En op het einde deden we dat met elkaars log.
+
+## 23 Oktober -
+
+<strong>Retrospective en feedback</strong>
+<strong>Gekregen feedback en opmerkingenvan Justus</strong>
+1- Er moet nog wel een link opgenomen worden naar jouw songtekst. Nu moet de beoordelaar een vreemde url uit zijn hoofd kennen :D
+2- Wat betreft de songtekst best wel compleet maar hier en daar ontbreken nog delen. Probeer een volgende keer slimmere detail elementen te gebruiken zodat je een dag open kunt klappen.
+3- Ja, kleur niet echt maar wel shades of grey...
+4- Wel gedaan maar nog niet bewijsbaar in je learning-log..
+5- ja.. maar loop de checkout nog even na...
+6- je hebt retro's verwerkt.. toegankelijkheid getest en testresultaten verwerkt.
+7- Er is nog iets geks met het inzoomen op de cookie popup.. verder in orde..
+
+<strong>Verwerkte feedback</strong>
+- Mijn songtekst heeft nu een plekje gekregen op mijn website. Als je op de draainde vinyl plaat klikt dan word je gestuurd naar mijn visuele lyric.
+- Het wgac formulier is nu bewijsbaar in mijn leerning log.
+- Ben alle checkouts langs geweest.
+- Cookies pop-up responsiver gemaakt.
+
+## 19 Oktober -
+
+<strong>Is mijn site webby?</strong>
+Ingevuld hoe webby mijn website is en daarna met een leerling besproken.
+
+## 5 Oktober -
+
+<strong>Aantekeningen Article over layouts</strong>
+In de les hebben we een Article geleze over viewpoints, spacial tension etc.
+Daar heb ik wat aantekeningen over gemaakt met een klasgenoot.
+
+## 2 Oktober -
+
+<strong>Retrospective</strong>
+<strong>Ik was afwezig en heb het formulier op DLO niet kunnen vinden/</strong>
+
+## 30 september -
+
+<strong>WCAG Checklist</strong>
+Deze checklist heb ik eerst samen met mijn klasgenoot Rianne ingevuld. We zijn door onze websites heen gegaan en een voor een alles ingaan vullen. Nadat ik alles had geupdate heb ik dezelfde test opnieuw gedaan met een andere klasgenoot en wat checkboxes aangepast waar ik eerst no bij had staan.
+
+<strong>Focus state's</strong>
+Ik heb hier allemaal focus states gezet op plekken die dat niet al hadden.
+
+<strong>Aria labels en alt teksten</strong>
+In de les van Sanne liet hij ons zien hoe je aria labels kan gebruiken zodat mensen die een screenreader en voiceover gebruiken ook kunnen horen wat iets is of betekend zonder het te zien.
+
+<strong>Contrast</strong>
+Voor contrast heb ik mijn light en dark mode beide getest met een zwart wit beeld om te kijken of je in beide versies nog contrast ziet.
+
+## 27 september - Workshop 4
+
+<strong>Bi-weekly geek 2</strong>
+
+<strong>Werken aan Toetsenbord & Screenreader</strong>
+In deze opdrachten moesten we een reis plannen met behulp van de tab toets. We moesten dus het toetsenbord gebruiken om door de pagina te navigeren. Dit deden we met de screenreader en voiceover.
+
+## 26 september -
+
+<strong>Deepdive - Positions and Dialogs</strong>
+Ik heb de deepdive opdracht zelf thuis gevolgd via dlo en heb alle stappen doorlopen om de deepdive te maken.
+
+## 25 september - Workshop 3
+
+<strong>Compliance / Valide HTML</strong>
+Ik heb mijn url in de website gezet waar mijn html in word gecheckt en heb gelukkig 0 errors.
+
+## 23 september - Workshop 2
+
+<strong>Human consent component schetsen</strong>
+Ik wil mijn pop up graag hebben zodat het past in mijn website met taal zowel als hoe het visueel eruit ziet.
+
+## 21 september - Workshop 1
+
+<strong>Cookie opdracht</strong>
+
+<strong>Checkout</strong>
+<strong>Wat zijn HTML landmark role elements?</strong>
+Dit zijn elementen die de grote delen van een website betekenis en structuur geven.
+
+<strong>Wat zijn heading elementen en hoe horen deze ‘genest’ te worden?</strong>
+Dit zijn de kopjes h1, h2, h3 etc. Die geven hierarchie van de content in html.
+
+## 19 september -
+
+<strong>Design veranderingen</strong>
+Na de les over hierarchie heb ik lang nagedacht over mijn layout en vind ik het een beetje rommelig.
+
+## 18 september [Deepdive light & Dark] + Feedback verwerken -
+
+<strong>Feedback van Charley en Samih:</strong>
+Vandaag heb ik gezeten met de docent en student assistend voor feedback.
+
+## 16 september - Workshop 5
+
+<strong>Grid / flexbox layout</strong>
+Bij deze opdracht moesten we onze mobiele layout overnemen en het in stukken opdelen zodat we daar later met grid of flexbox mee verder gaan prototypen.
+
+## 14 september - Workshop 4
+
+<strong>Bi-Weekly geek 1</strong>
+
+<strong>Opdracht 16 - van one column layout naar responsive design</strong>
+Duo: Rianne
+
+Bij deze opdrachten ging mijn duo mijn responsivness testen.
+
+<strong>Opdracht 17 - Responsive voorbeelden zoeken</strong>
+1. Als je het scherm kleiner maakt dan zie je bij de navigatie bar de zoek en log in worden vervangen door een icoontje.
+2. Niet alle fotos worden volledig gezien.
+3. De teksten passen zich aan zodra het scherm kleiner of groter wordt.
+`;
+
+      document.getElementById("readme-content").innerHTML =
+        convertMarkdown(readmeMarkdown);
+
+      function convertMarkdown(markdown) {
+        const lines = markdown.replace(/\r/g, "").split("\n");
+        const html = [];
+        let paragraph = [];
+        let listItems = [];
+
+        function flushParagraph() {
+          if (!paragraph.length) return;
+          const text = paragraph.join(" ").trim();
+          if (text) {
+            html.push(`<p>${formatInline(text)}</p>`);
+          }
+          paragraph = [];
+        }
+
+        function flushList() {
+          if (!listItems.length) return;
+          html.push(
+            `<ul>${listItems.map((item) => `<li>${formatInline(item)}</li>`).join("")}</ul>`,
+          );
+          listItems = [];
+        }
+
+        for (let i = 0; i < lines.length; i += 1) {
+          const line = lines[i].trimEnd();
+          const trimmed = line.trim();
+
+          if (!trimmed) {
+            flushParagraph();
+            flushList();
+            continue;
+          }
+
+          if (
+            trimmed.startsWith("<details>") ||
+            trimmed.startsWith("<summary>") ||
+            trimmed.startsWith("</details>") ||
+            trimmed.startsWith("</summary>") ||
+            trimmed.startsWith("<strong>") ||
+            trimmed.startsWith("</strong>") ||
+            trimmed.startsWith("<img") ||
+            trimmed.startsWith("<br>")
+          ) {
+            flushParagraph();
+            flushList();
+            html.push(line);
+            continue;
+          }
+
+          if (trimmed.startsWith("## ")) {
+            flushParagraph();
+            flushList();
+            html.push(`<h2>${formatInline(trimmed.slice(3))}</h2>`);
+            continue;
+          }
+
+          if (trimmed.startsWith("# ")) {
+            flushParagraph();
+            flushList();
+            html.push(`<h1>${formatInline(trimmed.slice(2))}</h1>`);
+            continue;
+          }
+
+          if (trimmed.startsWith("- ")) {
+            flushParagraph();
+            listItems.push(trimmed.slice(2));
+            continue;
+          }
+
+          if (trimmed.startsWith("> ")) {
+            flushParagraph();
+            flushList();
+            html.push(
+              `<blockquote>${formatInline(trimmed.slice(2))}</blockquote>`,
+            );
+            continue;
+          }
+
+          if (trimmed.startsWith("![")) {
+            flushParagraph();
+            flushList();
+            const match = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+            if (match) {
+              html.push(`<img src="${match[2]}" alt="${match[1]}" />`);
+            } else {
+              html.push(`<p>${formatInline(trimmed)}</p>`);
+            }
+            continue;
+          }
+
+          if (trimmed.startsWith("---")) {
+            flushParagraph();
+            flushList();
+            html.push("<hr>");
+            continue;
+          }
+
+          paragraph.push(trimmed);
+        }
+
+        flushParagraph();
+        flushList();
+
+        return html.join("\n");
+      }
+
+      function formatInline(text) {
+        let output = text
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+
+        output = output.replace(
+          /!\[([^\]]*)\]\(([^)]+)\)/g,
+          '<img src="$2" alt="$1" />',
+        );
+        output = output.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+        output = output.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+        output = output.replace(
+          /\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,
+          '<a href="$2" target="_blank" rel="noreferrer">$1</a>',
+        );
+        output = output.replace(/`([^`]+)`/g, "<code>$1</code>");
+
+        return output;
+      }
+    </script>
   </body>
 </html>
