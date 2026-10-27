@@ -8,7 +8,7 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 <details>
 <summary><strong>Kleine aanpassingen</strong></summary>
-Ik vond nog dat mijn site nog een beetje leeg is qua content dus ik heb even wat dingetjes aangepast namelijk bij socialize mijn instagram pagina gelinked en bij de monkey met het boekje mijn readme.
+Ik vond nog dat mijn site nog een beetje leeg is qua content dus ik heb even wat dingetjes aangepast namelijk bij socialize mijn instagram pagina gelinked en bij de monkey met het boekje mijn readme in github.
 </details>
 
 ## Credits -
